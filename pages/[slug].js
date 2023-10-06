@@ -39,14 +39,15 @@ export default function Blog({ frontmatter, markdown, isMobile }) {
   }
 
   return (
-    <div>
+    <Box display={"flex"} flexDirection={"row"}>
       <SEOBlog post={frontmatter} />
+      {!isMobile && <Box id="adPlaceholder" sx={{ width: '40vw'}} />}
       <Box
         display={"flex"}
         flexDirection={"column"}
         sx={{
-          paddingLeft: !isMobile ? 40 : 5,
-          paddingRight: !isMobile ? 40 : 5,
+          paddingLeft: !isMobile ? 0 : 5,
+          paddingRight: !isMobile ? 0 : 5,
         }}
       >
         <h1 style={{ fontSize: "3em", margin: 0 }}>{frontmatter.title}</h1>
@@ -131,7 +132,8 @@ export default function Blog({ frontmatter, markdown, isMobile }) {
           </div>
         </Box>
       </Box>
-    </div>
+      {!isMobile && <Box id="adPlaceholder" sx={{ width: '45%'}} />}
+    </Box>
   )
 }
 
