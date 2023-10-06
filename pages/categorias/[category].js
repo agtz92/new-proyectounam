@@ -35,14 +35,14 @@ function CategoryPage({ matchingFiles, category, isMobile }) {
     setCurrentPage(1)
   }, [category])
 
+  const title = sitename + " | " + category
+
   return (
     <Box
       sx={{ marginLeft: !isMobile ? 20 : 5, marginRight: !isMobile ? 20 : 5 }}
     >
       <Head>
-        <title>
-          {sitename} | {category}
-        </title>
+        <title>{title}</title>
       </Head>
       <Box
         display={"flex"}

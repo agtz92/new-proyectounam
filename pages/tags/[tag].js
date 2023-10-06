@@ -29,17 +29,14 @@ function TagPage({ matchingFiles, tag, isMobile }) {
     setCurrentPage(1)
   }, [tag])
 
-  // Get the slug without removing special characters
-  const tagSlug = removeSpecialCharactersAndLowerCase(tag)
+  const title = sitename + " | #" + tag
 
   return (
     <Box
       sx={{ marginLeft: !isMobile ? 20 : 5, marginRight: !isMobile ? 20 : 5 }}
     >
       <Head>
-        <title>
-          {sitename} | #{tag}
-        </title>
+        <title>{title}</title>
       </Head>
       <h1 style={{ textAlign: "center", fontWeight: 600 }}>
         #{tag.toUpperCase()}
