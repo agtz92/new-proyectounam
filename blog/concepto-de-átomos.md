@@ -1,7 +1,7 @@
 ---
 title: Concepto de átomos
 slug: concepto-de-atomos
-featuredimage: quimica.jpg
+featuredimage: /assets/quimica.jpg
 date: 2021-01-03T23:14:18.468Z
 dificultad: Preparatoria / Universidad
 categoria: Química

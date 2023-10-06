@@ -1,7 +1,7 @@
 ---
 title: "La revolución científica-tecnología "
 slug: la-revolucion-cientifica-tecnologia
-featuredimage: revcientifica.jpg
+featuredimage: /assets/revcientifica.jpg
 date: 2020-12-14T23:30:32.041Z
 dificultad: Preparatoria / Universidad
 categoria: Historia Universal

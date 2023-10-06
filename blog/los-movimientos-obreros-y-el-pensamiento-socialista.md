@@ -1,7 +1,7 @@
 ---
 title: "Los movimientos obreros y el pensamiento socialista "
 slug: los-movimientos-obreros-y-el-pensamiento-socialista
-featuredimage: movimientosbreros.jpg
+featuredimage: /assets/movimientosbreros.jpg
 date: 2020-12-14T23:15:14.301Z
 dificultad: Preparatoria / Universidad
 categoria: Historia Universal

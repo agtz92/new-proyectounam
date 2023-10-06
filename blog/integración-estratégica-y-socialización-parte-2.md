@@ -1,7 +1,7 @@
 ---
 title: Integración Estratégica y Socialización parte 2
 slug: integracion-estrategico-y-socializacion-2
-featuredimage: diseño-sin-título-2020-08-05t113303.515.jpg
+featuredimage: /assets/diseño-sin-título-2020-08-05t113303.515.jpg
 date: 2022-12-14T04:17:15.760Z
 dificultad: Preparatoria / Universidad
 categoria: Emprendedurismo

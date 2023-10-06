@@ -1,7 +1,7 @@
 ---
 title: Metáfora y otras figuras retoricas
 slug: metafora-y-otras-figuras-retoricas
-featuredimage: metaforas.jpg
+featuredimage: /assets/metaforas.jpg
 date: 2020-12-09T02:39:53.264Z
 dificultad: Preparatoria / Universidad
 categoria: Literatura

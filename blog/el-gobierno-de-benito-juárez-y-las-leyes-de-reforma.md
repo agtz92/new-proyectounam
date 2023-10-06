@@ -1,7 +1,7 @@
 ---
 title: "El gobierno de Benito Juárez y las leyes de Reforma "
 slug: el-gobierno-de-benito-juarez-y-leyes-de-reforma
-featuredimage: leyesdereforma-.jpg
+featuredimage: /assets/leyesdereforma-.jpg
 date: 2020-12-12T01:22:03.914Z
 dificultad: Preparatoria / Universidad
 categoria: Historia de México

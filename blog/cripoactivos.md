@@ -1,7 +1,7 @@
 ---
 title: Cripoactivos
 slug: cripoactivos
-featuredimage: regulación-clasificación-criptoactivos-países-e1549165756888.jpg
+featuredimage: /assets/regulación-clasificación-criptoactivos-países-e1549165756888.jpg
 date: 2022-11-03T03:19:49.955Z
 dificultad: Preparatoria / Universidad
 categoria: Sistemas de Información Contable y Financiera

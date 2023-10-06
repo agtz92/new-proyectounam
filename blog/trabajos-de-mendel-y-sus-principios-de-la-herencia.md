@@ -1,7 +1,7 @@
 ---
 title: Trabajos de Mendel y sus principios de la herencia
 slug: trabajas-de-mendel-y-sus-principios-herencia
-featuredimage: mendel.jpg
+featuredimage: /assets/mendel.jpg
 date: 2020-12-19T05:15:16.437Z
 dificultad: Preparatoria / Universidad
 categoria: Biología

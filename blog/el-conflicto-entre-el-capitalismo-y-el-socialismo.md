@@ -1,7 +1,7 @@
 ---
 title: "El conflicto entre el capitalismo y el socialismo "
 slug: el-conflicto-entre-el-capitalismo-y-el-socialismo
-featuredimage: conflicto.jpg
+featuredimage: /assets/conflicto.jpg
 date: 2020-12-16T04:05:42.602Z
 dificultad: Preparatoria / Universidad
 categoria: Historia Universal

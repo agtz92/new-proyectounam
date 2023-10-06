@@ -2,7 +2,7 @@
 title: Indicadores socioeconómicos natalidad alfabetismo ingreso per cápita
   esperanza de vida
 slug: indicadores-socioeconimos-natalidad-alfabetismo
-featuredimage: indicadores.jpg
+featuredimage: /assets/indicadores.jpg
 date: 2020-12-11T02:22:15.064Z
 dificultad: Preparatoria / Universidad
 categoria: Geografía

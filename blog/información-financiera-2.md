@@ -1,7 +1,7 @@
 ---
 title: Información Financiera 2
 slug: informacion-financiera
-featuredimage: informes-2-_0.jpg
+featuredimage: /assets/informes-2-_0.jpg
 date: 2022-11-08T04:04:27.324Z
 dificultad: Preparatoria / Universidad
 categoria: Sistemas de Información Contable y Financiera

@@ -1,7 +1,7 @@
 ---
 title: Examen de Quimica para admison UNAM
 slug: examen-de-quimica-para-admision-unam
-featuredimage: quimicaexamen1.jpeg
+featuredimage: /assets/quimicaexamen1.jpeg
 date: 2023-02-14T04:49:11.979Z
 dificultad: Preparatoria / Universidad
 categoria: Preguntas de Examen

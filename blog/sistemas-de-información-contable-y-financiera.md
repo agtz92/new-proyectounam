@@ -1,7 +1,7 @@
 ---
 title: "Sistemas de Información Contable y Financiera "
 slug: sistemas-de-informacion-contable-y-financiera
-featuredimage: gerencial.jpg
+featuredimage: /assets/gerencial.jpg
 date: 2022-11-02T03:47:34.080Z
 dificultad: Preparatoria / Universidad
 categoria: Sistemas de Información Contable y Financiera

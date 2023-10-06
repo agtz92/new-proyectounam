@@ -1,7 +1,7 @@
 ---
 title: "La estructura atómica "
 slug: la-estructura-atomica
-featuredimage: quimica.jpg
+featuredimage: /assets/quimica.jpg
 date: 2021-01-04T00:56:32.492Z
 dificultad: Preparatoria / Universidad
 categoria: Química

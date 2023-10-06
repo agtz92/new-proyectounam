@@ -1,7 +1,7 @@
 ---
 title: Globalización y redes
 slug: globalizacion-y-redes
-featuredimage: hvdshgcdghsvcjs.jpg
+featuredimage: /assets/hvdshgcdghsvcjs.jpg
 date: 2022-09-25T03:30:37.201Z
 dificultad: Preparatoria / Universidad
 categoria: Economia

@@ -1,7 +1,7 @@
 ---
 title: "Sistemas de Información Contable y Financiera  "
 slug: sistemas-de-informacion-contable-y-financiera
-featuredimage: cuenta-de-resultados-1.jpg
+featuredimage: /assets/cuenta-de-resultados-1.jpg
 date: 2022-11-04T05:24:14.809Z
 dificultad: Preparatoria / Universidad
 categoria: Sistemas de Información Contable y Financiera

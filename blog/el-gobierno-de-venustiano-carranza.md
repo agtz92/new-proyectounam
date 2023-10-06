@@ -1,7 +1,7 @@
 ---
 title: "El gobierno de Venustiano Carranza "
 slug: el-gobierno-de-venustiano-carranza
-featuredimage: venistiano.jpg
+featuredimage: /assets/venistiano.jpg
 date: 2020-12-13T03:30:37.138Z
 dificultad: Preparatoria / Universidad
 categoria: Historia de México

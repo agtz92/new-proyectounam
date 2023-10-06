@@ -1,7 +1,7 @@
 ---
 title: Evidencias de la evolución
 slug: evidencias-de-la-evolucion
-featuredimage: evidenciasdelaevolucion.jpg
+featuredimage: /assets/evidenciasdelaevolucion.jpg
 date: 2020-12-19T06:49:25.167Z
 dificultad: Preparatoria / Universidad
 categoria: Biología

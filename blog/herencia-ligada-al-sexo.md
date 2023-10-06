@@ -1,7 +1,7 @@
 ---
 title: "Herencia ligada al  sexo "
 slug: herencia-ligada-al-sexo
-featuredimage: he.jpg
+featuredimage: /assets/he.jpg
 date: 2020-12-19T05:32:23.890Z
 dificultad: Preparatoria / Universidad
 categoria: Biología

@@ -1,7 +1,7 @@
 ---
 title: "Principios de Contabilidad "
 slug: principios-de-contabilidad
-featuredimage: backup-and-disaster-recovery1.jpg
+featuredimage: /assets/backup-and-disaster-recovery1.jpg
 date: 2022-08-08T19:56:20.759Z
 dificultad: Preparatoria / Universidad
 categoria: Contabilidad

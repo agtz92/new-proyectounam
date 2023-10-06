@@ -1,7 +1,7 @@
 ---
 title: Óxidos ácidos
 slug: oxidos-acidos
-featuredimage: oa.jpg
+featuredimage: /assets/oa.jpg
 date: 2021-01-17T07:07:45.705Z
 dificultad: Preparatoria / Universidad
 categoria: Química

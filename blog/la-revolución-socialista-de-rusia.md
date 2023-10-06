@@ -1,7 +1,7 @@
 ---
 title: "La revolución socialista de Rusia "
 slug: la-revolucion-socialista
-featuredimage: revrusa.jpg
+featuredimage: /assets/revrusa.jpg
 date: 2020-12-14T23:54:45.515Z
 dificultad: Preparatoria / Universidad
 categoria: Historia Universal

@@ -1,7 +1,7 @@
 ---
 title: "Fronteras de posibilidades de la producción "
 slug: fronteras-de-posibilidades-de-la-produccion
-featuredimage: frontera-posibilidades-produccion-economia.jpg
+featuredimage: /assets/frontera-posibilidades-produccion-economia.jpg
 date: 2022-09-09T04:23:02.964Z
 dificultad: Preparatoria / Universidad
 categoria: Economia

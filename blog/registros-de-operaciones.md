@@ -1,7 +1,7 @@
 ---
 title: Registros de Operaciones
 slug: registros-de-operaciones
-featuredimage: ope.jpg
+featuredimage: /assets/ope.jpg
 date: 2022-06-23T03:23:38.478Z
 dificultad: Preparatoria / Universidad
 categoria: Contabilidad

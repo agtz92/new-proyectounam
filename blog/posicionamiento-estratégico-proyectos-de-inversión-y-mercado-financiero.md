@@ -1,7 +1,7 @@
 ---
 title: Posicionamiento Estratégico Proyectos de Inversión y Mercado Financiero
 slug: poscionamiento-estrategico-proyectos-de-inversion
-featuredimage: quien-regula-el-mercado-min.jpg
+featuredimage: /assets/quien-regula-el-mercado-min.jpg
 date: 2022-11-15T04:53:02.795Z
 dificultad: Preparatoria / Universidad
 categoria: "Portafolios de Inversiones "

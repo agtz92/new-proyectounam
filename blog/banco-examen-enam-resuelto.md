@@ -1,7 +1,7 @@
 ---
 title: Banco examen ENAM Resuelto
 slug: banco-examen-enam-resuelto
-featuredimage: bbva-openmind-innovacion-10-innovacion-organizaciones-innovadoras-estructura-aprendizaje-y-adaptacion-alice-la.jpg
+featuredimage: /assets/bbva-openmind-innovacion-10-innovacion-organizaciones-innovadoras-estructura-aprendizaje-y-adaptacion-alice-la.jpg
 date: 2023-02-23T23:18:09.820Z
 dificultad: Preparatoria / Universidad
 categoria: Preguntas de Examen

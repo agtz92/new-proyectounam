@@ -1,7 +1,7 @@
 ---
 title: Estructura y funciones del ADN
 slug: estructura-y-funciones-del-adn
-featuredimage: estrucutraadn.jpg
+featuredimage: /assets/estrucutraadn.jpg
 date: 2020-12-18T04:14:29.039Z
 dificultad: Preparatoria / Universidad
 categoria: Biología

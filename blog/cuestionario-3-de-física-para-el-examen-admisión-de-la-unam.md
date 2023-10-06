@@ -1,7 +1,7 @@
 ---
 title: Cuestionario 3 de Física para el Examen Admisión de la UNAM
 slug: cuestionario-3-de-fisica-para-el-examen-admision-de-la-unam
-featuredimage: fisicaexamen12.jpeg
+featuredimage: /assets/fisicaexamen12.jpeg
 date: 2023-02-02T19:43:03.336Z
 dificultad: Preparatoria / Universidad
 categoria: Preguntas de Examen

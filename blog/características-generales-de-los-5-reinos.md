@@ -1,7 +1,7 @@
 ---
 title: Características generales de los 5 reinos
 slug: caracterisitcas-de-los-cinco-reinos
-featuredimage: 5reinos.jpg
+featuredimage: /assets/5reinos.jpg
 date: 2020-12-20T22:01:41.946Z
 dificultad: Preparatoria / Universidad
 categoria: Biología

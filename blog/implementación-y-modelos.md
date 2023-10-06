@@ -1,7 +1,7 @@
 ---
 title: Implementación y modelos.
 slug: implementacion-y-modelos
-featuredimage: b2ap3_large_analytics-3291738_1280.jpg
+featuredimage: /assets/b2ap3_large_analytics-3291738_1280.jpg
 date: 2022-12-07T03:52:31.238Z
 dificultad: Preparatoria / Universidad
 categoria: Emprendedurismo

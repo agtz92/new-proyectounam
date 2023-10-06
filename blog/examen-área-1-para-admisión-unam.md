@@ -1,7 +1,7 @@
 ---
 title: Examen Área 1 para admisión UNAM
 slug: examen-area-1-para-admision-unam
-featuredimage: area1una.jpg
+featuredimage: /assets/area1una.jpg
 date: 2023-02-09T04:31:37.672Z
 dificultad: Preparatoria / Universidad
 categoria: Preguntas de Examen

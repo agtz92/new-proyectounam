@@ -1,7 +1,7 @@
 ---
 title: Definición de Derecho
 slug: definicion-de-derecho
-featuredimage: thinkstockphotos-504273342.webp
+featuredimage: /assets/thinkstockphotos-504273342.webp
 date: 2022-09-12T04:07:16.846Z
 dificultad: Preparatoria / Universidad
 categoria: Derecho

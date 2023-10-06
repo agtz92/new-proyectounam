@@ -1,7 +1,7 @@
 ---
 title: Metodología de la Evaluación de Proyectos
 slug: metadologia-de-la-evaluacion-de-proyectos
-featuredimage: 4-modelos-evaluar-proyectos-inversion-principal.jpg
+featuredimage: /assets/4-modelos-evaluar-proyectos-inversion-principal.jpg
 date: 2022-12-05T03:59:43.763Z
 dificultad: Preparatoria / Universidad
 categoria: Portafolios de Inversiones

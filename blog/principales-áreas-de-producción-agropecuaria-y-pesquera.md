@@ -1,7 +1,7 @@
 ---
 title: "Principales áreas de producción agropecuaria y pesquera "
 slug: areas-de-produccion-agropecuario-y-pesquera
-featuredimage: agropecuaria.jpg
+featuredimage: /assets/agropecuaria.jpg
 date: 2020-12-11T02:29:14.235Z
 dificultad: Preparatoria / Universidad
 categoria: Geografía

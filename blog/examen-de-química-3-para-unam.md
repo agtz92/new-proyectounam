@@ -1,7 +1,7 @@
 ---
 title: Examen de Química 3 para UNAM
 slug: examen-de-quimica-3-para-unam
-featuredimage: quimicaexamen1.jpeg
+featuredimage: /assets/quimicaexamen1.jpeg
 date: 2023-02-15T05:22:28.996Z
 dificultad: Preparatoria / Universidad
 categoria: Preguntas de Examen

@@ -1,7 +1,7 @@
 ---
 title: "Gramática: Uso de ll, y, Uso de R, RR."
 slug: gramatica-uso-de-ll-y-r-rr
-featuredimage: lly.jpg
+featuredimage: /assets/lly.jpg
 date: 2020-12-08T01:29:41.754Z
 dificultad: Secundaria / Preparatoria
 categoria: Español

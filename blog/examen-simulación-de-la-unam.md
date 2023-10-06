@@ -1,7 +1,7 @@
 ---
 title: Examen simulación de la UNAM
 slug: examen-simulacion-de-la-unam
-featuredimage: preguntasdeexamen.jpg
+featuredimage: /assets/preguntasdeexamen.jpg
 date: 2023-02-07T16:47:33.592Z
 dificultad: Preparatoria / Universidad
 categoria: Preguntas de Examen

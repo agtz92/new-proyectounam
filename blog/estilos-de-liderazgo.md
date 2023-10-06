@@ -1,7 +1,7 @@
 ---
 title: "Estilos DE LIDERAZGO "
 slug: estilo-de-liderazgo
-featuredimage: caa.jpg
+featuredimage: /assets/caa.jpg
 date: 2023-09-08T04:19:14.939Z
 dificultad: Preparatoria / Universidad
 categoria: Economia

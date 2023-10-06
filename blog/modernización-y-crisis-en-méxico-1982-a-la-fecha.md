@@ -1,7 +1,7 @@
 ---
 title: Modernización y crisis en México,1982 a la fecha
 slug: modernizacion-y-crisis-en-mexico-a-la-fecha
-featuredimage: 5.jpg
+featuredimage: /assets/5.jpg
 date: 2022-08-14T00:56:26.723Z
 dificultad: Preparatoria / Universidad
 categoria: Economia

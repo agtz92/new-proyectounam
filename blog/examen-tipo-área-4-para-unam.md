@@ -1,7 +1,7 @@
 ---
 title: Examen tipo Área 4 para UNAM
 slug: examen-tipo-area-4-para-unam
-featuredimage: area4unam.jpg
+featuredimage: /assets/area4unam.jpg
 date: 2023-02-10T06:00:12.042Z
 dificultad: Preparatoria / Universidad
 categoria: Preguntas de Examen

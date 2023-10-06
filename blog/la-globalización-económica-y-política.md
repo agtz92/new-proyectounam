@@ -1,7 +1,7 @@
 ---
 title: "La globalización económica y política "
 slug: la-globalizacion-economica-y-politica
-featuredimage: globalizacionpolitica.jpg
+featuredimage: /assets/globalizacionpolitica.jpg
 date: 2020-12-16T04:44:45.721Z
 dificultad: Preparatoria / Universidad
 categoria: Historia Universal

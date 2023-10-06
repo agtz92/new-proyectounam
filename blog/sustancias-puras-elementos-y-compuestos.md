@@ -1,7 +1,7 @@
 ---
 title: " Sustancias puras: elementos y compuestos "
 slug: sustancias-puras-elementos-y-compuestos
-featuredimage: quimica.jpg
+featuredimage: /assets/quimica.jpg
 date: 2021-01-05T00:39:32.924Z
 dificultad: Preparatoria / Universidad
 categoria: Química

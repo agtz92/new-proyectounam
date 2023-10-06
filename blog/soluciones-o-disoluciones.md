@@ -1,7 +1,7 @@
 ---
 title: "Soluciones o disoluciones "
 slug: soluciones-o-disoluciones
-featuredimage: quimica.jpg
+featuredimage: /assets/quimica.jpg
 date: 2021-01-05T00:31:08.696Z
 dificultad: Preparatoria / Universidad
 categoria: Química

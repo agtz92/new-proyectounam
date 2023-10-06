@@ -1,7 +1,7 @@
 ---
 title: Estudio Economico
 slug: estudio-economico
-featuredimage: administra.jpg
+featuredimage: /assets/administra.jpg
 date: 2022-12-02T03:35:02.520Z
 dificultad: Preparatoria / Universidad
 categoria: Portafolios de Inversiones

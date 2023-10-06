@@ -1,7 +1,7 @@
 ---
 title: Lípidos
 slug: lipidos
-featuredimage: lipidos.jpg
+featuredimage: /assets/lipidos.jpg
 date: 2021-01-18T06:59:45.799Z
 dificultad: Preparatoria / Universidad
 categoria: Química

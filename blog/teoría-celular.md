@@ -1,7 +1,7 @@
 ---
 title: "Teoría Celular "
 slug: teoria-celular
-featuredimage: teoriacelular.jpg
+featuredimage: /assets/teoriacelular.jpg
 date: 2020-12-06T06:37:22.036Z
 dificultad: Preparatoria / Universidad
 categoria: Biología

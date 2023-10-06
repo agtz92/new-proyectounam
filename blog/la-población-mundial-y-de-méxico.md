@@ -1,7 +1,7 @@
 ---
 title: "La población mundial y de México "
 slug: la-poblacion-mundial-y-de-mexico
-featuredimage: poblacionmundial.jpg
+featuredimage: /assets/poblacionmundial.jpg
 date: 2020-12-11T02:08:17.220Z
 dificultad: Secundaria / Preparatoria
 categoria: Geografía

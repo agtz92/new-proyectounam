@@ -1,7 +1,7 @@
 ---
 title: La reforma Liberal y la resistencia de la República (1854-1876)
 slug: la-reforma-liberal-y-la-resistencia-de-la-republica
-featuredimage: lareformaiberla.jpg
+featuredimage: /assets/lareformaiberla.jpg
 date: 2020-12-12T01:15:55.928Z
 dificultad: Preparatoria / Universidad
 categoria: Historia de México

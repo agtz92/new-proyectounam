@@ -1,7 +1,7 @@
 ---
 title: "Propiedades periódicas "
 slug: propiedades-periodicas
-featuredimage: propiedades-periodicos.jpg
+featuredimage: /assets/propiedades-periodicos.jpg
 date: 2021-01-14T02:02:27.323Z
 dificultad: Preparatoria / Universidad
 categoria: Química

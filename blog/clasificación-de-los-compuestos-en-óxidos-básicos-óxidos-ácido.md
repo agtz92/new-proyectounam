@@ -1,7 +1,7 @@
 ---
 title: Clasificación de los compuestos en óxidos básicos, óxidos ácido
 slug: clasificacion-de-los-compuestos-en-oxidos-basicos
-featuredimage: clisifacion.jpg
+featuredimage: /assets/clisifacion.jpg
 date: 2021-01-14T02:07:25.812Z
 dificultad: Preparatoria / Universidad
 categoria: Química

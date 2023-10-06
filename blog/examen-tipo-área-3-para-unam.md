@@ -1,7 +1,7 @@
 ---
 title: Examen tipo área 3 para UNAM
 slug: examen-tipo-aerea-3-para-unam
-featuredimage: area3unam.png
+featuredimage: /assets/area3unam.png
 date: 2023-02-10T05:36:29.879Z
 dificultad: Preparatoria / Universidad
 categoria: Preguntas de Examen

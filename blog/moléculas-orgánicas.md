@@ -1,7 +1,7 @@
 ---
 title: "Moléculas Orgánicas "
 slug: moleculas-organicas
-featuredimage: moleculas.jpg
+featuredimage: /assets/moleculas.jpg
 date: 2020-12-20T22:14:13.298Z
 dificultad: Preparatoria / Universidad
 categoria: Biología

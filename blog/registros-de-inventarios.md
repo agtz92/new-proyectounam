@@ -1,7 +1,7 @@
 ---
 title: Registros de inventarios
 slug: Registros de Inventarios
-featuredimage: regis.jpg
+featuredimage: /assets/regis.jpg
 date: 2022-06-20T19:14:14.699Z
 dificultad: Preparatoria / Universidad
 categoria: Contabilidad

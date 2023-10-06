@@ -1,7 +1,7 @@
 ---
 title: "Los nuevos países de Europa  "
 slug: los-nuevos-paises-de-europa
-featuredimage: europa.jpg
+featuredimage: /assets/europa.jpg
 date: 2020-12-11T05:46:06.138Z
 dificultad: Preparatoria / Universidad
 categoria: Geografía

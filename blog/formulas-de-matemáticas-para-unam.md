@@ -1,7 +1,7 @@
 ---
 title: Formulas De matemáticas para UNAM
 slug: formulas-de-matematicas-para-unam
-featuredimage: mate.jpg
+featuredimage: /assets/mate.jpg
 date: 2023-03-07T04:46:21.452Z
 dificultad: Preparatoria / Universidad
 categoria: Preguntas de Examen

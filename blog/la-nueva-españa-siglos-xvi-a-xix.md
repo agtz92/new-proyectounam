@@ -1,7 +1,7 @@
 ---
 title: La nueva España (Siglos XVI a XIX)
 slug: la-nueva-espana-siglo-XVI-a-XIX
-featuredimage: laneuvaespaña.jpg
+featuredimage: /assets/laneuvaespaña.jpg
 date: 2020-12-06T02:42:21.551Z
 dificultad: Preparatoria / Universidad
 categoria: Historia de México

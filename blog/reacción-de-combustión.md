@@ -1,7 +1,7 @@
 ---
 title: "Reacción de combustión "
 slug: reaccion-de-combustion
-featuredimage: combustion.jpg
+featuredimage: /assets/combustion.jpg
 date: 2021-01-14T05:52:38.183Z
 dificultad: Preparatoria / Universidad
 categoria: Química

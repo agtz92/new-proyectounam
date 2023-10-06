@@ -1,7 +1,7 @@
 ---
 title: "Teorías para explicar el proceso evolutivo: Teoría de Lamarck "
 slug: teoria-de-lamarck
-featuredimage: teoriadelamarck.jpg
+featuredimage: /assets/teoriadelamarck.jpg
 date: 2020-12-19T06:07:00.115Z
 dificultad: Preparatoria / Universidad
 categoria: Biología

@@ -1,7 +1,7 @@
 ---
 title: "Cadenas Globales de Valor o de Producción "
 slug: cadenas-globales-de-valor-o-de-produccion
-featuredimage: dreamstime_xxl_43327493.jpg
+featuredimage: /assets/dreamstime_xxl_43327493.jpg
 date: 2022-08-26T04:30:08.385Z
 dificultad: Preparatoria / Universidad
 categoria: Economia

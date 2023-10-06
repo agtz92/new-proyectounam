@@ -1,7 +1,7 @@
 ---
 title: Concepto e importancia de las mutaciones
 slug: concepto-e-importantes-de-las-mutaciones
-featuredimage: mutaciones.jpg
+featuredimage: /assets/mutaciones.jpg
 date: 2020-12-19T05:38:17.454Z
 dificultad: Preparatoria / Universidad
 categoria: Biología

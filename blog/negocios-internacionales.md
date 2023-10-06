@@ -1,7 +1,7 @@
 ---
 title: "Negocios Internacionales "
 slug: negocios-internacionales
-featuredimage: certus-estudiar-administracion-negocios-internacionales-1200x720.jpg
+featuredimage: /assets/certus-estudiar-administracion-negocios-internacionales-1200x720.jpg
 date: 2022-08-30T03:57:39.277Z
 dificultad: Preparatoria / Universidad
 categoria: Economia

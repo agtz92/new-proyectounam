@@ -1,7 +1,7 @@
 ---
 title: "La Planeación y los Modelos de Desarrollo Económico "
 slug: la-planeacion-y-los-modelos-de-desarollo-economico
-featuredimage: 16149844055621.jpg
+featuredimage: /assets/16149844055621.jpg
 date: 2022-08-16T03:54:34.679Z
 dificultad: Preparatoria / Universidad
 categoria: Economia

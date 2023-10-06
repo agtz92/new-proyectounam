@@ -1,7 +1,7 @@
 ---
 title: Política Macroeconómica
 slug: politica-macroeconomica
-featuredimage: qwqwqwq.png
+featuredimage: /assets/qwqwqwq.png
 date: 2022-07-19T03:54:46.350Z
 dificultad: Preparatoria / Universidad
 categoria: Economia

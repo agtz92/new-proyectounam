@@ -1,7 +1,7 @@
 ---
 title: "Gramática: uso de V y B"
 slug: gramatica-uso-de-v-y-b
-featuredimage: bv.jpg
+featuredimage: /assets/bv.jpg
 date: 2020-12-08T01:20:30.153Z
 dificultad: Secundaria / Preparatoria
 categoria: Español

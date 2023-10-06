@@ -1,7 +1,7 @@
 ---
 title: "Ingeniería genética "
 slug: ingenieria-genetica
-featuredimage: ing.jpg
+featuredimage: /assets/ing.jpg
 date: 2020-12-19T05:44:34.457Z
 dificultad: Preparatoria / Universidad
 categoria: Biología

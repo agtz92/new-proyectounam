@@ -1,7 +1,7 @@
 ---
 title: Preguntas de Examen de Matemáticas 1 para admisión de UNAM
 slug: preguntas-de-examen-de-matematicas-1-para-admision-de-unam
-featuredimage: mate.jpg
+featuredimage: /assets/mate.jpg
 date: 2023-02-04T04:05:58.827Z
 dificultad: Preparatoria / Universidad
 categoria: Preguntas de Examen

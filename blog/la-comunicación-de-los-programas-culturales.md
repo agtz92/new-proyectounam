@@ -1,7 +1,7 @@
 ---
 title: LA COMUNICACIÓN DE LOS PROGRAMAS CULTURALES
 slug: la-comunicacion-de-los-prgoramas-culturales
-featuredimage: culturales.png
+featuredimage: /assets/culturales.png
 date: 2023-09-08T04:13:20.487Z
 dificultad: Preparatoria / Universidad
 categoria: Economia

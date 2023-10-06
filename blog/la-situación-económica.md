@@ -1,7 +1,7 @@
 ---
 title: "La situación económica "
 slug: la-situacion-economica
-featuredimage: mexicoindependiente.jpg
+featuredimage: /assets/mexicoindependiente.jpg
 date: 2020-12-12T01:05:30.518Z
 dificultad: Preparatoria / Universidad
 categoria: Historia de México

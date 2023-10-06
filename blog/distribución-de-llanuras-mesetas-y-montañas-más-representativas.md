@@ -1,7 +1,7 @@
 ---
 title: "Distribución de llanuras, mesetas y montañas más representativas "
 slug: distribucion-de-llanuras-mesetas-y-montañas
-featuredimage: montañas.jpg
+featuredimage: /assets/montañas.jpg
 date: 2020-12-06T01:15:12.520Z
 dificultad: Secundaria / Preparatoria
 categoria: Geografía

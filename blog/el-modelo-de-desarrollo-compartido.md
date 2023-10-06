@@ -1,7 +1,7 @@
 ---
 title: El modelo de desarrollo compartido
 slug: el-modelo-de-desarollo-compartido
-featuredimage: desarollocompartido.jpg
+featuredimage: /assets/desarollocompartido.jpg
 date: 2020-12-13T03:53:58.818Z
 dificultad: Preparatoria / Universidad
 categoria: Historia de México

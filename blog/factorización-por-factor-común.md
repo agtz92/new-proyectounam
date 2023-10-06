@@ -1,7 +1,7 @@
 ---
 title: "Factorización por factor común "
 slug: factorizacion-por-factor-comun
-featuredimage: bfjdbjdbfjdbfjdbjdbfjdbfjdbf.png
+featuredimage: /assets/bfjdbjdbfjdbfjdbjdbfjdbfjdbf.png
 date: 2023-02-01T04:25:18.332Z
 dificultad: Secundaria / Preparatoria
 categoria: Economia

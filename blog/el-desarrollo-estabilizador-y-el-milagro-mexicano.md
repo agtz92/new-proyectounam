@@ -1,7 +1,7 @@
 ---
 title: El desarrollo estabilizador y el milagro mexicano
 slug: el-desarollo-estabilizador
-featuredimage: desarrolloestabilizador.jpg
+featuredimage: /assets/desarrolloestabilizador.jpg
 date: 2020-12-13T03:46:30.514Z
 dificultad: Preparatoria / Universidad
 categoria: Historia de México

@@ -1,7 +1,7 @@
 ---
 title: "Técnica Jurídica "
 slug: tecnica-juridica
-featuredimage: l6y2t5nivrxs7v2ulko3yggnfd6jc3sachvcdoaizecfr3dnitcq_1_0.png
+featuredimage: /assets/l6y2t5nivrxs7v2ulko3yggnfd6jc3sachvcdoaizecfr3dnitcq_1_0.png
 date: 2022-09-21T03:33:34.825Z
 dificultad: Preparatoria / Universidad
 categoria: Derecho

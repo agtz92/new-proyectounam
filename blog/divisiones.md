@@ -1,7 +1,7 @@
 ---
 title: "Divisiones "
 slug: Divisiones
-featuredimage: divisiones-1-.png
+featuredimage: /assets/divisiones-1-.png
 date: 2023-02-01T04:15:19.956Z
 dificultad: Secundaria / Preparatoria
 categoria: Economia

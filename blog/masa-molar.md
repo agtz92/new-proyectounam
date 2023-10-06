@@ -1,7 +1,7 @@
 ---
 title: "Masa molar "
 slug: masa-molar
-featuredimage: masa-molar.jpg
+featuredimage: /assets/masa-molar.jpg
 date: 2021-01-14T02:43:36.898Z
 dificultad: Preparatoria / Universidad
 categoria: Química

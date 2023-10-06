@@ -1,7 +1,7 @@
 ---
 title: "Globalización, Capitalismo actual y nueva configuración espacial del mundo "
 slug: globalizacion-capitalismo-actual-y-nueva-configuracion-espacial-del-mundo
-featuredimage: neoliberalismo.jpg
+featuredimage: /assets/neoliberalismo.jpg
 date: 2022-08-25T04:15:03.560Z
 dificultad: Preparatoria / Universidad
 categoria: Economia

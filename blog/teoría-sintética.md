@@ -1,7 +1,7 @@
 ---
 title: "Teoría sintética "
 slug: teoria-sintetica
-featuredimage: teoriasintetica.jpg
+featuredimage: /assets/teoriasintetica.jpg
 date: 2020-12-19T06:46:34.134Z
 dificultad: Preparatoria / Universidad
 categoria: Biología

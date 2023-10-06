@@ -1,7 +1,7 @@
 ---
 title: "Proyectos de Inversión Mercado de Capitales "
 slug: inversion-mercado-capitales
-featuredimage: articles-1559_foto_portada_2021.thumb_iprincipal.jpg
+featuredimage: /assets/articles-1559_foto_portada_2021.thumb_iprincipal.jpg
 date: 2022-11-17T05:38:15.733Z
 dificultad: Preparatoria / Universidad
 categoria: "Portafolios de Inversiones "

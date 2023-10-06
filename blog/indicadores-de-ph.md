@@ -1,7 +1,7 @@
 ---
 title: Indicadores de pH
 slug: indicadores-de-ph
-featuredimage: quimica.jpg
+featuredimage: /assets/quimica.jpg
 date: 2021-01-03T23:21:02.096Z
 dificultad: Preparatoria / Universidad
 categoria: Química

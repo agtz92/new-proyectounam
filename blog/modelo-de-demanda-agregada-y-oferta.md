@@ -1,7 +1,7 @@
 ---
 title: "Modelo de Demanda Agregada y Oferta "
 slug: modelo-de-demanda-agregada-y-oferta
-featuredimage: ley-de-la-oferta-y-la-demanda.png
+featuredimage: /assets/ley-de-la-oferta-y-la-demanda.png
 date: 2022-08-12T03:21:27.844Z
 dificultad: Preparatoria / Universidad
 categoria: Economia

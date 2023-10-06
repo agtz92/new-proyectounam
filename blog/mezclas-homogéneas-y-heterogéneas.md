@@ -1,7 +1,7 @@
 ---
 title: Mezclas homogéneas y heterogéneas
 slug: mezclas-homogeneas-y-heterogeneas
-featuredimage: quimica.jpg
+featuredimage: /assets/quimica.jpg
 date: 2021-01-04T01:03:42.281Z
 dificultad: Preparatoria / Universidad
 categoria: Química

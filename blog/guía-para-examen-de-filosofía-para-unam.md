@@ -1,7 +1,7 @@
 ---
 title: Guía para examen de Filosofía para UNAM
 slug: guia-para-examen-de-filosofia-para-unam
-featuredimage: f.elconfidencial.com_original_fa6_f7f_e35_fa6f7fe357cc232cf1771a4ce7bc5fb0.jpg
+featuredimage: /assets/f.elconfidencial.com_original_fa6_f7f_e35_fa6f7fe357cc232cf1771a4ce7bc5fb0.jpg
 date: 2023-03-02T06:12:22.626Z
 dificultad: Preparatoria / Universidad
 categoria: Preguntas de Examen

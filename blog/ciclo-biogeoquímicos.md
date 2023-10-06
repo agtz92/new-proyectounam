@@ -1,7 +1,7 @@
 ---
 title: "Ciclo Biogeoquímicos "
 slug: ciclos-biogeoquimicos
-featuredimage: ciclodss.jpg
+featuredimage: /assets/ciclodss.jpg
 date: 2020-12-19T21:04:05.492Z
 dificultad: Preparatoria / Universidad
 categoria: Biología

@@ -1,7 +1,7 @@
 ---
 title: "Examen de Historia de México "
 slug: examen-de-historia-de-mexico
-featuredimage: maxresdefault.jpg
+featuredimage: /assets/maxresdefault.jpg
 date: 2023-02-22T22:32:53.227Z
 dificultad: Preparatoria / Universidad
 categoria: Preguntas de Examen

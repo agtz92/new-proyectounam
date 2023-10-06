@@ -1,7 +1,7 @@
 ---
 title: Características de los componentes abióticos y bióticos
 slug: caracteristicas-de-los-componentes-abioticos-bioticos
-featuredimage: factores.jpg
+featuredimage: /assets/factores.jpg
 date: 2020-12-19T20:49:29.362Z
 dificultad: Preparatoria / Universidad
 categoria: Biología

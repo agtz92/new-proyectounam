@@ -1,7 +1,7 @@
 ---
 title: " Grupos presentes en los aminoácidos"
 slug: grupos-presentes-en-los-aminoacidos
-featuredimage: aminoacidos.jpg
+featuredimage: /assets/aminoacidos.jpg
 date: 2021-01-18T07:11:27.820Z
 dificultad: Preparatoria / Universidad
 categoria: Química

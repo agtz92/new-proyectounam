@@ -1,7 +1,7 @@
 ---
 title: "Teoría quimiosintética de Oparin- haldane "
 slug: teoria-quimiosintetica-de-oparin-haldane
-featuredimage: teoriass.jpg
+featuredimage: /assets/teoriass.jpg
 date: 2020-12-19T05:54:52.748Z
 dificultad: Preparatoria / Universidad
 categoria: Biología

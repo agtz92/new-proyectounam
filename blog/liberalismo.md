@@ -1,7 +1,7 @@
 ---
 title: Liberalismo
 slug: liberalismo
-featuredimage: 5.jpg
+featuredimage: /assets/5.jpg
 date: 2022-10-25T04:00:08.065Z
 dificultad: Preparatoria / Universidad
 categoria: Análisis Histórico

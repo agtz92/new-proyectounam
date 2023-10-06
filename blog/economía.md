@@ -1,7 +1,7 @@
 ---
 title: Economía
 slug: economia-tema
-featuredimage: qweerref.jpg
+featuredimage: /assets/qweerref.jpg
 date: 2022-07-15T02:07:36.057Z
 dificultad: Preparatoria / Universidad
 categoria: Economia

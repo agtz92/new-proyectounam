@@ -1,7 +1,7 @@
 ---
 title: Desde el Principio CATYCOR
 slug: desde-el-inicio-catycor
-featuredimage: adalberto-min.jpg
+featuredimage: /assets/adalberto-min.jpg
 date: 2021-03-24T02:39:01.094Z
 dificultad: Preparatoria / Universidad
 categoria: Mejores cursos de preparacion UNAM IPN UAM UAEM

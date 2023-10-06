@@ -1,7 +1,7 @@
 ---
 title: Respuesta de Examen de Matemáticas
 slug: respuestas-de-examen-de-matematicas-ipn-unam-uaem
-featuredimage: mate.jpg
+featuredimage: /assets/mate.jpg
 date: 2020-12-29T22:27:04.367Z
 dificultad: Preparatoria / Universidad
 categoria: Preguntas de Examen

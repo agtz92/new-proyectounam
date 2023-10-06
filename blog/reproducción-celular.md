@@ -1,7 +1,7 @@
 ---
 title: "Reproducción celular "
 slug: reproduccion-celular
-featuredimage: reproduccioncelular.jpg
+featuredimage: /assets/reproduccioncelular.jpg
 date: 2020-12-18T05:00:39.279Z
 dificultad: Preparatoria / Universidad
 categoria: Biología

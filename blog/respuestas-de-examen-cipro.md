@@ -1,7 +1,7 @@
 ---
 title: Respuestas de Examen CIPRO
 slug: respuestas-de-examen-unam-uaem-ipn-de-cipro
-featuredimage: b6.jpg
+featuredimage: /assets/b6.jpg
 date: 2020-12-31T05:05:05.493Z
 dificultad: Preparatoria / Universidad
 categoria: Preguntas de Examen

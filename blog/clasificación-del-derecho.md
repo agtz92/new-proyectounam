@@ -1,7 +1,7 @@
 ---
 title: Clasificación del Derecho
 slug: clasificacion-de-derecho
-featuredimage: balanza-derecho.jpg
+featuredimage: /assets/balanza-derecho.jpg
 date: 2022-09-10T17:32:56.232Z
 dificultad: Preparatoria / Universidad
 categoria: Derecho

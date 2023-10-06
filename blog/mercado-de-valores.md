@@ -1,7 +1,7 @@
 ---
 title: "Mercado de Valores "
 slug: mercado-de-valores
-featuredimage: dbfdbfdhbfhdbfhdf.jpg
+featuredimage: /assets/dbfdbfdhbfhdbfhdf.jpg
 date: 2022-11-16T04:33:25.939Z
 dificultad: Preparatoria / Universidad
 categoria: "Portafolios de Inversiones "

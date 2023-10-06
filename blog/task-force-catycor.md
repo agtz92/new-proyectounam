@@ -1,7 +1,7 @@
 ---
 title: Task Force CATYCOR
 slug: taskforce-catycor
-featuredimage: adalberto-min.jpg
+featuredimage: /assets/adalberto-min.jpg
 date: 2021-03-24T02:43:43.663Z
 dificultad: Preparatoria / Universidad
 categoria: Mejores cursos de preparacion UNAM IPN UAM UAEM

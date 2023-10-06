@@ -1,7 +1,7 @@
 ---
 title: Criterios de la clasificación de los organismos
 slug: criterios-de-la-clasificacion-de-los-organismo
-featuredimage: critieros.jpg
+featuredimage: /assets/critieros.jpg
 date: 2020-12-19T07:02:16.609Z
 dificultad: Preparatoria / Universidad
 categoria: Biología

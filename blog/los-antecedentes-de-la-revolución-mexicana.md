@@ -1,7 +1,7 @@
 ---
 title: "Los antecedentes de la revolución mexicana "
 slug: los-antecedentes-de-la-revolucion-mexicana
-featuredimage: revolucion.jpg
+featuredimage: /assets/revolucion.jpg
 date: 2020-12-13T03:10:10.927Z
 dificultad: Secundaria / Preparatoria
 categoria: Historia de México

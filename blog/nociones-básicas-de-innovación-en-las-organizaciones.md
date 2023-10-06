@@ -1,7 +1,7 @@
 ---
 title: Nociones básicas de innovación en las organizaciones
 slug: nociones-basicas-de-innovacion-en-las-organizaciones
-featuredimage: bbva-openmind-innovacion-10-innovacion-organizaciones-innovadoras-estructura-aprendizaje-y-adaptacion-alice-la.jpg
+featuredimage: /assets/bbva-openmind-innovacion-10-innovacion-organizaciones-innovadoras-estructura-aprendizaje-y-adaptacion-alice-la.jpg
 date: 2022-12-12T05:38:01.757Z
 dificultad: Preparatoria / Universidad
 categoria: Emprendedurismo

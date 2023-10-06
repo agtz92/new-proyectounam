@@ -1,7 +1,7 @@
 ---
 title: "Desarrollo y Evaluación de Proyectos  "
 slug: desarollo-evaluacion
-featuredimage: aguirrre.png
+featuredimage: /assets/aguirrre.png
 date: 2022-11-14T04:37:12.348Z
 dificultad: Preparatoria / Universidad
 categoria: "Portafolios de Inversiones "

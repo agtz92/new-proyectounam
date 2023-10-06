@@ -1,7 +1,7 @@
 ---
 title: Las Políticas de la unidad Nacional (1940-1952)
 slug: las-politicas-de-la-unidad-nacional
-featuredimage: politicaunida.jpg
+featuredimage: /assets/politicaunida.jpg
 date: 2020-12-13T03:40:41.910Z
 dificultad: Preparatoria / Universidad
 categoria: Historia de México

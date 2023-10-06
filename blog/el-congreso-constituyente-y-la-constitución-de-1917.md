@@ -1,7 +1,7 @@
 ---
 title: El congreso Constituyente y la constitución de 1917
 slug: el-congreso-constituyente-y-la-constitucion-1917
-featuredimage: 1917.jpg
+featuredimage: /assets/1917.jpg
 date: 2020-12-13T03:20:16.838Z
 dificultad: Preparatoria / Universidad
 categoria: Historia de México

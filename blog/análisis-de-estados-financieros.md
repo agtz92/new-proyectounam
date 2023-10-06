@@ -1,7 +1,7 @@
 ---
 title: Análisis de Estados Financieros
 slug: analisis-de-estados-financieros
-featuredimage: pooi.jpg
+featuredimage: /assets/pooi.jpg
 date: 2022-07-03T22:22:41.324Z
 dificultad: Preparatoria / Universidad
 categoria: Contabilidad

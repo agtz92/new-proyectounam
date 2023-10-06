@@ -1,7 +1,7 @@
 ---
 title: Examen de Biología 1 para la UNAM
 slug: examen-de-biologia-1-para-la-unam
-featuredimage: que_es_la_biotecnologia_y_para_que_sirve_1109_600.jpg
+featuredimage: /assets/que_es_la_biotecnologia_y_para_que_sirve_1109_600.jpg
 date: 2023-02-21T06:04:01.388Z
 dificultad: Preparatoria / Universidad
 categoria: Preguntas de Examen

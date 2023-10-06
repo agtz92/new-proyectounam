@@ -1,7 +1,7 @@
 ---
 title: "Ortografía: puntuación "
 slug: puntuacion
-featuredimage: puntuacion2.jpg
+featuredimage: /assets/puntuacion2.jpg
 date: 2020-12-08T01:37:05.492Z
 dificultad: Secundaria / Preparatoria
 categoria: Español

@@ -1,7 +1,7 @@
 ---
 title: El texto dramático
 slug: el-texto-dramatico
-featuredimage: textodramatico.jpg
+featuredimage: /assets/textodramatico.jpg
 date: 2020-12-06T01:46:51.049Z
 dificultad: Secundaria / Preparatoria
 categoria: Literatura

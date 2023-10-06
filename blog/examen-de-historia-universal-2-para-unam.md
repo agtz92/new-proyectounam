@@ -1,7 +1,7 @@
 ---
 title: Examen de Historia Universal 2 para UNAM
 slug: examen-de-historia-universal-2-para-unam
-featuredimage: hist_univ2.jpg
+featuredimage: /assets/hist_univ2.jpg
 date: 2023-02-07T05:10:10.818Z
 dificultad: Preparatoria / Universidad
 categoria: Preguntas de Examen

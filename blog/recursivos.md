@@ -1,7 +1,7 @@
 ---
 title: Recursivos
 slug: curso-recursivos
-featuredimage: 134159091_238974161080745_8381851625989178820_o.jpg
+featuredimage: /assets/134159091_238974161080745_8381851625989178820_o.jpg
 date: 2021-03-11T03:40:37.648Z
 dificultad: Preparatoria / Universidad
 categoria: Mejores cursos de preparacion UNAM IPN UAM UAEM

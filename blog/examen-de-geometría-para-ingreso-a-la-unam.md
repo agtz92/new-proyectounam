@@ -1,7 +1,7 @@
 ---
 title: Examen de Geometría para ingreso a la UNAM
 slug: examen-de-geometria-para-ingreso-a-la-unam
-featuredimage: examengeometria.png
+featuredimage: /assets/examengeometria.png
 date: 2023-02-21T22:23:01.449Z
 dificultad: Preparatoria / Universidad
 categoria: Preguntas de Examen

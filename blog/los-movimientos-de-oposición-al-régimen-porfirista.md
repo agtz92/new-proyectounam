@@ -1,7 +1,7 @@
 ---
 title: Los movimientos de oposición al régimen porfirista
 slug: los-movimientos-de-oposicion-al-regimen-porfirista
-featuredimage: movimientis-.jpg
+featuredimage: /assets/movimientis-.jpg
 date: 2020-12-12T01:42:25.878Z
 dificultad: Preparatoria / Universidad
 categoria: Historia de México

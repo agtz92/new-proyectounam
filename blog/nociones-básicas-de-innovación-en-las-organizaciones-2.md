@@ -1,7 +1,7 @@
 ---
 title: Nociones básicas de innovación en las organizaciones 2
 slug: nociones-basicas-de-innovacion-en-las-organizaciones-2
-featuredimage: fintech-finanzas-bbva.webp
+featuredimage: /assets/fintech-finanzas-bbva.webp
 date: 2022-12-13T05:43:48.259Z
 dificultad: Preparatoria / Universidad
 categoria: Emprendedurismo

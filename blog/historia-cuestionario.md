@@ -1,7 +1,7 @@
 ---
 title: "Historia cuestionario "
 slug: historia-cuestionario
-featuredimage: analisishistorico.jpg
+featuredimage: /assets/analisishistorico.jpg
 date: 2023-02-28T05:16:13.363Z
 dificultad: Preparatoria / Universidad
 categoria: Preguntas de Examen

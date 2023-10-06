@@ -1,7 +1,7 @@
 ---
 title: "Los regímenes totalitaristas "
 slug: los-regimenes-totalitaristas
-featuredimage: regimenestota.jpg
+featuredimage: /assets/regimenestota.jpg
 date: 2020-12-16T03:55:42.376Z
 dificultad: Preparatoria / Universidad
 categoria: Historia Universal

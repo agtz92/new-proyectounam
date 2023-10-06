@@ -1,7 +1,7 @@
 ---
 title: "División del Trabajo "
 slug: division-de-trabajo
-featuredimage: division-del-trabajo.jpg
+featuredimage: /assets/division-del-trabajo.jpg
 date: 2022-08-24T04:40:10.390Z
 dificultad: Preparatoria / Universidad
 categoria: Geografía

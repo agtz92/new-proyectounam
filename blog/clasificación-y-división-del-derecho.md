@@ -1,7 +1,7 @@
 ---
 title: Clasificación y División del Derecho
 slug: clasificacion-y-division-del-derecho
-featuredimage: 5.jpg
+featuredimage: /assets/5.jpg
 date: 2022-10-10T04:02:26.442Z
 dificultad: Preparatoria / Universidad
 categoria: Derecho

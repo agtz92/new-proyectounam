@@ -1,7 +1,7 @@
 ---
 title: Enlace peptídico
 slug: enlace-peptidico
-featuredimage: enlacepeptidico.jpg
+featuredimage: /assets/enlacepeptidico.jpg
 date: 2021-01-18T18:04:53.927Z
 dificultad: Preparatoria / Universidad
 categoria: Química

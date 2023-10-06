@@ -1,7 +1,7 @@
 ---
 title: Colegio de Ciencias e Idiomas CATyCOR
 slug: colegio-de-ciencias-e-idiomas-catycor
-featuredimage: adalberto-min.jpg
+featuredimage: /assets/adalberto-min.jpg
 date: 2021-03-04T04:37:01.702Z
 dificultad: Preparatoria / Universidad
 categoria: Mejores cursos de preparacion UNAM IPN UAM UAEM

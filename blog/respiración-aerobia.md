@@ -1,7 +1,7 @@
 ---
 title: "Respiración aerobia "
 slug: respiracion-aerobia
-featuredimage: aerobia.jpg
+featuredimage: /assets/aerobia.jpg
 date: 2020-12-17T00:46:53.252Z
 dificultad: Preparatoria / Universidad
 categoria: Biología

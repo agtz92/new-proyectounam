@@ -1,7 +1,7 @@
 ---
 title: Ejercicios UNAM del examen 2020
 slug: ejercicios-unam-del-examen-2020
-featuredimage: unamipn.jpg
+featuredimage: /assets/unamipn.jpg
 date: 2023-03-17T04:23:25.610Z
 dificultad: Preparatoria / Universidad
 categoria: Preguntas de Examen

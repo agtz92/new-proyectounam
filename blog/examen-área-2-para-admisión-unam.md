@@ -1,7 +1,7 @@
 ---
 title: Examen Área 2 para admisión UNAM
 slug: examen-area-2-para-admision-unam
-featuredimage: area2unam.png
+featuredimage: /assets/area2unam.png
 date: 2023-02-09T05:01:14.322Z
 dificultad: Preparatoria / Universidad
 categoria: Preguntas de Examen

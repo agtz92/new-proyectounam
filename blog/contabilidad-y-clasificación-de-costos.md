@@ -1,7 +1,7 @@
 ---
 title: "Contabilidad y Clasificación de Costos "
 slug: contabilidad
-featuredimage: contabilidad-basica-1.jpg
+featuredimage: /assets/contabilidad-basica-1.jpg
 date: 2022-10-21T05:02:44.857Z
 dificultad: Preparatoria / Universidad
 categoria: Administración Financiera

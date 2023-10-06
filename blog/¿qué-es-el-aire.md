@@ -1,7 +1,7 @@
 ---
 title: ¿Qué es el aire?
 slug: que-es-el-aire
-featuredimage: quimica.jpg
+featuredimage: /assets/quimica.jpg
 date: 2021-01-04T22:03:40.649Z
 dificultad: Preparatoria / Universidad
 categoria: Química

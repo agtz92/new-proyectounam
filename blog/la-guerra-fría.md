@@ -1,7 +1,7 @@
 ---
 title: "La guerra fría "
 slug: la-guerra-fria
-featuredimage: guerrafria.jpg
+featuredimage: /assets/guerrafria.jpg
 date: 2020-12-16T04:13:50.470Z
 dificultad: Preparatoria / Universidad
 categoria: Historia Universal

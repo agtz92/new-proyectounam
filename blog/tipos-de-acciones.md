@@ -1,7 +1,7 @@
 ---
 title: "Tipos de Acciones "
 slug: tipos-de-acciones
-featuredimage: ¿que-son-las-acciones-y-los-tipos-de-acciones.jpg
+featuredimage: /assets/¿que-son-las-acciones-y-los-tipos-de-acciones.jpg
 date: 2022-10-05T03:04:35.190Z
 dificultad: Preparatoria / Universidad
 categoria: Derecho

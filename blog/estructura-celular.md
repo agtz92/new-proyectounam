@@ -1,7 +1,7 @@
 ---
 title: Estructura celular
 slug: estructura-celular
-featuredimage: estrucutra12.jpg
+featuredimage: /assets/estrucutra12.jpg
 date: 2020-12-20T22:08:21.358Z
 dificultad: Preparatoria / Universidad
 categoria: Biología

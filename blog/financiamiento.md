@@ -1,7 +1,7 @@
 ---
 title: Financiamiento
 slug: "financiamiento "
-featuredimage: financiamiento-financiacion-e1575848833124.jpg
+featuredimage: /assets/financiamiento-financiacion-e1575848833124.jpg
 date: 2022-10-19T03:34:18.290Z
 dificultad: Preparatoria / Universidad
 categoria: Administración Financiera

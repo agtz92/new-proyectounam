@@ -1,7 +1,7 @@
 ---
 title: Teoría endosimbiótica Lynn Margulis
 slug: teorias-endosimbiotica-lynn-margulis
-featuredimage: teoriassss.jpg
+featuredimage: /assets/teoriassss.jpg
 date: 2020-12-19T06:01:15.448Z
 dificultad: Preparatoria / Universidad
 categoria: Biología

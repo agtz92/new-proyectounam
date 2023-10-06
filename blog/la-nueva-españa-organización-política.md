@@ -1,7 +1,7 @@
 ---
 title: "La nueva España: Organización política"
 slug: la-nueva-espana-organizacion-politica
-featuredimage: organizacionpolitica.jpg
+featuredimage: /assets/organizacionpolitica.jpg
 date: 2020-12-06T05:23:10.398Z
 dificultad: Preparatoria / Universidad
 categoria: Historia de México

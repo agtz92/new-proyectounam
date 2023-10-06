@@ -1,7 +1,7 @@
 ---
 title: Respuesta de examen para historia de mexico 2
 slug: respuestas-de-examen-unam-uaem-ipn-de-historia-de-mexico-2
-featuredimage: centralyfederal.jpg
+featuredimage: /assets/centralyfederal.jpg
 date: 2020-12-29T01:08:39.119Z
 dificultad: Preparatoria / Universidad
 categoria: Preguntas de Examen

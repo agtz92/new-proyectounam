@@ -1,7 +1,7 @@
 ---
 title: Estructura de carbohidratos
 slug: estrucura-de-los-carbohidratos
-featuredimage: estrucuturaca.jpg
+featuredimage: /assets/estrucuturaca.jpg
 date: 2021-01-17T20:35:15.661Z
 dificultad: Preparatoria / Universidad
 categoria: Química

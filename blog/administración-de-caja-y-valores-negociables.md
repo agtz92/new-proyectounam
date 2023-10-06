@@ -1,7 +1,7 @@
 ---
 title: Administración de caja y valores negociables
 slug: administracion-de-caja-y-valores-negociables
-featuredimage: flujo-de-caja-libre.png
+featuredimage: /assets/flujo-de-caja-libre.png
 date: 2022-10-10T17:06:19.867Z
 dificultad: Preparatoria / Universidad
 categoria: Administración Financiera

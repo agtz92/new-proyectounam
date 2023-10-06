@@ -1,7 +1,7 @@
 ---
 title: Flujo de energía en las cadenas y tramas alimenticias
 slug: flujo-de-energia-en-las-cadenas-tramas-alimenticias
-featuredimage: cadenaali.jpg
+featuredimage: /assets/cadenaali.jpg
 date: 2020-12-19T20:54:36.158Z
 dificultad: Preparatoria / Universidad
 categoria: Biología

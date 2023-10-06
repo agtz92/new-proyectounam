@@ -1,7 +1,7 @@
 ---
 title: Redacción y técnicas de investigación documental
 slug: redaccion-tecnicas-de-investigacion
-featuredimage: b6.jpg
+featuredimage: /assets/b6.jpg
 date: 2020-12-10T02:02:41.411Z
 dificultad: Preparatoria / Universidad
 categoria: Literatura

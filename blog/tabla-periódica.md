@@ -1,7 +1,7 @@
 ---
 title: "Tabla periódica "
 slug: tabla-periodica
-featuredimage: tpp3.jpg
+featuredimage: /assets/tpp3.jpg
 date: 2021-01-14T06:06:55.489Z
 dificultad: Preparatoria / Universidad
 categoria: Química

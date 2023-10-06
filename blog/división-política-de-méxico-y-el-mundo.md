@@ -1,7 +1,7 @@
 ---
 title: División política de México y el Mundo
 slug: division-politica-de-mexico-y-el-mundo
-featuredimage: mapa.jpg
+featuredimage: /assets/mapa.jpg
 date: 2020-12-11T05:43:52.069Z
 dificultad: Secundaria / Preparatoria
 categoria: Geografía

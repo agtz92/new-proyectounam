@@ -1,7 +1,7 @@
 ---
 title: Proteínas
 slug: proteinas
-featuredimage: proteinas.jpg
+featuredimage: /assets/proteinas.jpg
 date: 2021-01-18T07:18:28.127Z
 dificultad: Preparatoria / Universidad
 categoria: Química

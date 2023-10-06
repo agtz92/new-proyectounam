@@ -2,7 +2,7 @@
 title: "Relación de los ríos, lagos y las aguas subterráneas con la distribución
   de la población y las actividades  económicas "
 slug: rios-lagos-y-aguas-subterraneas
-featuredimage: aguassubte.jpg
+featuredimage: /assets/aguassubte.jpg
 date: 2020-12-11T01:17:53.753Z
 dificultad: Preparatoria / Universidad
 categoria: Geografía

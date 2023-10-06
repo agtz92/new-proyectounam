@@ -1,7 +1,7 @@
 ---
 title: Soluto y disolvente
 slug: soluto-disolventes
-featuredimage: quimica.jpg
+featuredimage: /assets/quimica.jpg
 date: 2021-01-05T00:34:31.542Z
 dificultad: Preparatoria / Universidad
 categoria: Química

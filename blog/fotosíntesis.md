@@ -1,7 +1,7 @@
 ---
 title: Fotosíntesis
 slug: fotosintesis
-featuredimage: ft.jpg
+featuredimage: /assets/ft.jpg
 date: 2020-12-17T00:37:33.463Z
 dificultad: Preparatoria / Universidad
 categoria: Biología

@@ -1,7 +1,7 @@
 ---
 title: "Respuestas de examen de Literatura "
 slug: examen-muestra-ipn-unam-uaem-literatura
-featuredimage: fichas.jpg
+featuredimage: /assets/fichas.jpg
 date: 2020-12-29T22:07:50.404Z
 dificultad: Preparatoria / Universidad
 categoria: Preguntas de Examen

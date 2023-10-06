@@ -1,7 +1,7 @@
 ---
 title: Examen de Física para admisión del examen de la UNAM
 slug: examen-de-fisica-para-admision-del-examen-de-la-unam
-featuredimage: fisicaexamen12.jpeg
+featuredimage: /assets/fisicaexamen12.jpeg
 date: 2023-02-02T04:46:19.463Z
 dificultad: Preparatoria / Universidad
 categoria: Preguntas de Examen

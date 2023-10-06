@@ -1,7 +1,7 @@
 ---
 title: "Reproducción  a nivel de organismo "
 slug: reproduccion-a-nivel-de-organismo
-featuredimage: sexual.jpg
+featuredimage: /assets/sexual.jpg
 date: 2020-12-19T05:09:54.279Z
 dificultad: Preparatoria / Universidad
 categoria: Biología

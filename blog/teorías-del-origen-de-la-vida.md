@@ -1,7 +1,7 @@
 ---
 title: Teorías del origen de la vida
 slug: teorias-del-origen-de-la-vida
-featuredimage: origen.jpg
+featuredimage: /assets/origen.jpg
 date: 2020-12-19T05:49:09.569Z
 dificultad: Preparatoria / Universidad
 categoria: Biología

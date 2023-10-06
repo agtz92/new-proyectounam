@@ -1,7 +1,7 @@
 ---
 title: Recomendaciones de recursos gratis para tu examen
 slug: recomendaciones-de-recursos-gratis-para-tu-examen
-featuredimage: pexels-fauxels-3183183-2-.jpg
+featuredimage: /assets/pexels-fauxels-3183183-2-.jpg
 date: 2021-09-25T02:23:40.345Z
 dificultad: Preparatoria / Universidad
 categoria: Mejores cursos de preparacion UNAM IPN UAM UAEM

@@ -1,7 +1,7 @@
 ---
 title: El Liberalismo económico y político en el siglo XIX
 slug: el-liberalismo-economica-y-politico
-featuredimage: liberelismopolitico.jpg
+featuredimage: /assets/liberelismopolitico.jpg
 date: 2020-12-06T06:31:28.436Z
 dificultad: Preparatoria / Universidad
 categoria: Historia Universal

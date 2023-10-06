@@ -1,7 +1,7 @@
 ---
 title: "Los antecedentes Mesoamérica, áreas culturales "
 slug: los-antecedentes-mesoamerica-areas-culturales
-featuredimage: areasculturales.jpg
+featuredimage: /assets/areasculturales.jpg
 date: 2020-12-06T02:31:47.580Z
 dificultad: Secundaria / Preparatoria
 categoria: Historia de México

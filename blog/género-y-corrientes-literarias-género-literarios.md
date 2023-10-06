@@ -1,7 +1,7 @@
 ---
 title: "Género y corrientes literarias: Género literarios"
 slug: genero-y-corrientes-literarias
-featuredimage: generosliterarios.jpg
+featuredimage: /assets/generosliterarios.jpg
 date: 2020-12-10T01:53:56.916Z
 dificultad: Preparatoria / Universidad
 categoria: Literatura

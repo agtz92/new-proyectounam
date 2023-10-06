@@ -1,7 +1,7 @@
 ---
 title: "Información Financiera "
 slug: informacion-financiera
-featuredimage: b2ap3_thumbnail_informacion-financiera.jpg
+featuredimage: /assets/b2ap3_thumbnail_informacion-financiera.jpg
 date: 2022-11-06T02:00:00.383Z
 dificultad: Preparatoria / Universidad
 categoria: Sistemas de Información Contable y Financiera

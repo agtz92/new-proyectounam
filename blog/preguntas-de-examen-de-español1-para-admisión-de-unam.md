@@ -1,7 +1,7 @@
 ---
 title: Preguntas de Examen de Español 1 para admisión de UNAM
 slug: preguntas-de-examen-de-espanol-1-para-admision-de-unam
-featuredimage: espanol.jpg
+featuredimage: /assets/espanol.jpg
 date: 2023-02-04T03:51:35.792Z
 dificultad: Preparatoria / Universidad
 categoria: Preguntas de Examen

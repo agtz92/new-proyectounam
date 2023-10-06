@@ -1,7 +1,7 @@
 ---
 title: Financiamiento a Corto Plazo y Largo Plazo
 slug: financiamiento-a-corto-plazo
-featuredimage: 5.jpg
+featuredimage: /assets/5.jpg
 date: 2022-10-18T03:18:55.799Z
 dificultad: Preparatoria / Universidad
 categoria: Administración Financiera

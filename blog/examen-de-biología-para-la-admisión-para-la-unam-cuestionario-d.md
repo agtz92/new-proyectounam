@@ -1,7 +1,7 @@
 ---
 title: Examen de Biología para la Admisión para la UNAM  (Cuestionario D)
 slug: examen-de-biologia-para-la-admision-para-la-unam-D
-featuredimage: collection-of-biology-icons-vector-1-.jpg
+featuredimage: /assets/collection-of-biology-icons-vector-1-.jpg
 date: 2023-02-01T21:27:58.579Z
 dificultad: Preparatoria / Universidad
 categoria: Preguntas de Examen

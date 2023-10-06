@@ -1,7 +1,7 @@
 ---
 title: "Zonas de riesgo por la explotación y transporte de petróleo: la marea negra "
 slug: zonas-de-manejo-de-marea-negra
-featuredimage: mareanegra.jpg
+featuredimage: /assets/mareanegra.jpg
 date: 2020-12-11T02:02:01.296Z
 dificultad: Preparatoria / Universidad
 categoria: Geografía

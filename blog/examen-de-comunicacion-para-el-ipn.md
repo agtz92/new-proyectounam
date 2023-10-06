@@ -1,7 +1,7 @@
 ---
 title: Examen de comunicacion para el IPN
 slug: examen-de-comunicacion-para-el-ipn
-featuredimage: x1500_ovqhmx7nkwccp73m.png
+featuredimage: /assets/x1500_ovqhmx7nkwccp73m.png
 date: 2023-03-03T03:43:17.347Z
 dificultad: Preparatoria / Universidad
 categoria: Preguntas de Examen

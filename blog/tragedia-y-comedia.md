@@ -1,7 +1,7 @@
 ---
 title: "Tragedia y Comedia "
 slug: tragedia-y-comedia
-featuredimage: tragediaycomedia.jpg
+featuredimage: /assets/tragediaycomedia.jpg
 date: 2020-12-06T02:17:22.997Z
 dificultad: Preparatoria / Universidad
 categoria: Literatura

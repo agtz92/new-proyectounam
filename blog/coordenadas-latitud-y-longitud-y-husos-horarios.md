@@ -1,7 +1,7 @@
 ---
 title: "Coordenadas latitud y longitud y husos horarios "
 slug: coordenadas-geograficas-latitud-y-longitud
-featuredimage: longitud.jpg
+featuredimage: /assets/longitud.jpg
 date: 2020-12-06T00:44:33.959Z
 dificultad: Preparatoria / Universidad
 categoria: Geografía

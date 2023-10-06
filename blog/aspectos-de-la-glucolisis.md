@@ -1,7 +1,7 @@
 ---
 title: Aspectos de la glucolisis
 slug: aspectos-de-la-glucolisis
-featuredimage: adn.jpg
+featuredimage: /assets/adn.jpg
 date: 2020-12-05T20:32:59.702Z
 dificultad: Preparatoria / Universidad
 categoria: Biología

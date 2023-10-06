@@ -1,7 +1,7 @@
 ---
 title: Administración de Cuentas por Cobrar
 slug: administracion-de-cuentas-por-cobrar
-featuredimage: liquidez_de_la_empresa.jpg
+featuredimage: /assets/liquidez_de_la_empresa.jpg
 date: 2022-10-11T17:08:49.436Z
 dificultad: Preparatoria / Universidad
 categoria: Administración Financiera

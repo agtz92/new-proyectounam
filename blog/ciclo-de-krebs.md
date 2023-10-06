@@ -1,7 +1,7 @@
 ---
 title: "Ciclo de Krebs "
 slug: ciclo-de-krebs
-featuredimage: ciclodekrebs.jpg
+featuredimage: /assets/ciclodekrebs.jpg
 date: 2020-12-18T02:48:22.791Z
 dificultad: Preparatoria / Universidad
 categoria: Biología

@@ -1,7 +1,7 @@
 ---
 title: Contaminación del agua principales contaminantes
 slug: contaminacion-del-agua-principales-contaminantes
-featuredimage: quimica.jpg
+featuredimage: /assets/quimica.jpg
 date: 2021-01-03T23:17:10.270Z
 dificultad: Preparatoria / Universidad
 categoria: Química

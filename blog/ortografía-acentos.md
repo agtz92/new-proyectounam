@@ -1,7 +1,7 @@
 ---
 title: "Ortografía: Acentos "
 slug: ortografia-acentos
-featuredimage: acentos.jpg
+featuredimage: /assets/acentos.jpg
 date: 2020-12-05T23:15:26.287Z
 dificultad: Secundaria / Preparatoria
 categoria: Español

@@ -1,7 +1,7 @@
 ---
 title: "Los antecedentes y el desarrollo de la primera guerra mundial "
 slug: los-antecedentes-y-el-desarollo-de-la-primera-guerra-mundial
-featuredimage: primeraguerramundial.jpg
+featuredimage: /assets/primeraguerramundial.jpg
 date: 2020-12-14T23:42:51.984Z
 dificultad: Preparatoria / Universidad
 categoria: Historia Universal

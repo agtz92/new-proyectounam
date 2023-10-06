@@ -1,7 +1,7 @@
 ---
 title: "La crisis de 1929  "
 slug: la-crisis-del-1929
-featuredimage: crisis29.jpg
+featuredimage: /assets/crisis29.jpg
 date: 2020-12-16T03:45:32.337Z
 dificultad: Preparatoria / Universidad
 categoria: Historia Universal

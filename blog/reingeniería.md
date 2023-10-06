@@ -1,7 +1,7 @@
 ---
 title: Reingeniería
 slug: reingeneria
-featuredimage: 1500x844-reingenieria-procesos-covid.jpg
+featuredimage: /assets/1500x844-reingenieria-procesos-covid.jpg
 date: 2022-11-24T22:03:00.020Z
 dificultad: Preparatoria / Universidad
 categoria: Análisis Histórico

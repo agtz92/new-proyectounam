@@ -1,7 +1,7 @@
 ---
 title: El texto poético
 slug: el-texto-poetico
-featuredimage: eltextopoetico.jpg
+featuredimage: /assets/eltextopoetico.jpg
 date: 2020-12-06T02:23:38.436Z
 dificultad: Preparatoria / Universidad
 categoria: Literatura

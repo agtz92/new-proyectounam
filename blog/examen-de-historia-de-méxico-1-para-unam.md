@@ -1,7 +1,7 @@
 ---
 title: Examen de Historia de México 1 para UNAM
 slug: examen-de-historia-de-mexico-1-para-unam
-featuredimage: independancia-de-mexico.jpg
+featuredimage: /assets/independancia-de-mexico.jpg
 date: 2023-02-21T05:53:58.318Z
 dificultad: Preparatoria / Universidad
 categoria: Preguntas de Examen

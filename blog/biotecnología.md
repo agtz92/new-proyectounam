@@ -1,7 +1,7 @@
 ---
 title: Biotecnología
 slug: biotecnologia
-featuredimage: que_es_la_biotecnologia_y_para_que_sirve_1109_600.jpg
+featuredimage: /assets/que_es_la_biotecnologia_y_para_que_sirve_1109_600.jpg
 date: 2022-08-19T20:26:29.723Z
 dificultad: Preparatoria / Universidad
 categoria: Biología

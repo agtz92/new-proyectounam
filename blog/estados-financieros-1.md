@@ -1,7 +1,7 @@
 ---
 title: "Estados Financieros "
 slug: estados-financieros
-featuredimage: balance-financiero-septiembre-2019-min.jpg
+featuredimage: /assets/balance-financiero-septiembre-2019-min.jpg
 date: 2022-10-15T23:01:22.999Z
 dificultad: Preparatoria / Universidad
 categoria: Administración Financiera

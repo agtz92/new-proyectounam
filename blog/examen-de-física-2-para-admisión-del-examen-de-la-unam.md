@@ -1,7 +1,7 @@
 ---
 title: Examen de Física 2 para admisión del examen de la UNAM
 slug: examen-de-fisica-para-admision-del-examen-de-la-unam-2
-featuredimage: fisicaexamen12.jpeg
+featuredimage: /assets/fisicaexamen12.jpeg
 date: 2023-02-02T05:04:33.118Z
 dificultad: Preparatoria / Universidad
 categoria: Preguntas de Examen

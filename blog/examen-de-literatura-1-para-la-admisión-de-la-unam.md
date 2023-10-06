@@ -1,7 +1,7 @@
 ---
 title: Examen de Literatura 1 para la admisión De la UNAM
 slug: examen-de-literatura-1-para-la-admision-de-la-unam
-featuredimage: que-es-literatura-og.jpg
+featuredimage: /assets/que-es-literatura-og.jpg
 date: 2023-02-02T20:23:26.406Z
 dificultad: Preparatoria / Universidad
 categoria: Preguntas de Examen

@@ -1,7 +1,7 @@
 ---
 title: Desarrollo y Subdesarrollo
 slug: desarrollo-y-subdesarrollo
-featuredimage: imagen1-desarrollo-fundacion_cideem.png
+featuredimage: /assets/imagen1-desarrollo-fundacion_cideem.png
 date: 2022-11-28T04:36:28.005Z
 dificultad: Preparatoria / Universidad
 categoria: Historia Universal

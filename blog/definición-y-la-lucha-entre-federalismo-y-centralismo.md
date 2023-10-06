@@ -1,7 +1,7 @@
 ---
 title: Definición y la lucha entre federalismo y centralismo
 slug: definicion-y-la-lucha-entre-federalismo-y-centralismo
-featuredimage: centralyfederal.jpg
+featuredimage: /assets/centralyfederal.jpg
 date: 2020-12-12T01:10:55.237Z
 dificultad: Preparatoria / Universidad
 categoria: Historia de México

@@ -1,7 +1,7 @@
 ---
 title: "Polaridad y puente de hidrógeno "
 slug: polaridad-y-puente-de-hidrogeno
-featuredimage: quimica.jpg
+featuredimage: /assets/quimica.jpg
 date: 2021-01-04T21:58:54.048Z
 dificultad: Preparatoria / Universidad
 categoria: Química

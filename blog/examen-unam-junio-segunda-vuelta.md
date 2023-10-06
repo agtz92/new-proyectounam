@@ -1,7 +1,7 @@
 ---
 title: Examen UNAM Junio segunda vuelta
 slug: examen-unam-junio-segunda-vuelta
-featuredimage: area3unam.png
+featuredimage: /assets/area3unam.png
 date: 2023-03-07T04:56:56.242Z
 dificultad: Preparatoria / Universidad
 categoria: Preguntas de Examen

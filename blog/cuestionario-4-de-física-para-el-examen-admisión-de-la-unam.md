@@ -1,7 +1,7 @@
 ---
 title: Cuestionario 4 de Física para el Examen Admisión de la UNAM
 slug: cuestionario-4-de-fisica-para-el-examen-admision-de-la-unam
-featuredimage: fisicaexamen12.jpeg
+featuredimage: /assets/fisicaexamen12.jpeg
 date: 2023-02-02T19:52:45.963Z
 dificultad: Preparatoria / Universidad
 categoria: Preguntas de Examen

@@ -1,7 +1,7 @@
 ---
 title: "Indicadores Financieros "
 slug: indicadores-financieros
-featuredimage: indicadores-financieros1.jpg
+featuredimage: /assets/indicadores-financieros1.jpg
 date: 2022-08-17T03:46:25.803Z
 dificultad: Preparatoria / Universidad
 categoria: Economia

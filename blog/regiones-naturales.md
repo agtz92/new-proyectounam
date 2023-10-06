@@ -1,7 +1,7 @@
 ---
 title: "Regiones naturales "
 slug: regiones-naturales
-featuredimage: regionesnaturales.jpg
+featuredimage: /assets/regionesnaturales.jpg
 date: 2020-12-11T01:23:45.855Z
 dificultad: Secundaria / Preparatoria
 categoria: Geografía

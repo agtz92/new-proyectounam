@@ -1,7 +1,7 @@
 ---
 title: " Principales zonas de tensión política en el mundo"
 slug: principales-zonas-de-tension-politica
-featuredimage: tensionpolitic.jpg
+featuredimage: /assets/tensionpolitic.jpg
 date: 2020-12-11T05:21:33.907Z
 dificultad: Preparatoria / Universidad
 categoria: Geografía

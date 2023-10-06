@@ -1,7 +1,7 @@
 ---
 title: "La caída del bloque soviética "
 slug: la-caida-del-bloque-sovietico
-featuredimage: lacaidadelbloqur.jpg
+featuredimage: /assets/lacaidadelbloqur.jpg
 date: 2020-12-16T04:33:21.965Z
 dificultad: Preparatoria / Universidad
 categoria: Historia Universal

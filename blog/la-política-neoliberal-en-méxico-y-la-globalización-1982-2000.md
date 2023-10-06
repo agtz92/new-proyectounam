@@ -1,7 +1,7 @@
 ---
 title: La política neoliberal en México y la globalización 1982- 2000
 slug: la-politica-neoliberal-en-mexico-y-la-globalizacion
-featuredimage: politicaneoliberal.jpg
+featuredimage: /assets/politicaneoliberal.jpg
 date: 2020-12-13T04:00:06.440Z
 dificultad: Preparatoria / Universidad
 categoria: Historia de México

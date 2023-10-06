@@ -1,7 +1,7 @@
 ---
 title: Problemas de deterioro ambiental
 slug: problemas-de-deterioro-ambiental
-featuredimage: da.jpg
+featuredimage: /assets/da.jpg
 date: 2020-12-11T01:41:32.724Z
 dificultad: Secundaria / Preparatoria
 categoria: Geografía

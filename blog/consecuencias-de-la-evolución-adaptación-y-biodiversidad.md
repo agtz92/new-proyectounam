@@ -1,7 +1,7 @@
 ---
 title: "Consecuencias de la evolución: adaptación y biodiversidad "
 slug: consecuencias-de-la-evolucion
-featuredimage: consecuencias.jpg
+featuredimage: /assets/consecuencias.jpg
 date: 2020-12-19T06:56:16.075Z
 dificultad: Preparatoria / Universidad
 categoria: Biología

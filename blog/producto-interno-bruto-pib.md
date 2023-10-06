@@ -1,7 +1,7 @@
 ---
 title: Producto Interno Bruto (PIB)
 slug: producto-interno-bruto
-featuredimage: inicio_pib.jpg
+featuredimage: /assets/inicio_pib.jpg
 date: 2022-08-07T04:32:06.308Z
 dificultad: Preparatoria / Universidad
 categoria: Economia

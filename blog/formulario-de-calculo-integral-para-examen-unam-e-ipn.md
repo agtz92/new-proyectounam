@@ -1,7 +1,7 @@
 ---
 title: "Formulario de calculo Integral para examen UNAM e IPN "
 slug: formulario-de-calculo-integral-para-examen-unam-ipn
-featuredimage: unamipn.jpg
+featuredimage: /assets/unamipn.jpg
 date: 2023-02-13T04:40:41.238Z
 dificultad: Preparatoria / Universidad
 categoria: Preguntas de Examen

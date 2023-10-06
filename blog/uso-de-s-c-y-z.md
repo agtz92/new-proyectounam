@@ -1,7 +1,7 @@
 ---
 title: Uso de s, c y z
 slug: uso-de-s-c-y-z
-featuredimage: scz.jpg
+featuredimage: /assets/scz.jpg
 date: 2020-12-08T01:15:12.514Z
 dificultad: Secundaria / Preparatoria
 categoria: Español

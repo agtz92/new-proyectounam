@@ -2,7 +2,7 @@
 title: "Comprensión de la lectura estructura del texto: Ideas principales y
   secundarias"
 slug: comprension-de-la-lectura-estructura-del-texto
-featuredimage: estructuradeltexto.jpg
+featuredimage: /assets/estructuradeltexto.jpg
 date: 2020-12-05T20:48:23.484Z
 dificultad: Secundaria / Preparatoria
 categoria: Español
