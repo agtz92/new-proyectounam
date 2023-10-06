@@ -1,6 +1,6 @@
 ---
 title: "Información Financiera "
-slug: informacion-financiera
+slug: informacion-financiera1
 featuredimage: /assets/b2ap3_thumbnail_informacion-financiera.jpg
 date: 2022-11-06T02:00:00.383Z
 dificultad: Preparatoria / Universidad

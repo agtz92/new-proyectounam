@@ -15,9 +15,8 @@ function removeSpecialCharactersAndLowerCase(str) {
     .replace(/[\u0300-\u036f]/g, "") // Remove combining diacritical marks
     .replace(/[^\w\s]/g, "") // Remove non-alphanumeric characters
     .replace(/\s+/g, "-") // Replace spaces with hyphens
-    .toLowerCase();
+    .toLowerCase()
 }
-
 
 function CategoryPage({ matchingFiles, category, isMobile }) {
   // Sort the blogs by date in descending order
@@ -116,7 +115,8 @@ export async function getStaticProps({ params }) {
         removeSpecialCharactersAndLowerCase(frontmatter.categoria) ===
           categorySlug
       ) {
-        const slug = file.slice(0, file.indexOf("."))
+        // Read the slug from frontmatter
+        const slug = frontmatter.slug || file.slice(0, file.indexOf("."))
         matchingFiles.push({
           slug,
           category: frontmatter.categoria,
@@ -141,26 +141,26 @@ export async function getStaticProps({ params }) {
   }
 }
 export async function getStaticPaths() {
-  const files = fs.readdirSync("./categories")
-  const categories = new Set()
+  const files = fs.readdirSync("./categorias")
+  const categorias = new Set()
 
   for (const file of files) {
     // Check if the file is not hidden (doesn't start with a dot)
     if (!file.startsWith(".")) {
       const fileContent = matter(
-        fs.readFileSync(path.join("./categories", file), "utf8")
+        fs.readFileSync(path.join("./categorias", file), "utf8")
       )
       const frontmatter = fileContent.data
 
       if (frontmatter.categoria) {
-        categories.add(
+        categorias.add(
           removeSpecialCharactersAndLowerCase(frontmatter.categoria)
         )
       }
     }
   }
 
-  const paths = Array.from(categories).map((category) => ({
+  const paths = Array.from(categorias).map((category) => ({
     params: { category },
   }))
 

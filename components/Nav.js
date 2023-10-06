@@ -59,52 +59,52 @@ const Nav = ({ isMobile, siteData }) => {
             </Link>
           </li>
           <li>
-            <Link href="/categories/biologia" onClick={toggleMenu}>
+            <Link href="/categorias/biologia" onClick={toggleMenu}>
               BIOLOGIA
             </Link>
           </li>
           <li>
-            <Link href="/categories/contabilidad" onClick={toggleMenu}>
+            <Link href="/categorias/contabilidad" onClick={toggleMenu}>
               CONTABILIDAD
             </Link>
           </li>
           <li>
-            <Link href="/categories/derecho" onClick={toggleMenu}>
+            <Link href="/categorias/derecho" onClick={toggleMenu}>
               DERECHO
             </Link>
           </li>
           <li>
-            <Link href="/categories/economia" onClick={toggleMenu}>
+            <Link href="/categorias/economia" onClick={toggleMenu}>
               ECONOMIA
             </Link>
           </li>
           <li>
-            <Link href="/categories/espanol" onClick={toggleMenu}>
+            <Link href="/categorias/espanol" onClick={toggleMenu}>
               ESPAÑOL
             </Link>
           </li>
           <li>
-            <Link href="/categories/geografia" onClick={toggleMenu}>
+            <Link href="/categorias/geografia" onClick={toggleMenu}>
               GEOGRAFÍA
             </Link>
           </li>
           <li>
-            <Link href="/categories/historia-de-mexico" onClick={toggleMenu}>
+            <Link href="/categorias/historia-de-mexico" onClick={toggleMenu}>
               HISTORIA DE MEXICO
             </Link>
           </li>
           <li>
-            <Link href="/categories/historia-universal" onClick={toggleMenu}>
+            <Link href="/categorias/historia-universal" onClick={toggleMenu}>
               HISTORIA UNIVERSAL
             </Link>
           </li>
           <li>
-            <Link href="/categories/preguntas-de-examen" onClick={toggleMenu}>
+            <Link href="/categorias/preguntas-de-examen" onClick={toggleMenu}>
               PREGUNTAS EXAMEN
             </Link>
           </li>
           <li>
-            <Link href="/categories/quimica" onClick={toggleMenu}>
+            <Link href="/categorias/quimica" onClick={toggleMenu}>
               QUIMICA
             </Link>
           </li>

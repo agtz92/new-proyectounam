@@ -1,5 +1,5 @@
 ---
-title: "La caída del bloque soviética "
+title: "La caída del bloque soviético "
 slug: la-caida-del-bloque-sovietico
 featuredimage: /assets/lacaidadelbloqur.jpg
 date: 2020-12-16T04:33:21.965Z

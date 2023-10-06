@@ -26,64 +26,64 @@ const Footer = () => {
               <Link href="/">INICIO</Link>
             </li>
             <li>
-              <Link href="/categories/biologia">BIOLOGIA</Link>
+              <Link href="/categorias/biologia">BIOLOGIA</Link>
             </li>
             <li>
-              <Link href="/categories/contabilidad">CONTABILIDAD</Link>
+              <Link href="/categorias/contabilidad">CONTABILIDAD</Link>
             </li>
             <li>
-              <Link href="/categories/derecho">DERECHO</Link>
+              <Link href="/categorias/derecho">DERECHO</Link>
             </li>
             <li>
-              <Link href="/categories/economia">ECONOMIA</Link>
+              <Link href="/categorias/economia">ECONOMIA</Link>
             </li>
             <li>
-              <Link href="/categories/espanol">ESPAÑOL</Link>
+              <Link href="/categorias/espanol">ESPAÑOL</Link>
             </li>
             <li>
-              <Link href="/categories/geografia">GEOGRAFÍA</Link>
+              <Link href="/categorias/geografia">GEOGRAFÍA</Link>
             </li>
             <li>
-              <Link href="/categories/historia-de-mexico">
+              <Link href="/categorias/historia-de-mexico">
                 HISTORIA DE MEXICO
               </Link>
             </li>
             <li>
-              <Link href="/categories/historia-universal">
+              <Link href="/categorias/historia-universal">
                 HISTORIA UNIVERSAL
               </Link>
             </li>
             <li>
-              <Link href="/categories/preguntas-de-examen">
+              <Link href="/categorias/preguntas-de-examen">
                 PREGUNTAS EXAMEN
               </Link>
             </li>
             <li>
-              <Link href="/categories/quimica">QUIMICA</Link>
+              <Link href="/categorias/quimica">QUIMICA</Link>
             </li>
             <li>
-              <Link href="/categories/administracion-financiera">
+              <Link href="/categorias/administracion-financiera">
                 ADMINISTRACION FINANCIERA
               </Link>
             </li>
             <li>
-              <Link href="/categories/emprendedurismo">EMPRENDEDURISMO</Link>
+              <Link href="/categorias/emprendedurismo">EMPRENDEDURISMO</Link>
             </li>
             <li>
-              <Link href="/categories/literatura">LITERATURA</Link>
+              <Link href="/categorias/literatura">LITERATURA</Link>
             </li>
             <li>
-              <Link href="/categories/mejores-cursos-de-preparacion-unam-ipn-uam-uaem">
+              <Link href="/categorias/mejores-cursos-de-preparacion-unam-ipn-uam-uaem">
                 CURSOS DE PREPARACION
               </Link>
             </li>
             <li>
-              <Link href="/categories/portafolios-de-inversiones">
+              <Link href="/categorias/portafolios-de-inversiones">
                 PORTAFOLIOS DE INVERSIONES
               </Link>
             </li>
             <li>
-              <Link href="/categories/sistemas-de-informacion-contable-y-financiera">
+              <Link href="/categorias/sistemas-de-informacion-contable-y-financiera">
                 SISTEMAS DE INFORMACION CONTABLE
               </Link>
             </li>
