@@ -5,7 +5,8 @@ featuredimage: /assets/culturales.png
 date: 2023-09-08T04:13:20.487Z
 dificultad: Preparatoria / Universidad
 categoria: Economia
-tags: []
+tags:
+  - economia
 short-description: >-
   LA COMUNICACIÓN DE LOS PROGRAMAS CULTURALES
 

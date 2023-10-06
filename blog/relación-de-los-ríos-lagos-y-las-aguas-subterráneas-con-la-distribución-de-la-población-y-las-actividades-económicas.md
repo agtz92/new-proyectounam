@@ -8,7 +8,7 @@ dificultad: Preparatoria / Universidad
 categoria: Geografía
 tags:
   - rios
-  - lagos.subterraneas
+  - lagos
 short-description: "El agua como recurso fundamental: Relación de los ríos,
   lagos y las aguas subterráneas con la distribución de la población y las
   actividades  económicas"

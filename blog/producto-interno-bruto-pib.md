@@ -8,7 +8,6 @@ categoria: Economia
 tags:
   - "#PIB"
   - "#economia"
-  - ""
 short-description: Reforcemos tus conocimientos con este post del Producto Interno Bruto (PIB)
 mk1: >-
   ## ¿Qué es el PIB?

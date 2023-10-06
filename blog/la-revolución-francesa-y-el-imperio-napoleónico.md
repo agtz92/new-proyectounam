@@ -7,7 +7,7 @@ dificultad: Preparatoria / Universidad
 categoria: Historia Universal
 tags:
   - napoleon
-  - waterloo.coalicion
+  - waterloo
 short-description: >-
   La revolución Francesa y el imperio Napoleónico
 

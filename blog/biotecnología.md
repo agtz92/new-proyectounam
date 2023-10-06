@@ -8,7 +8,6 @@ categoria: Biología
 tags:
   - "#Biologia"
   - "#Biotecnologia"
-  - "#"
 short-description: Esto es parte de la biotecnología con el que puedes reforzar tus conocimientos
 mk1: >-
   ## Definición de Biotecnología 

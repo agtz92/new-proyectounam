@@ -8,7 +8,6 @@ categoria: Química
 tags:
   - sustanciaspuras
   - elementos
-  - y
   - compuestos
 short-description: >-
   ###  Sustancias puras: elementos y compuestos 

@@ -5,6 +5,8 @@ featuredimage: https://www.formacionsmart.com/wp-content/uploads/2020/12/liderr.
 date: 2023-09-08T04:22:11.926Z
 dificultad: Preparatoria / Universidad
 categoria: Economia
+tags:
+  - "#Liderazgo"
 short-description: >-
   El Liderazgo orientado a la CALIDAD
 

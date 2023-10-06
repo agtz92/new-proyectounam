@@ -8,7 +8,6 @@ categoria: Geografía
 tags:
   - "#Geografia"
   - "#divisiondetrabajo"
-  - ""
 short-description: Con este post pues aprende un poco mas de la división de trabajo
 mk1: >-
   ## División del trabajo como:

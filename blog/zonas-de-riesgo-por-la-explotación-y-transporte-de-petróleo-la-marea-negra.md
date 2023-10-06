@@ -7,7 +7,7 @@ dificultad: Preparatoria / Universidad
 categoria: Geografía
 tags:
   - marea
-  - petroleo.manejo
+  - petroleo
 short-description: "Geografía humana: el paisaje cultural; Zonas de riesgo por
   la explotación y transporte de petróleo: la marea negra"
 mk1: >-

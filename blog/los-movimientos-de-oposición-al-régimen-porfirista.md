@@ -9,10 +9,7 @@ tags:
   - huelgas
   - oposcion
   - movimientos
-short-description: |-
-  ### El Porfiriato 
-
-  #### Los movimientos de oposición al régimen porfirista
+short-description: El Porfiriato
 
   #### En la década del siglo XX fue un triunfo por parte del porfiriato
 mk1: "En la década del siglo XX fue un triunfo por parte del porfiriato, lo cual

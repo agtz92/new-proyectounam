@@ -7,7 +7,7 @@ dificultad: Secundaria / Preparatoria
 categoria: Historia de México
 tags:
   - culturas
-  - localizacion.costumbres
+  - localizacion
 short-description: >-
   ## Los antecedentes Mesoamérica, áreas culturales
 

@@ -8,7 +8,6 @@ categoria: Geografía
 tags:
   - ganado
   - pesqueria
-  - ""
 short-description: |-
   México aspectos económicos 
 

@@ -5,6 +5,8 @@ featuredimage: /assets/caa.jpg
 date: 2023-09-08T04:19:14.939Z
 dificultad: Preparatoria / Universidad
 categoria: Economia
+tags:
+  - "#Liderazgo"
 short-description: >-
   #### ¿Qué es el estilo de liderazgo?
 

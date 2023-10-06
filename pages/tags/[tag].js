@@ -14,7 +14,6 @@ function removeSpecialCharactersAndLowerCase(str) {
 }
 
 function TagPage({ matchingFiles, tag, isMobile }) {
-  // Sort the blogs by date in descending order
   const sortedBlogs = matchingFiles?.sort(
     (a, b) => new Date(b.date) - new Date(a.date)
   )
@@ -32,7 +31,6 @@ function TagPage({ matchingFiles, tag, isMobile }) {
 
   // Get the slug without removing special characters
   const tagSlug = removeSpecialCharactersAndLowerCase(tag)
-  console.log(sortedBlogs)
 
   return (
     <Box
@@ -88,16 +86,25 @@ export async function getStaticPaths() {
 
     if (frontmatter.tags && frontmatter.tags.length > 0) {
       frontmatter.tags.forEach((tag) => {
-        // Check if the tag is not empty or null before adding it to the set
-        if (tag) {
+        if (tag && tag.length > 0) {
           const tagSlug = removeSpecialCharactersAndLowerCase(tag)
           tags.add(tagSlug)
+          //console.log("final tag:", tagSlug, "from: ", frontmatter.slug)
         }
       })
+    } else {
+      console.log("bad path: ", frontmatter.slug)
     }
   }
 
-  const paths = Array.from(tags).map((tagSlug) => ({
+  // Convert the tags set to an array, filter out empty strings
+  const uniqueTagsArray = Array.from(tags).filter(
+    (tagSlug) => tagSlug && tagSlug.length > 0
+  )
+  //console.log("uniqueTags: ", uniqueTagsArray)
+
+  // Map the unique tags to the paths array
+  const paths = uniqueTagsArray.map((tagSlug) => ({
     params: { tag: tagSlug }, // Use the tagSlug as a string
   }))
 
@@ -108,7 +115,6 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: { tag } }) {
-  // Use the modified function to get the tag slug
   const tagSlug = removeSpecialCharactersAndLowerCase(tag)
   const files = fs.readdirSync("./blog")
   const matchingFiles = []
@@ -124,7 +130,6 @@ export async function getStaticProps({ params: { tag } }) {
       : ""
 
     if (frontmatter.tags) {
-      // Perform a case-insensitive search for the tag
       const matchingTag = frontmatter.tags.find(
         (t) => removeSpecialCharactersAndLowerCase(t) === tagSlug
       )
@@ -138,16 +143,18 @@ export async function getStaticProps({ params: { tag } }) {
           shortDescription: shortDescription,
           featuredimage: frontmatter.featuredimage,
           date: isoDate,
-          // ...
         })
       }
+    } else {
+      const badslug = file.slice(0, file.indexOf("."))
+      console.log("sin tags", badslug)
     }
   }
 
   return {
     props: {
       matchingFiles,
-      tag: tagSlug, // Use the lowercase tag for display
+      tag: tagSlug,
     },
   }
 }

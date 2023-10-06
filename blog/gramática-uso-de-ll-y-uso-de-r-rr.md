@@ -7,7 +7,6 @@ dificultad: Secundaria / Preparatoria
 categoria: Español
 tags:
   - ll
-  - y
   - rr
   - r
 short-description: "Gramática: Uso de de ll, y, Uso de R, RR.Uso de LL- las
