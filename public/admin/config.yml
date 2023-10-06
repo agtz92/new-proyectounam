@@ -18,7 +18,7 @@ collections:
       - { name: slug, label: Slug, hint: (IMPORTANTE No usar ñ ni acentos ni mayusculas) Debe ser el nombre del post con guiones }
       - {label: "Imagen Principal", hint: Usar una imagen en alta resolucion y artistica USAR SOLAMENTE JPG O PNG, name: "featuredimage", widget: image, required: true}
       - { name: date, label: Fecha, hint: Siempre poner la fecha del día de hoy, widget: datetime , required: true}
-      - { collection: dificultad, valueField: nivel, searchFields: ["nivel"], displayFields: ["nivel"], widget: relation, name: dificultad, label: Nivel Escolar, required: true, multiple: false, hint: Poner nivel de escolaridad (secundaria, prepa, etc). Campo obligatorio}
+      - { collection: dificultad, valueField: nivel, searchFields: ["nivel"], displayFields: ["nivel"], widget: relation, name: dificultad, label: Nivel Escolar,  multiple: false, hint: Poner nivel de escolaridad (secundaria, prepa, etc). Campo obligatorio}
       - { collection: categoria, valueField: categoria, searchFields: ["categoria"], displayFields: ["categoria"], widget: relation, name: categoria, label: Materia, required: true, multiple: false, hint: Poner Materia a la que corresponde el tema. Campo obligatorio}
       - {label: "Tags", name: "tags", widget: "list", hint: Separar con comas cada tag relacionado al post, poner al menos 3 tags por post, ideal 5, required: true}
       - { name: short-description, label: Descripcion Corta, widget: markdown, hint: Descripcion corta de al menos 5 líneas, required: true}
@@ -32,7 +32,7 @@ collections:
      
   - name: dificultad
     label: Niveles Escolares
-    folder: cms/dificultad
+    folder: dificultad
     create: true
     slug: "{{slug}}"
     fields:
