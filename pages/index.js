@@ -15,7 +15,9 @@ export default function Home({ blogs, isMobile }) {
   const nextTwo = sortedBlogs.slice(1, 3)
   const nextFour = sortedBlogs.slice(3, 7)
   const daRest = sortedBlogs.slice(7, 15)
-  //const deals = sortedBlogs.filter((blog) => blog.deals === "Yes")
+  const deals = sortedBlogs.filter(
+    (blog) => blog.categoria === "Preguntas de Examen"
+  )
   return (
     <Box
       sx={{ marginLeft: !isMobile ? 20 : 5, marginRight: !isMobile ? 20 : 5 }}
@@ -84,8 +86,39 @@ export default function Home({ blogs, isMobile }) {
           </Grid>
         </Grid>
       </Grid>
-      
-      
+      <Box
+        display={"flex"}
+        flexDirection={"column"}
+        justifyContent={"center"}
+        alignItems={"center"}
+        sx={{
+          borderBottom: "1px solid #f9f871",
+          marginBottom: 5,
+          marginLeft: !isMobile ? 20 : 0,
+          marginRight: !isMobile ? 20 : 0,
+        }}
+      >
+        <h3
+          style={{
+            fontSize: "1.5em",
+            fontWeight: 600,
+            textAlign: "center",
+            letterSpacing: "2px",
+          }}
+        >
+          PREGUNTAS DE EXAMEN
+        </h3>
+      </Box>
+      <Grid container spacing={2} sx={{ marginTop: 2 }}>
+        {deals.map((blog) => (
+          <Grid key={blog.slug} item xs={12} md={3}>
+            <Link href={`/${blog.slug}`}>
+              <CoverCard post={blog} height={"200px"} h1="1rem" />
+            </Link>
+          </Grid>
+        ))}
+      </Grid>
+
       <Box
         display={"flex"}
         flexDirection={"column"}
