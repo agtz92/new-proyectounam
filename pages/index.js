@@ -7,6 +7,7 @@ import LargeCard from "@/components/LargeCard"
 import { sitename } from "../components/siteData"
 import CoverCard from "@/components/CoverCard"
 import TextCard from "@/components/TextCard"
+import { Button } from "@mui/material"
 
 export default function Home({ blogs, isMobile }) {
   // Sort the blogs by date in descending order
@@ -15,9 +16,9 @@ export default function Home({ blogs, isMobile }) {
   const nextTwo = sortedBlogs.slice(1, 3)
   const nextFour = sortedBlogs.slice(3, 7)
   const daRest = sortedBlogs.slice(7, 15)
-  const deals = sortedBlogs.filter(
-    (blog) => blog.categoria === "Preguntas de Examen"
-  )
+  const deals = sortedBlogs
+    .filter((blog) => blog.categoria === "Preguntas de Examen")
+    .slice(0, 8)
   return (
     <Box
       sx={{ marginLeft: !isMobile ? 20 : 5, marginRight: !isMobile ? 20 : 5 }}
@@ -113,11 +114,27 @@ export default function Home({ blogs, isMobile }) {
         {deals.map((blog) => (
           <Grid key={blog.slug} item xs={12} md={3}>
             <Link href={`/${blog.slug}`}>
-              <TextCard post={blog} height={"200px"}  />
+              <TextCard post={blog} height={"200px"} />
             </Link>
           </Grid>
         ))}
       </Grid>
+      <Box
+        display={"flex"}
+        alignContent={"center"}
+        justifyContent={"center"}
+        alignItems={"center"}
+        sx={{ margin: 10 }}
+      >
+        <Button
+          sx={{ color: "#000", background: "#f9f871", fontWeight: "600" }}
+          component={Link}
+          href="/categorias/preguntas-de-examen"
+        >
+          {" "}
+          Ver todas las Preguntas de Examen
+        </Button>
+      </Box>
 
       <Box
         display={"flex"}
