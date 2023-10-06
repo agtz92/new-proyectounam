@@ -24,52 +24,87 @@ const Footer = () => {
           <ul>
           <li>
             <Link href="/" >
-              NUEVO
+              INICIO
             </Link>
           </li>
           <li>
-            <Link href="/categories/gaming" >
-              GAMING
+            <Link href="/categories/biologia" >
+              BIOLOGIA
             </Link>
           </li>
           <li>
-            <Link href="/categories/cine" >
-              CINE
+            <Link href="/categories/contabilidad" >
+              CONTABILIDAD
             </Link>
           </li>
           <li>
-            <Link href="/categories/musica" >
-              MUSICA
+            <Link href="/categories/derecho" >
+              DERECHO
             </Link>
           </li>
           <li>
-            <Link href="/categories/deportes" >
-              DEPORTES
+            <Link href="/categories/economia" >
+              ECONOMIA
             </Link>
           </li>
           <li>
-            <Link href="/categories/naturaleza" >
-              NATURALEZA
+            <Link href="/categories/espanol" >
+              ESPAÑOL
             </Link>
           </li>
           <li>
-            <Link href="/categories/recomendaciones" >
-              RECOMENDACIONES
+            <Link href="/categories/geografia" >
+              GEOGRAFÍA
             </Link>
           </li>
           <li>
-            <Link href="/categories/celebridades" >
-              CELEBRIDADES
+            <Link href="/categories/historia-de-mexico" >
+              HISTORIA DE MEXICO
             </Link>
           </li>
           <li>
-            <Link href="/categories/historia" >
-              HISTORIA
+            <Link href="/categories/historia-universal" >
+              HISTORIA UNIVERSAL
             </Link>
           </li>
           <li>
-            <Link href="/categories/random" >
-              RANDOM
+            <Link href="/categories/preguntas-de-examen" >
+              PREGUNTAS EXAMEN
+            </Link>
+          </li>
+          <li>
+            <Link href="/categories/quimica" >
+              QUIMICA
+            </Link>
+          </li>
+          <li>
+            <Link href="/categories/administracion-financiera" >
+              ADMINISTRACION FINANCIERA
+            </Link>
+          </li>
+          <li>
+            <Link href="/categories/emprendedurismo" >
+              EMPRENDEDURISMO
+            </Link>
+          </li>
+          <li>
+            <Link href="/categories/literatura" >
+              LITERATURA
+            </Link>
+          </li>
+          <li>
+            <Link href="/categories/mejores-cursos-de-preparacion-unam-ipn-uam-uaem" >
+              CURSOS DE PREPARACION
+            </Link>
+          </li>
+          <li>
+            <Link href="/categories/portafolios-de-inversiones" >
+              PORTAFOLIOS DE INVERSIONES
+            </Link>
+          </li>
+          <li>
+            <Link href="/categories/sistemas-de-informacion-contable-y-financiera" >
+              SISTEMAS DE INFORMACION CONTABLE
             </Link>
           </li>
           <li>

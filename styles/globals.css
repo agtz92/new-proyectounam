@@ -46,10 +46,11 @@ a link {
   color: #fff !important;
 }
 .MuiPaginationItem-root {
-  color: #000 !important;
+  color: #fff !important;
 }
 .MuiPaginationItem-root.Mui-selected {
   background-color: #f9f871 !important;
+  color: #000 !important;
 }
 h1 {
   font-size: 1.5em;

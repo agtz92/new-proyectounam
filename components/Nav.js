@@ -55,52 +55,57 @@ const Nav = ({ isMobile, siteData }) => {
         <ul className={`menu ${isOpen ? "open" : ""}`}>
           <li>
             <Link href="/" onClick={toggleMenu}>
-              NUEVO
+              INICIO
             </Link>
           </li>
           <li>
-            <Link href="/categories/gaming" onClick={toggleMenu}>
-              GAMING
+            <Link href="/categories/biologia" onClick={toggleMenu}>
+              BIOLOGIA
             </Link>
           </li>
           <li>
-            <Link href="/categories/cine" onClick={toggleMenu}>
-              CINE
+            <Link href="/categories/contabilidad" onClick={toggleMenu}>
+              CONTABILIDAD
             </Link>
           </li>
           <li>
-            <Link href="/categories/musica" onClick={toggleMenu}>
-              MUSICA
+            <Link href="/categories/derecho" onClick={toggleMenu}>
+              DERECHO
             </Link>
           </li>
           <li>
-            <Link href="/categories/deportes" onClick={toggleMenu}>
-              DEPORTES
+            <Link href="/categories/economia" onClick={toggleMenu}>
+              ECONOMIA
             </Link>
           </li>
           <li>
-            <Link href="/categories/naturaleza" onClick={toggleMenu}>
-              NATURALEZA
+            <Link href="/categories/espanol" onClick={toggleMenu}>
+              ESPAÑOL
             </Link>
           </li>
           <li>
-            <Link href="/categories/recomendaciones" onClick={toggleMenu}>
-              RECOMENDACIONES
+            <Link href="/categories/geografia" onClick={toggleMenu}>
+              GEOGRAFÍA
             </Link>
           </li>
           <li>
-            <Link href="/categories/celebridades" onClick={toggleMenu}>
-              CELEBRIDADES
+            <Link href="/categories/historia-de-mexico" onClick={toggleMenu}>
+              HISTORIA DE MEXICO
             </Link>
           </li>
           <li>
-            <Link href="/categories/historia" onClick={toggleMenu}>
-              HISTORIA
+            <Link href="/categories/historia-universal" onClick={toggleMenu}>
+              HISTORIA UNIVERSAL
             </Link>
           </li>
           <li>
-            <Link href="/categories/random" onClick={toggleMenu}>
-              RANDOM
+            <Link href="/categories/preguntas-de-examen" onClick={toggleMenu}>
+              PREGUNTAS EXAMEN
+            </Link>
+          </li>
+          <li>
+            <Link href="/categories/quimica" onClick={toggleMenu}>
+              QUIMICA
             </Link>
           </li>
         </ul>
