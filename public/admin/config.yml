@@ -15,7 +15,6 @@ collections:
     create: true
     fields:
       - { name: title, label: Title, hint: Poner el título completo , required: true}
-      - { name: slug, label: Slug, hint: (IMPORTANTE No usar ñ ni acentos ni mayusculas) Debe ser el nombre del post con guiones }
       - {label: "Imagen Principal", hint: Usar una imagen en alta resolucion y artistica USAR SOLAMENTE JPG O PNG, name: "featuredimage", widget: image, required: true}
       - { name: date, label: Fecha, hint: Siempre poner la fecha del día de hoy, widget: datetime , required: true}
       - { collection: dificultad, valueField: nivel, searchFields: ["nivel"], displayFields: ["nivel"], widget: relation, name: dificultad, label: Nivel Escolar,  multiple: false, hint: Poner nivel de escolaridad (secundaria, prepa, etc). Campo obligatorio}
