@@ -1,6 +1,6 @@
 ---
 title: "La población mundial y de México "
-slug: la-poblacion-mundial-y-de-mexico
+slug: la-planeacion-y-los-modelos-de-desarollo-economico
 featuredimage: /assets/poblacionmundial.jpg
 date: 2020-12-11T02:08:17.220Z
 dificultad: Secundaria / Preparatoria

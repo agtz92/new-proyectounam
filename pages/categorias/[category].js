@@ -7,6 +7,7 @@ import Link from "next/link"
 import Head from "next/head"
 import LargeCard from "@/components/LargeCard"
 import { sitename } from "@/components/siteData"
+import Backlinks from "@/components/Backlinks"
 
 function removeSpecialCharactersAndLowerCase(str) {
   // Remove special characters, replace spaces with hyphens, and convert to lowercase
@@ -92,6 +93,18 @@ function CategoryPage({ matchingFiles, category, isMobile }) {
           onChange={(event, page) => setCurrentPage(page)}
         />
       </Stack>
+      <div className="parpost light">
+        <Backlinks categoria={category} />
+        <p style={{ color: "#ddd" }}>
+          antesdelexamen es una página de internet gratuita con bancos de
+          preguntas de examen para UNAM, IPN y todas las demás universidades más
+          importantes de México. Tenemos bancos de preguntas por materia y por
+          area. Bancos de preguntas Area 1, Bancos de preguntas Area 2, Bancos
+          de preguntas area 3, Bancos de preguntas Area 4. Simulacros UNAM ,
+          IPN, UAM, UAEM. Guía UNAM 2021, Guía IPN 2021. <br></br>
+          Agréganos en facebook buscando @antesdelexamen
+        </p>
+      </div>
     </Box>
   )
 }
