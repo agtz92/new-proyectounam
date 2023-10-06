@@ -9,11 +9,12 @@ import { Chip, Grid } from "@mui/material"
 import Link from "next/link"
 import { sitename } from "../components/siteData"
 import SEOBlog from "@/components/SEOBlog"
+import Backlinks from "@/components/Backlinks"
 
 export default function Blog({ frontmatter, markdown, isMobile }) {
   // Format the ISO date for display in the desired locale
   const formattedDate = new Date(frontmatter.date).toLocaleDateString("en-US")
-  //for categories 
+  //for categories
   function removeSpecialCharactersAndLowerCase(str) {
     // Remove special characters, replace spaces with hyphens, and convert to lowercase
     return str
@@ -21,7 +22,7 @@ export default function Blog({ frontmatter, markdown, isMobile }) {
       .replace(/[\u0300-\u036f]/g, "") // Remove combining diacritical marks
       .replace(/[^\w\s]/g, "") // Remove non-alphanumeric characters
       .replace(/\s+/g, "-") // Replace spaces with hyphens
-      .toLowerCase();
+      .toLowerCase()
   }
   // Define the cleanAndLowercaseString function
   function cleanAndLowercaseString(inputString) {
@@ -58,7 +59,9 @@ export default function Blog({ frontmatter, markdown, isMobile }) {
             label={frontmatter.categoria}
             clickable
             component={Link}
-            href={`/categories/${removeSpecialCharactersAndLowerCase(frontmatter.categoria)}`}
+            href={`/categories/${removeSpecialCharactersAndLowerCase(
+              frontmatter.categoria
+            )}`}
           />
         </Box>
 
@@ -113,6 +116,19 @@ export default function Blog({ frontmatter, markdown, isMobile }) {
           <ReactMarkdown rehypePlugins={[rehypeRaw]}>
             {frontmatter.mk5}
           </ReactMarkdown>
+          <div className="parpost light">
+            <Backlinks categoria={frontmatter.categoria} />
+            <p style={{ color: "#ddd" }}>
+              antesdelexamen es una página de internet gratuita con bancos de
+              preguntas de examen para UNAM, IPN y todas las demás universidades
+              más importantes de México. Tenemos bancos de preguntas por materia
+              y por area. Bancos de preguntas Area 1, Bancos de preguntas Area
+              2, Bancos de preguntas area 3, Bancos de preguntas Area 4.
+              Simulacros UNAM , IPN, UAM, UAEM. Guía UNAM 2021, Guía IPN 2021.{" "}
+              <br></br>
+              Agréganos en facebook buscando @antesdelexamen
+            </p>
+          </div>
         </Box>
       </Box>
     </div>

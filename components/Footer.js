@@ -22,127 +22,133 @@ const Footer = () => {
         <Grid item xs={12} md={4}>
           <h4>Categories</h4>
           <ul>
-          <li>
-            <Link href="/" >
-              INICIO
-            </Link>
-          </li>
-          <li>
-            <Link href="/categories/biologia" >
-              BIOLOGIA
-            </Link>
-          </li>
-          <li>
-            <Link href="/categories/contabilidad" >
-              CONTABILIDAD
-            </Link>
-          </li>
-          <li>
-            <Link href="/categories/derecho" >
-              DERECHO
-            </Link>
-          </li>
-          <li>
-            <Link href="/categories/economia" >
-              ECONOMIA
-            </Link>
-          </li>
-          <li>
-            <Link href="/categories/espanol" >
-              ESPAÑOL
-            </Link>
-          </li>
-          <li>
-            <Link href="/categories/geografia" >
-              GEOGRAFÍA
-            </Link>
-          </li>
-          <li>
-            <Link href="/categories/historia-de-mexico" >
-              HISTORIA DE MEXICO
-            </Link>
-          </li>
-          <li>
-            <Link href="/categories/historia-universal" >
-              HISTORIA UNIVERSAL
-            </Link>
-          </li>
-          <li>
-            <Link href="/categories/preguntas-de-examen" >
-              PREGUNTAS EXAMEN
-            </Link>
-          </li>
-          <li>
-            <Link href="/categories/quimica" >
-              QUIMICA
-            </Link>
-          </li>
-          <li>
-            <Link href="/categories/administracion-financiera" >
-              ADMINISTRACION FINANCIERA
-            </Link>
-          </li>
-          <li>
-            <Link href="/categories/emprendedurismo" >
-              EMPRENDEDURISMO
-            </Link>
-          </li>
-          <li>
-            <Link href="/categories/literatura" >
-              LITERATURA
-            </Link>
-          </li>
-          <li>
-            <Link href="/categories/mejores-cursos-de-preparacion-unam-ipn-uam-uaem" >
-              CURSOS DE PREPARACION
-            </Link>
-          </li>
-          <li>
-            <Link href="/categories/portafolios-de-inversiones" >
-              PORTAFOLIOS DE INVERSIONES
-            </Link>
-          </li>
-          <li>
-            <Link href="/categories/sistemas-de-informacion-contable-y-financiera" >
-              SISTEMAS DE INFORMACION CONTABLE
-            </Link>
-          </li>
-          <li>
-            <Link href="/privacidad" >
-              Politica de Privacidad
-            </Link>
-          </li>
+            <li>
+              <Link href="/">INICIO</Link>
+            </li>
+            <li>
+              <Link href="/categories/biologia">BIOLOGIA</Link>
+            </li>
+            <li>
+              <Link href="/categories/contabilidad">CONTABILIDAD</Link>
+            </li>
+            <li>
+              <Link href="/categories/derecho">DERECHO</Link>
+            </li>
+            <li>
+              <Link href="/categories/economia">ECONOMIA</Link>
+            </li>
+            <li>
+              <Link href="/categories/espanol">ESPAÑOL</Link>
+            </li>
+            <li>
+              <Link href="/categories/geografia">GEOGRAFÍA</Link>
+            </li>
+            <li>
+              <Link href="/categories/historia-de-mexico">
+                HISTORIA DE MEXICO
+              </Link>
+            </li>
+            <li>
+              <Link href="/categories/historia-universal">
+                HISTORIA UNIVERSAL
+              </Link>
+            </li>
+            <li>
+              <Link href="/categories/preguntas-de-examen">
+                PREGUNTAS EXAMEN
+              </Link>
+            </li>
+            <li>
+              <Link href="/categories/quimica">QUIMICA</Link>
+            </li>
+            <li>
+              <Link href="/categories/administracion-financiera">
+                ADMINISTRACION FINANCIERA
+              </Link>
+            </li>
+            <li>
+              <Link href="/categories/emprendedurismo">EMPRENDEDURISMO</Link>
+            </li>
+            <li>
+              <Link href="/categories/literatura">LITERATURA</Link>
+            </li>
+            <li>
+              <Link href="/categories/mejores-cursos-de-preparacion-unam-ipn-uam-uaem">
+                CURSOS DE PREPARACION
+              </Link>
+            </li>
+            <li>
+              <Link href="/categories/portafolios-de-inversiones">
+                PORTAFOLIOS DE INVERSIONES
+              </Link>
+            </li>
+            <li>
+              <Link href="/categories/sistemas-de-informacion-contable-y-financiera">
+                SISTEMAS DE INFORMACION CONTABLE
+              </Link>
+            </li>
+            <li>
+              <Link href="/privacidad">Politica de Privacidad</Link>
+            </li>
           </ul>
         </Grid>
         <Grid item xs={12} md={4} display={"flex"} direction={"column"}>
           <h4>Partners</h4>
-          <Link href="https://www.antesdelexamen.com/" target="_blank">
-            Bancos de preguntas UNAM
-          </Link>
-          <Link href="https://www.corthw.com/topes-para-anden" target="_blank">
-            Cortinas Hawaianas y Topes para Anden
+          <Link
+            className="footer-link"
+            href="https://www.matmarkt.com/productos"
+            target="_blank"
+            rel="noopener"
+          >
+            MatMarkt. Piso y tapetes de hule y PVC
           </Link>
           <Link
-            href="https://www.antesdelexamen.com/categorias/preguntas-de-examen/"
+            className="footer-link"
+            href="https://www.corthw.com/productos"
             target="_blank"
+            rel="noopener"
           >
-            Preguntas de examen UNAM
+            Cortina Hawaiana. Cortinas Hawaianas de PVC
           </Link>
           <Link
-            href="https://www.matmarkt.com/productos/gimnasios"
+            className="footer-link"
+            href="https://www.10datos.com"
             target="_blank"
+            rel="noopener"
           >
-            Piso para gimnasios
+            10 datos curiosos sobre cientos de temas
           </Link>
-          <Link href="https://www.sombrealo.com/" target="_blank">
-            Velarias Arquitectonicas Queretaro
+          <Link
+            className="footer-link"
+            href="https://www.antesdelauni.com"
+            target="_blank"
+            rel="noopener"
+          >
+            Bancos de preguntas UNAM IPN UAM UAEM
           </Link>
-          <Link href="https://www.soy-nuevo.com/" target="_blank">
-            Cazador de Ofertas para Productos de Bebés como Safety 1st, Doona,
-            Uppababy y más!
+          <Link
+            className="footer-link"
+            href="https://www.3minread.com"
+            target="_blank"
+            rel="noopener"
+          >
+            Lifestyle, Culture and more 3 min read articles
           </Link>
-          <Link href="https://www.3minread.com/" target="_blank">
-            Latest trends and news under 3 min!
+          <Link
+            className="footer-link"
+            href="https://www.pmhule.com"
+            target="_blank"
+            rel="noopener"
+          >
+            Fabricantes de hule y neopreno
+          </Link>
+          <Link
+            className="footer-link"
+            href="https://www.sombrealo.com"
+            target="_blank"
+            rel="noopener"
+          >
+            Velarias en Queretaro
           </Link>
         </Grid>
         <Grid item xs={12} md={12}>
