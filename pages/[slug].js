@@ -60,7 +60,7 @@ export default function Blog({ frontmatter, markdown, isMobile }) {
             label={frontmatter.categoria}
             clickable
             component={Link}
-            href={`/categories/${removeSpecialCharactersAndLowerCase(
+            href={`/categorias/${removeSpecialCharactersAndLowerCase(
               frontmatter.categoria
             )}`}
           />
