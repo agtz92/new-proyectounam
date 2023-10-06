@@ -113,7 +113,7 @@ export default function Home({ blogs, isMobile }) {
         {deals.map((blog) => (
           <Grid key={blog.slug} item xs={12} md={3}>
             <Link href={`/${blog.slug}`}>
-              <CoverCard post={blog} height={"200px"} h1="1rem" />
+              <TextCard post={blog} height={"200px"}  />
             </Link>
           </Grid>
         ))}
