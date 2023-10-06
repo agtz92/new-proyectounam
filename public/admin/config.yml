@@ -1,0 +1,48 @@
+backend:
+  name: github
+  repo: agtz92/new-proyectounam
+  branch: master
+
+media_folder: public/assets
+public_folder: /assets
+
+#publish_mode: editorial_workflow
+
+collections:
+  - name: blog
+    label: Blog
+    folder: blog
+    create: true
+    fields:
+      - { name: title, label: Title, hint: Poner el título completo , required: true}
+      - { name: slug, label: Slug, hint: (IMPORTANTE No usar ñ ni acentos ni mayusculas) Debe ser el nombre del post con guiones }
+      - {label: "Imagen Principal", hint: Usar una imagen en alta resolucion y artistica USAR SOLAMENTE JPG O PNG, name: "featuredimage", widget: image, required: true}
+      - { name: date, label: Fecha, hint: Siempre poner la fecha del día de hoy, widget: datetime , required: true}
+      - { collection: dificultad, valueField: nivel, searchFields: ["nivel"], displayFields: ["nivel"], widget: relation, name: dificultad, label: Nivel Escolar, required: true, multiple: false, hint: Poner nivel de escolaridad (secundaria, prepa, etc). Campo obligatorio}
+      - { collection: categoria, valueField: categoria, searchFields: ["categoria"], displayFields: ["categoria"], widget: relation, name: categoria, label: Materia, required: true, multiple: false, hint: Poner Materia a la que corresponde el tema. Campo obligatorio}
+      - {label: "Tags", name: "tags", widget: "list", hint: Separar con comas cada tag relacionado al post, poner al menos 3 tags por post, ideal 5, required: true}
+      - { name: short-description, label: Descripcion Corta, widget: markdown, hint: Descripcion corta de al menos 5 líneas, required: true}
+      - { name: mk1, label: facts 1-2, widget: markdown }
+      - { name: mk2, label: facts 3-4, widget: markdown }
+      - { name: mk3, label: facts 5-6, widget: markdown }
+      - { name: mk4, label: facts 7-8, widget: markdown }
+      - { name: mk5, label: facts 9-10, widget: markdown }
+      - { name: body, label: Body, widget: markdown, mode: rich_text, hint: Estructura debe ser parrafo -> imagen/video -> parrafo -> imagen/video -> parrafo, required: true}
+      
+     
+  - name: dificultad
+    label: Niveles Escolares
+    folder: cms/dificultad
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {widget: string, name: nivel, label: Nivel Escolar, required: true, hint: Nivel escolar a la que representa el tema  }
+
+  - name: categoria
+    label: Materias
+    folder: categorias
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {widget: string, name: categoria, label: Categoria, required: true, hint: Materia Escolar }
+      - {label: "Imagen de la Materia", name: "categoryimage", widget: image}
