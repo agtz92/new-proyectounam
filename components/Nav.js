@@ -13,7 +13,7 @@ const Nav = ({ isMobile, siteData }) => {
 
   return (
     <>
-      {!isMobile && (
+      
         <Box
           display={"flex"}
           flexDirection={"column"}
@@ -24,6 +24,7 @@ const Nav = ({ isMobile, siteData }) => {
             marginLeft: 20,
             marginRight: 20,
           }}
+          className='pc-only'
         >
           <h1 style={{ fontSize: "4em", fontWeight: 600, margin: 0 }}>
             {sitename}
@@ -40,7 +41,6 @@ const Nav = ({ isMobile, siteData }) => {
             {motto}
           </h3>
         </Box>
-      )}
       <nav className={`nav ${isOpen ? "open" : ""}`}>
         {isMobile && (
           <div className="logo">
