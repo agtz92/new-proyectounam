@@ -59,7 +59,7 @@ export default function Blog({ frontmatter, markdown, isMobile }) {
         </Box>
 
         <span style={{ color: "#ddd", fontSize: "12px" }}>
-          Updated: {formattedDate}
+          Actualizado: {formattedDate}
         </span>
         <Box sx={{ minHeight: "40px" }} />
         <Box justifyContent={"center"} display={"flex"}>
