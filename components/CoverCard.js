@@ -6,13 +6,13 @@ import {
   CardMedia,
   Chip,
 } from "@mui/material"
+import Image from "next/image"
 
-const CoverCard = ({ post, height, h1 }) => {
+const CoverCard = ({ post, h1, secondary }) => {
   return (
     <Card
       sx={{
         position: "relative",
-        height: height,
         "&:hover": {
           "& img": {
             transform: "scale(1.2)",
@@ -20,6 +20,7 @@ const CoverCard = ({ post, height, h1 }) => {
           },
         },
       }}
+      className={!secondary ? "cover" : "cover-secondary"}
     >
       {/* Black overlay */}
       <Box
@@ -35,14 +36,16 @@ const CoverCard = ({ post, height, h1 }) => {
       ></Box>
 
       {/* Image */}
-      <CardMedia
+      <Image
         component="img"
         alt="Image"
-        image={post.featuredimage}
+        src={post.featuredimage}
+        placeholder="blur"
+        objectFit= "cover"
+        width= "800"
+        height= "500"
+        blurDataURL="../public/assets/blur.jpg"
         sx={{
-          objectFit: "cover",
-          width: "100%",
-          height: "100%",
           transition: "transform 0.2s ease",
           zIndex: -1,
         }}

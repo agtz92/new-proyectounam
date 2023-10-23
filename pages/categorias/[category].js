@@ -39,7 +39,7 @@ function CategoryPage({ matchingFiles, category, isMobile }) {
 
   return (
     <Box
-      sx={{ marginLeft: !isMobile ? 20 : 5, marginRight: !isMobile ? 20 : 5 }}
+      className='margins5'
     >
       <Head>
         <title>{title}</title>
@@ -52,9 +52,8 @@ function CategoryPage({ matchingFiles, category, isMobile }) {
         sx={{
           borderBottom: "1px solid #f9f871",
           marginBottom: 5,
-          marginLeft: !isMobile ? 20 : 0,
-          marginRight: !isMobile ? 20 : 0,
         }}
+        className='margins'
       >
         <h3
           style={{
