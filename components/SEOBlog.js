@@ -38,7 +38,7 @@ const SEOBlog = ({ post }) => {
           "@id":\"${sitename}\"
         },
         "headline": \"${removeDoubleQuotes(post.title)}\",
-        "description": \"${generateExcerpt(post.shortDescription, 250)}\",
+        "description": \"${generateExcerpt(removeDoubleQuotes(post.shortDescription), 250)}\",
         "image": "${sitedomain}/assets/${post.featuredimage}",  
         "author": {
           "@type": "Organization",
@@ -67,7 +67,7 @@ const SEOBlog = ({ post }) => {
       </title>
       <meta
         name="description"
-        content={generateExcerpt(post.shortDescription, 250)}
+        content={generateExcerpt(removeDoubleQuotes(post.shortDescription), 250)}
       />
       <script
         type="application/ld+json"
