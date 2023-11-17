@@ -39,7 +39,7 @@ export default function Blog({ frontmatter, markdown, isMobile }) {
   }
 
   return (
-    <Box display={"flex"} flexDirection={"row"}>
+    <div>
       <SEOBlog post={frontmatter} />
       <Box display={"flex"} flexDirection={"column"} className="margins5">
         <h1 style={{ fontSize: "3em", margin: 0 }}>{frontmatter.title}</h1>
@@ -127,7 +127,7 @@ export default function Blog({ frontmatter, markdown, isMobile }) {
         </Box>
       </Box>
       {!isMobile && <Box id="adPlaceholder" sx={{ width: '45%'}} />}
-    </Box>
+    </div>
   )
 }
 
