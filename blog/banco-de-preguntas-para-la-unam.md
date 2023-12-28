@@ -23,7 +23,7 @@ short-description: >-
 
      B) Apelativa.
 
-     C) Sintomática.
+     C) **Sintomática**.
 
      D) Referencial.
 
@@ -33,7 +33,7 @@ short-description: >-
 
      A) Metalingüística.
 
-     B) Referencial.
+   **  B) Referencial.**
 
      C) Apelativa.
 
@@ -47,7 +47,7 @@ short-description: >-
 
      La forma del discurso es:
 
-     A) Narrativa.
+   **  A) Narrativa.**
 
      B) Descriptiva.
 
@@ -627,8 +627,9 @@ mk4: >-
 
   D) La Compañía Teatral La Casa Azul se presentará en Marzo, mes en el cual Miembros del Estado están presentes.
 mk5: >-
-  **94. ¿Cuál de las siguientes opciones tiene los signos de puntuación de
-  manera correcta?**
+  
+
+  **94. ¿Cuál de las siguientes opciones tiene los signos de puntuación de manera correcta?**
 
 
   A) Los perros ladran como siempre.
@@ -896,349 +897,233 @@ mk5: >-
 
 
   D) **Contenido.**
-
-
-
-
-  **149. Opción con ortografía correcta.**
-
-
-  A) **Laura es ciega y por eso su madre lee en voz alta algunos fragmentos de textos** que no están disponibles en sistema Braille en la biblioteca de la escuela.
-
-
-  B) Hubieron llegado al cine.
-
-
-  C) Los **poyos son aves que no vuelan.**
-
-
-  D) La **muralla china es muy extensa.**
-
-
-  **150. La editorial de un periódico lo podemos comparar con**
-
-
-  A) Ficha de trabajo.
-
-
-  B) Ficha hemerográfica.
-
-
-  C) Artículo de opinión.
-
-
-  D) Paráfrasis.
-
-
-  **151. ¿Qué tipo de texto es?** 
-
-  “Porque la información no basta, según el filósofo Sabater, los seres humanos además de estar informados al interpretar un texto producimos conocimiento y cuando este para decidir cómo vivir mejor obtenemos sabiduría”.
-
-
-  A) **Argumentativo.**
-
-
-  B) Referencial.
-
-
-  C) Poético.
-
-
-  D) Persuasivo.
-
-
-  **152. Revueltas, José “La literatura envuelta” Vol. 1 Núm. 2, los datos anteriores representan:**
-
-
-  A) Ficha hemerográfica.
-
-
-  B) Ficha de resumen.
-
-
-  C) Ficha de trabajo.
-
-
-  D) Ficha de opinión.
-
-
-  **153. Bóveda celeste es a azul como**
-
-
-  A) Acantilado a vacío.
-
-
-  B) Perro a animal.
-
-
-  C) Ave a perico.
-
-
-  D) Acantilado a extenso.
-
-
-  **154. ¿Qué significa la palabra encantar?**
-
-
-  A) Antojo.
-
-
-  B) Querer o tener deseo.
-
-
-  C) Gusto por las cosas.
-
-
-  D) **Estar sujeto a una influencia mágica, lanzar hechizo, en especial con la voz.**
-
-
-  **155. ¿A qué tipo de ficha corresponden los siguientes datos?**
-
-  Año 1993, N°3, páginas 22-24, “título del artículo” autor, en vuelta (nombre de revista).
-
-
-  A) Trabajo.
-
-
-  B) Resumen.
-
-
-  C) **Hemerográfica.**
-
-
-  D) Reseña.
-
-
-  **156. Identificar los puntos para elaborar ficha de resumen.**
-
-
-  A) Identificar ideas principales, Descartar ideas secundarias, Redactar nuevamente el texto.
-
-
-  B) **Subrayar ideas principales y transcribirla.**
-
-
-  C) Identificar ideas secundarias y dar una opinión sobre ella.
-
-
-  D) Título, nombre del autor, año de publicación, página.
-
-
-  **157. Significado de información.**
-
-
-  A) Contemplado.
-
-
-  B) **Conocimiento.**
-
-
-  C) Informar.
-
-
-  D) Registro o transmisión.
-
-
-  **158. ¿Cuál es el sinónimo de la palabra subrayada en el texto?**
-
-  “Siempre ha causado conflicto que los hombres en su más profundo dolor”.
-
-
-  A) Mínimo.
-
-
-  B) Corto.
-
-
-  C) **Intenso.**
-
-
-  D) Incurable.
-
-
-  **159. Identifica en la oración el núcleo del predicado “La decodificación del genoma humano permitirá resolver los problemas”.**
-
-
-  A) Permitirá resolver.
-
-
-  B) **Permitirá resolver los problemas.**
-
-
-  C) La decodificación.
-
-
-  D) Genoma humano.
-
-
-  **160. Identifica la oración principal en “Rodrigo había renunciado a su cargo, como gerente hace 2 meses”.**
-
-
-  A) Había renunciado a su cargo.
-
-
-  B) Rodrigo había renunciado a su cargo como gerente.
-
-
-  C) Hace 2 meses.
-
-
-  D) Como gerente.
-
-
-  **161. Enunciado con puntuación correcta.**
-
-
-  A) Un día, 17 de nov. de 1771, Lucerito había ido a una cafetería y le dijeron que la estaba esperando un hombre, sentado 20 minutos antes que ella, en la mesa.
-
-
-  B) **La maestra de matemáticas es una excelente profesora porque es mucho conocimiento que tuvo.**
-
-
-  C) La atmósfera, es parte de la corteza, terrestre.
-
-
-  D) Sin embargo, no pude comprar los lápices, plumones, sacapuntas y cuadernos que me pidieron.
-
-
-  **162. ¿Cuál es el texto con la redacción más correcta?**
-
-
-  A) Cuando vieron al profesor venir, todos corrieron al salón.
-
-
-  B) **Los investigadores de la Universidad Nacional Autónoma de México (UNAM) del instituto de Investigaciones ambiental de la UNAM (IFA) junto con otros investigadores han descubierto las sustancias activas en las plantas.**
-
-
-  C) Gracias a la tecnología hemos visto grandes avances en la medicina industria y comercio.
-
-
-  D) La vida de las europeas abejas por promedio es de 1 mes y medio.
-
-
-  **163. Recordemos que una descripción debe responder preguntas y además encontramos**
-
-
-  A) Al sujeto de forma tácita.
-
-
-  B) Un predicado nominal.
-
-
-  C) El verbo en su modo infinitivo.
-
-
-  D) \*\*¿Cómo es? Abundancia del adjetivo y verbos
-
-   en tercera persona.\*\*
-
-  **164. Selecciona las oraciones con un conector causal.**
-
-
-  A) La tormenta fue intensa. Suspendieron las clases.
-
-
-  B) **Como llovía mucho, decidieron quedarse en casa.**
-
-
-  C) Marta estudia mucho. Así aprueba los exámenes.
-
-
-  D) María es muy inteligente. Por eso siempre obtiene buenas calificaciones.
-
-
-  **165. ¿Cuál es la definición correcta de la palabra subrayada en el siguiente enunciado?**
-
-  “Esa película es muy **monótona**, siempre pasa lo mismo y nunca hay sorpresas.”
-
-
-  A) Emocionante.
-
-
-  B) **Aburrida.**
-
-
-  C) Interesante.
-
-
-  D) Divertida.
-
-
-  **166. Elegir la opción en la que la palabra subrayada es un sustantivo.**
-
-
-  A) **Las olas del mar eran muy altas.**
-
-
-  B) Marta siempre salta muy alto.
-
-
-  C) El gato miraba fijamente a la ardilla.
-
-
-  D) Corría tan rápido que el viento le despeinaba.
-
-
-  **167. Identificar la figura literaria en la siguiente expresión.**
-
-
-  “Tus ojos son dos luceros que iluminan mi camino.”
-
-
-  A) Comparación.
-
-
-  B) **Metáfora.**
-
-
-  C) Anáfora.
-
-
-  D) Hipérbole.
-
-
-  **168. Escribe la oración en la que se presenta un hiato.**
-
-
-  A) **País.**
-
-
-  B) Papel.
-
-
-  C) Río.
-
-
-  D) Suelo.
-
-
-  **169. Identificar el error en la siguiente oración.**
-
-
-  A) La maestra dio un repaso de la lección antes del examen.
-
-
-  B) **A Juan no le gusta ni patinar ni esquiar.**
-
-
-  C) Laura y María no vino a la reunión.
-
-
-  D) El perro corrió velozmente hacia su dueño.
-
-
-  **170. Identifica el sujeto de la oración “El viento movía las hojas de los árboles”.**
-
-
-  A) Viento.
-
-
-  B) Árboles.
-
-
-  C) **El viento.**
-
-
-  D) Hojas.
 ---
-**a**
+
+
+**149. Opción con ortografía correcta.**
+
+A) **Laura es ciega y por eso su madre lee en voz alta algunos fragmentos de textos** que no están disponibles en sistema Braille en la biblioteca de la escuela.
+
+B) Hubieron llegado al cine.
+
+C) Los **poyos son aves que no vuelan.**
+
+D) La **muralla china es muy extensa.**
+
+**150. La editorial de un periódico lo podemos comparar con**
+
+A) Ficha de trabajo.
+
+B) Ficha hemerográfica.
+
+C) Artículo de opinión.
+
+D) Paráfrasis.
+
+**151. ¿Qué tipo de texto es?** 
+“Porque la información no basta, según el filósofo Sabater, los seres humanos además de estar informados al interpretar un texto producimos conocimiento y cuando este para decidir cómo vivir mejor obtenemos sabiduría”.
+
+A) **Argumentativo.**
+
+B) Referencial.
+
+C) Poético.
+
+D) Persuasivo.
+
+**152. Revueltas, José “La literatura envuelta” Vol. 1 Núm. 2, los datos anteriores representan:**
+
+A) Ficha hemerográfica.
+
+B) Ficha de resumen.
+
+C) Ficha de trabajo.
+
+D) Ficha de opinión.
+
+**153. Bóveda celeste es a azul como**
+
+A) Acantilado a vacío.
+
+B) Perro a animal.
+
+C) Ave a perico.
+
+D) Acantilado a extenso.
+
+**154. ¿Qué significa la palabra encantar?**
+
+A) Antojo.
+
+B) Querer o tener deseo.
+
+C) Gusto por las cosas.
+
+D) **Estar sujeto a una influencia mágica, lanzar hechizo, en especial con la voz.**
+
+**155. ¿A qué tipo de ficha corresponden los siguientes datos?**
+Año 1993, N°3, páginas 22-24, “título del artículo” autor, en vuelta (nombre de revista).
+
+A) Trabajo.
+
+B) Resumen.
+
+C) **Hemerográfica.**
+
+D) Reseña.
+
+**156. Identificar los puntos para elaborar ficha de resumen.**
+
+A) Identificar ideas principales, Descartar ideas secundarias, Redactar nuevamente el texto.
+
+B) **Subrayar ideas principales y transcribirla.**
+
+C) Identificar ideas secundarias y dar una opinión sobre ella.
+
+D) Título, nombre del autor, año de publicación, página.
+
+**157. Significado de información.**
+
+A) Contemplado.
+
+B) **Conocimiento.**
+
+C) Informar.
+
+D) Registro o transmisión.
+
+**158. ¿Cuál es el sinónimo de la palabra subrayada en el texto?**
+“Siempre ha causado conflicto que los hombres en su más profundo dolor”.
+
+A) Mínimo.
+
+B) Corto.
+
+C) **Intenso.**
+
+D) Incurable.
+
+**159. Identifica en la oración el núcleo del predicado “La decodificación del genoma humano permitirá resolver los problemas”.**
+
+A) Permitirá resolver.
+
+B) **Permitirá resolver los problemas.**
+
+C) La decodificación.
+
+D) Genoma humano.
+
+**160. Identifica la oración principal en “Rodrigo había renunciado a su cargo, como gerente hace 2 meses”.**
+
+A) Había renunciado a su cargo.
+
+B) Rodrigo había renunciado a su cargo como gerente.
+
+C) Hace 2 meses.
+
+D) Como gerente.
+
+**161. Enunciado con puntuación correcta.**
+
+A) Un día, 17 de nov. de 1771, Lucerito había ido a una cafetería y le dijeron que la estaba esperando un hombre, sentado 20 minutos antes que ella, en la mesa.
+
+B) **La maestra de matemáticas es una excelente profesora porque es mucho conocimiento que tuvo.**
+
+C) La atmósfera, es parte de la corteza, terrestre.
+
+D) Sin embargo, no pude comprar los lápices, plumones, sacapuntas y cuadernos que me pidieron.
+
+**162. ¿Cuál es el texto con la redacción más correcta?**
+
+A) Cuando vieron al profesor venir, todos corrieron al salón.
+
+B) **Los investigadores de la Universidad Nacional Autónoma de México (UNAM) del instituto de Investigaciones ambiental de la UNAM (IFA) junto con otros investigadores han descubierto las sustancias activas en las plantas.**
+
+C) Gracias a la tecnología hemos visto grandes avances en la medicina industria y comercio.
+
+D) La vida de las europeas abejas por promedio es de 1 mes y medio.
+
+**163. Recordemos que una descripción debe responder preguntas y además encontramos**
+
+A) Al sujeto de forma tácita.
+
+B) Un predicado nominal.
+
+C) El verbo en su modo infinitivo.
+
+D) \*\*¿Cómo es? Abundancia del adjetivo y verbos
+
+ en tercera persona.\*\*
+
+**164. Selecciona las oraciones con un conector causal.**
+
+A) La tormenta fue intensa. Suspendieron las clases.
+
+B) **Como llovía mucho, decidieron quedarse en casa.**
+
+C) Marta estudia mucho. Así aprueba los exámenes.
+
+D) María es muy inteligente. Por eso siempre obtiene buenas calificaciones.
+
+**165. ¿Cuál es la definición correcta de la palabra subrayada en el siguiente enunciado?**
+“Esa película es muy **monótona**, siempre pasa lo mismo y nunca hay sorpresas.”
+
+A) Emocionante.
+
+B) **Aburrida.**
+
+C) Interesante.
+
+D) Divertida.
+
+**166. Elegir la opción en la que la palabra subrayada es un sustantivo.**
+
+A) **Las olas del mar eran muy altas.**
+
+B) Marta siempre salta muy alto.
+
+C) El gato miraba fijamente a la ardilla.
+
+D) Corría tan rápido que el viento le despeinaba.
+
+**167. Identificar la figura literaria en la siguiente expresión.**
+
+“Tus ojos son dos luceros que iluminan mi camino.”
+
+A) Comparación.
+
+B) **Metáfora.**
+
+C) Anáfora.
+
+D) Hipérbole.
+
+**168. Escribe la oración en la que se presenta un hiato.**
+
+A) **País.**
+
+B) Papel.
+
+C) Río.
+
+D) Suelo.
+
+**169. Identificar el error en la siguiente oración.**
+
+A) La maestra dio un repaso de la lección antes del examen.
+
+B) **A Juan no le gusta ni patinar ni esquiar.**
+
+C) Laura y María no vino a la reunión.
+
+D) El perro corrió velozmente hacia su dueño.
+
+**170. Identifica el sujeto de la oración “El viento movía las hojas de los árboles”.**
+
+A) Viento.
+
+B) Árboles.
+
+C) **El viento.**
+
+D) Hojas.
