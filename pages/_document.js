@@ -17,7 +17,7 @@ export default function Document() {
 
         <Script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=${G-0529X1RN3D}"
+          src="https://www.googletagmanager.com/gtag/js?id=G-0529X1RN3D"
         />
 
         <Script id="google-analytics">
