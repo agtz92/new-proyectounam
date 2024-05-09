@@ -16,17 +16,18 @@ export default function Document() {
         ></script>
 
         <Script
+          id="init-ga"
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-0529X1RN3D"
         />
 
-        <Script id="google-analytics">
+        <Script id="google-analytics" >
           {`
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
             
-              gtag('config', ${"${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}"});
+              gtag('config', G-0529X1RN3D);
           `}
         </Script>
       </Head>
