@@ -17,7 +17,7 @@ export default function Document() {
 
         <Script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=G-YRGDLQ7446"
+          src="https://www.googletagmanager.com/gtag/js?id=${G-0529X1RN3D}"
         />
 
         <Script id="google-analytics">
@@ -26,7 +26,7 @@ export default function Document() {
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
             
-              gtag('config', ${"${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}"});
+              gtag('config', ${'${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}'});
           `}
         </Script>
       </Head>
