@@ -14,17 +14,6 @@ export default function Document() {
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7182528185795867"
           crossorigin="anonymous"
         ></script>
-
-        <script id="init-ga" async src="https://www.googletagmanager.com/gtag/js?id=G-0529X1RN3D"></script>
-
-        <Script id="google-analytics" >
-          {`
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', G-0529X1RN3D);
-          `}
-        </Script>
       </Head>
       <body>
         <Main />

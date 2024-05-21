@@ -10,16 +10,16 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Script
-        strategy="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id=G-0529X1RN3D`}
+        strategy="afterInteractive"
+        src={"https://www.googletagmanager.com/gtag/js?id=G-0529X1RN3D"}
       />
 
-      <Script strategy="lazyOnload" id="GA">
+      <Script strategy="afterInteractive" id="google-analytics">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', G-0529X1RN3D);
+          gtag('config', 'G-0529X1RN3D');
           
          `}
       </Script>
