@@ -3,7 +3,7 @@ import Script from "next/script"
 
 export default function Document() {
   return (
-    <Html lang="en">
+    <Html lang="es">
       <Head>
         <script
           async
@@ -15,18 +15,13 @@ export default function Document() {
           crossorigin="anonymous"
         ></script>
 
-        <Script
-          id="init-ga"
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-0529X1RN3D"
-        />
+        <script id="init-ga" async src="https://www.googletagmanager.com/gtag/js?id=G-0529X1RN3D"></script>
 
         <Script id="google-analytics" >
           {`
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-            
               gtag('config', G-0529X1RN3D);
           `}
         </Script>
