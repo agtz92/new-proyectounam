@@ -35,6 +35,18 @@ const Backlinks = (props) => {
               , para soldadura, antiestática y muchas más
             </li>
             <li>
+              En rollospvc.com tenemos cortinas hawaianas a la medida,
+              fabricadas con
+              <a
+                href="https://www.rollospvc.com/productos"
+                target="_blank"
+                rel="noopener"
+              >
+                PVC Transparente
+              </a>
+              , para soldadura, antiestática y muchas más
+            </li>
+            <li>
               Ofertas en productos para bebés en
               <a
                 href="https://www.soy-nuevo.com"
