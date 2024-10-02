@@ -112,6 +112,14 @@ const Footer = () => {
           </Link>
           <Link
             className="footer-link"
+            href="https://www.rollospvc.com/productos"
+            target="_blank"
+            rel="noopener"
+          >
+            Cortina Hawaiana. Cortinas Hawaianas de PVC
+          </Link>
+          <Link
+            className="footer-link"
             href="https://www.10datos.com"
             target="_blank"
             rel="noopener"
