@@ -4,7 +4,7 @@ title: "Cómo lograr una concentración inquebrantable: hábitos, rutinas y
 featuredimage: https://blog.rincondelvago.com/wp-content/uploads/2024/08/stephen-andrews-u0zTce7KNlY-unsplash-750x430.jpg
 date: 2025-04-17T06:54:46.597Z
 dificultad: Preparatoria / Universidad
-categoria: Preguntas de Examen
+categoria: Noticias
 tags:
   - "#concentración"
   - "#hábitosdeestudio"
