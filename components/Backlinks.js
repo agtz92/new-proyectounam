@@ -106,7 +106,7 @@ const Backlinks = (props) => {
               Excelentes para gimnasios exteriores o parques para niños
             </li>
             <li>
-              Noicias de 
+              Noticias de 
               <a
                 href="https://www.mexgamer.com/categories/anime"
                 target="_blank"
