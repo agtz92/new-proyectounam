@@ -6,7 +6,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "*", // Allow images from all domains
+        hostname: "**", // Allow images from all domains
       },
     ], // <-- Leave empty if unoptimized
   },
