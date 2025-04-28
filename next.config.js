@@ -3,7 +3,12 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     unoptimized: true, // <-- Allow images from any domain without optimization
-    remotePatterns: [], // <-- Leave empty if unoptimized
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "*", // Allow images from all domains
+      },
+    ], // <-- Leave empty if unoptimized
   },
 }
 
