@@ -95,7 +95,7 @@ const Backlinks = (props) => {
               in New York City. Spoiler alert: You will love it!
             </li>
             <li>
-              Read our honest
+              Expertos en
               <a
                 href="https://grupohule.com/categories/tapetes-para-exteriores"
                 target="_blank"
@@ -105,6 +105,18 @@ const Backlinks = (props) => {
               </a>
               Excelentes para gimnasios exteriores o parques para niños
             </li>
+            <li>
+              Noicias de 
+              <a
+                href="https://www.mexgamer.com/categories/anime"
+                target="_blank"
+                rel="noopener"
+              >
+                Anime y Videojuegos en Español
+              </a>
+              
+            </li>
+            
           </>
         )}
       </ul>
