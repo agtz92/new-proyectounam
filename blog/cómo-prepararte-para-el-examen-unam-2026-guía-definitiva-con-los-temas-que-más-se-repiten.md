@@ -1,0 +1,136 @@
+---
+title: "Cómo prepararte para el examen UNAM 2026: guía definitiva con los temas
+  que más se repiten"
+featuredimage: data:image/jpeg;base64,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
+date: 2025-10-23T05:34:40.160Z
+dificultad: Preparatoria / Universidad
+categoria: Noticias
+tags:
+  - "#UNAM"
+  - "#examenadmisión"
+  - "#guíaUNAM"
+short-description: El examen de admisión a la UNAM 2026 será uno de los más
+  competitivos de los últimos años. Con miles de aspirantes por carrera, los
+  temas que se repiten cada convocatoria son la clave para alcanzar los aciertos
+  necesarios. Este artículo te ofrece una guía completa para dominar los temas
+  más difíciles, entender cómo se formulan los reactivos y aprender estrategias
+  prácticas para mejorar tus resultados. Si estudias con poco tiempo o estás
+  retomando el ritmo después de vacaciones, aquí encontrarás apuntes esenciales,
+  técnicas efectivas y un plan para repasar sin saturarte.
+mk1: >-
+  <!--StartFragment-->
+
+
+  ### Estructura general del examen UNAM
+
+
+  **Conoce cómo se distribuyen las materias y cuántos aciertos necesitas para tu carrera.**
+
+
+  El examen de admisión de la UNAM tiene 120 preguntas divididas en áreas según la carrera. Si vas para Ciencias Físico-Matemáticas o Ingenierías, se refuerzan Matemáticas, Física y Química; si vas para Ciencias Sociales o Humanidades, predominan Español, Historia y Literatura. Sin embargo, Matemáticas y Comprensión lectora siempre aparecen, sin importar el área.
+
+
+  La clave está en revisar las guías oficiales y los exámenes liberados de años anteriores. Los reactivos se repiten con ligeras variaciones en redacción, pero los conceptos son los mismos. Así puedes detectar patrones: por ejemplo, en Matemáticas casi siempre hay 4 o 5 ejercicios de funciones, en Física 2 de energía y 3 de cinemática, y en Química 3 o 4 de estequiometría.
+
+
+  <!--EndFragment-->
+mk2: >-
+  <!--StartFragment-->
+
+
+  ### Matemáticas: el bloque que más pesa
+
+
+  **Funciones, álgebra, geometría analítica y probabilidad son los pilares para ganar aciertos.**
+
+
+  La parte de Matemáticas suele definir tu puntaje final. Los temas que más se repiten incluyen productos notables, factorización, ecuaciones cuadráticas, sistemas de ecuaciones, funciones lineales y cuadráticas, y trigonometría básica. En áreas 1 y 2, también aparecen límites y derivadas, aunque de manera sencilla.
+
+
+  Para estudiar, divide tus sesiones en tres fases: primero entiende la teoría con ejemplos resueltos, luego repite problemas similares cambiando datos, y finalmente mide tu tiempo con ejercicios tipo examen. La velocidad y precisión se desarrollan con práctica cronometrada. Una buena meta es resolver 40 reactivos de Matemáticas por semana.
+
+
+  <!--EndFragment-->
+mk3: >-
+  <!--StartFragment-->
+
+
+  ### Español y comprensión lectora: el filtro silencioso
+
+
+  **Identificar ideas principales, inferencias y conectores te da puntos que pocos aprovechan.**
+
+
+  En la sección de Español, muchos aspirantes confían demasiado y pierden aciertos por distracciones. El examen busca evaluar tu capacidad para entender argumentos, distinguir hechos de opiniones, y reconocer conectores lógicos como “sin embargo”, “por lo tanto” o “aunque”. También se incluyen reglas de ortografía y uso correcto de signos de puntuación.
+
+
+  Un consejo clave es leer la pregunta antes del texto. Así tu mente busca la información precisa y reduces tiempo. Practica con lecturas breves (200 a 300 palabras) y contesta tres preguntas por cada una. Anota tus errores comunes en vocabulario y ortografía, y revísalos cada tres días. Esto entrena tu atención y tu memoria verbal.
+
+
+  <!--EndFragment-->
+mk4: >-
+  <!--StartFragment-->
+
+
+  ### Ciencias: Física, Química y Biología que sí caen
+
+
+  **Los problemas aplicados a la vida real son los favoritos del examen UNAM.**
+
+
+  En Física, domina MRU y MRUA, ley de Newton, energía cinética, potencial y trabajo. También repasa electricidad básica y gráficas de movimiento. Los errores más comunes son confundir signos o no identificar bien los ejes.
+
+
+  En Química, céntrate en masa molar, balanceo de ecuaciones, molaridad, gases ideales y pH. El examen no suele incluir temas avanzados, pero sí exige agilidad para hacer conversiones y leer unidades. En Biología, repasa el ciclo celular, fotosíntesis, respiración celular, genética mendeliana y ADN/ARN. La mayoría de las preguntas son conceptuales, no de memoria literal.
+
+
+  El método efectivo es resolver por temas en mini-bloques: 15 minutos de teoría, 15 de práctica y 10 de autoevaluación. Así mantienes la mente activa sin saturarte.
+
+
+  <!--EndFragment-->
+mk5: >-
+  <!--StartFragment-->
+
+
+  ### Técnicas para estudiar más inteligente, no más horas
+
+
+  **La clave es la constancia y el repaso espaciado, no el cansancio acumulado.**
+
+
+  Estudiar 10 horas seguidas no sirve si al día siguiente olvidas la mitad. Lo que sí funciona es el repaso espaciado: estudiar 25 minutos, descansar 5, y revisar el mismo tema 2 o 3 días después. También sirve enseñar lo aprendido a otra persona; explicarlo en voz alta consolida la memoria.
+
+
+  Haz un plan semanal:
+
+
+  * Lunes a jueves: repaso de materias base (Matemáticas, Español, Física).
+
+  * Viernes: simulacro de 30 preguntas.
+
+  * Sábado: repaso de errores del simulacro.
+
+  * Domingo: descanso activo o lectura ligera.
+
+
+  A medida que avances, aumenta la dificultad y la cantidad de reactivos. El objetivo no es “acabar la guía”, sino entender cada tipo de pregunta y cómo resolverla bajo presión.
+
+
+  <!--EndFragment-->
+---
+<!--StartFragment-->
+
+### Plan de repaso de cuatro semanas
+
+**Organiza tu tiempo y llega seguro al examen.**
+
+Semana 1: Diagnóstico general. Realiza un examen de prueba y detecta tus áreas débiles.\
+Semana 2: Refuerzo. Enfócate en Matemáticas y Comprensión lectora.\
+Semana 3: Simulacros parciales cronometrados (60 reactivos por día).\
+Semana 4: Repaso de errores y técnicas de respiración y control del tiempo.
+
+La noche anterior al examen, no estudies temas nuevos. Revisa tus fórmulas, duerme al menos 8 horas y ten lista tu documentación. Durante el examen, aplica la regla de las tres vueltas: primero las preguntas fáciles, luego las medianas y al final las difíciles.
+
+Recuerda que en antesdelexamen.com puedes encontrar apuntes, resúmenes y simulacros diseñados para estudiantes de preparatoria que se preparan para ingresar a la UNAM. Estudia con intención, practica con ritmo y verás cómo tus aciertos aumentan.
+
+<!--EndFragment-->
