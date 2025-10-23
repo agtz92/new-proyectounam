@@ -1,6 +1,6 @@
 ---
 title: "IPN Ingeniería 2026: temas sorpresa del examen y apuntes exprés para 90+
-  aciertos  https://i.ytimg.com/vi/BOE3Sl5XCBI/maxresdefault.jpg"
+  aciertos  "
 featuredimage: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQndCGFOl-BHG8xTtK_hV-0yGcPjQ-GQlJ1rQ&s
 date: 2025-10-23T05:31:24.343Z
 dificultad: Preparatoria / Universidad
