@@ -35,9 +35,9 @@ const LargeCard = ({ post, height }) => {
       }}
     >
       <CardContent>
-        <h1 style={{ height: "6em", fontSize: "1.2em", fontWeight: "600" }}>
+        <h3 style={{ height: "6em", fontSize: "1.2em", fontWeight: "600" }}>
           {post.title}
-        </h1>
+        </h3>
         <div className="featuredimage-wrapper ">
           <Image
             className="featuredimg"

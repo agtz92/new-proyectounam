@@ -6,7 +6,7 @@ import { Box, Grid, Pagination, Stack } from "@mui/material"
 import Link from "next/link"
 import Head from "next/head"
 import LargeCard from "@/components/LargeCard"
-import { sitename } from "@/components/siteData"
+import { sitename, sitedomain } from "@/components/siteData"
 import Backlinks from "@/components/Backlinks"
 
 function removeSpecialCharactersAndLowerCase(str) {
@@ -36,6 +36,8 @@ function CategoryPage({ matchingFiles, category, isMobile }) {
   }, [category])
 
   const title = sitename + " | " + category
+  const description = `Encuentra artículos y bancos de preguntas sobre ${category} en ${sitename}. Prepárate para tu examen de admisión.`
+  const canonicalUrl = `${sitedomain}/categorias/${removeSpecialCharactersAndLowerCase(category)}`
 
   return (
     <Box
@@ -43,6 +45,16 @@ function CategoryPage({ matchingFiles, category, isMobile }) {
     >
       <Head>
         <title>{title}</title>
+        <meta name="description" content={description} />
+        <link rel="canonical" href={canonicalUrl} />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:site_name" content={sitename} />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={description} />
       </Head>
       <Box
         display={"flex"}
@@ -55,7 +67,7 @@ function CategoryPage({ matchingFiles, category, isMobile }) {
         }}
         className='margins'
       >
-        <h3
+        <h1
           style={{
             fontSize: "1.5em",
             fontWeight: 600,
@@ -64,7 +76,7 @@ function CategoryPage({ matchingFiles, category, isMobile }) {
           }}
         >
           {category.toUpperCase()}
-        </h3>
+        </h1>
       </Box>
 
       <Grid container spacing={2}>

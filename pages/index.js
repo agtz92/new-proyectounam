@@ -6,7 +6,7 @@ import Head from "next/head"
 import  Grid  from "@mui/material/Grid"
 import Box from "@mui/material/Box"
 //import LargeCard from "@/components/LargeCard"
-import { sitename } from "../components/siteData"
+import { sitename, sitedomain, motto } from "../components/siteData"
 import CoverCard from "@/components/CoverCard"
 import { Button } from "@mui/material"
 //import TextCard from "@/components/TextCard"
@@ -28,8 +28,23 @@ export default function Home({ blogs, isMobile }) {
       className='margins5'
     >
       <Head>
-        <title>{sitename}</title>
+        <title>{sitename + " | " + motto}</title>
+        <meta name="description" content={`${sitename} - ${motto}. Encuentra bancos de preguntas, simulacros y guías de estudio para tu examen de admisión.`} />
+        <link rel="canonical" href={sitedomain} />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={`${sitename} | ${motto}`} />
+        <meta property="og:description" content={`${sitename} - ${motto}. Encuentra bancos de preguntas, simulacros y guías de estudio para tu examen de admisión.`} />
+        <meta property="og:url" content={sitedomain} />
+        <meta property="og:site_name" content={sitename} />
+        <meta property="og:image" content={`${sitedomain}/assets/logo.png`} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={`${sitename} | ${motto}`} />
+        <meta name="twitter:description" content={`${sitename} - ${motto}. Encuentra bancos de preguntas, simulacros y guías de estudio para tu examen de admisión.`} />
+        <meta name="twitter:image" content={`${sitedomain}/assets/logo.png`} />
       </Head>
+      <h1 style={{ position: "absolute", width: "1px", height: "1px", padding: 0, margin: "-1px", overflow: "hidden", clip: "rect(0,0,0,0)", whiteSpace: "nowrap", border: 0 }}>
+        {sitename} - {motto}
+      </h1>
       <Box
         display={"flex"}
         flexDirection={"column"}
@@ -40,7 +55,7 @@ export default function Home({ blogs, isMobile }) {
           marginBottom: 5,
         }}
       >
-        <h3
+        <h2
           style={{
             fontSize: "1.5em",
             fontWeight: 600,
@@ -49,7 +64,7 @@ export default function Home({ blogs, isMobile }) {
           }}
         >
           POSTS RECIENTES
-        </h3>
+        </h2>
       </Box>
       <Grid container spacing={2}>
         <Grid item xs={12} md={6}>
@@ -99,7 +114,7 @@ export default function Home({ blogs, isMobile }) {
         }}
         className='margins'
       >
-        <h3
+        <h2
           style={{
             fontSize: "1.5em",
             fontWeight: 600,
@@ -108,7 +123,7 @@ export default function Home({ blogs, isMobile }) {
           }}
         >
           PREGUNTAS DE EXAMEN
-        </h3>
+        </h2>
       </Box>
       <Grid container spacing={2} sx={{ marginTop: 2 }}>
         {deals.map((blog) => (
@@ -147,7 +162,7 @@ export default function Home({ blogs, isMobile }) {
         }}
         className='margins'
       >
-        <h3
+        <h2
           style={{
             fontSize: "1.5em",
             fontWeight: 600,
@@ -156,7 +171,7 @@ export default function Home({ blogs, isMobile }) {
           }}
         >
           OTROS POSTS
-        </h3>
+        </h2>
       </Box>
       <Grid container spacing={2} sx={{ marginTop: 2 }}>
         {daRest.map((blog) => (
