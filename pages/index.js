@@ -24,15 +24,13 @@ const categories = [
 
 export default function Home({ blogs }) {
   const sortedBlogs = blogs.sort((a, b) => new Date(b.date) - new Date(a.date))
-  const first = sortedBlogs.slice(0, 1)
-  const nextTwo = sortedBlogs.slice(1, 3)
-  const nextFour = sortedBlogs.slice(3, 7)
-  const daRest = sortedBlogs.slice(7, 15)
-  const TextCard = dynamic(() => import("@/components/TextCard"))
+  const featured = sortedBlogs.slice(0, 1)
+  const recent = sortedBlogs.slice(1, 7)
   const LargeCard = dynamic(() => import("@/components/LargeCard"))
   const deals = sortedBlogs
     .filter((blog) => blog.categoria === "Preguntas de Examen")
-    .slice(0, 8)
+    .slice(0, 6)
+  const otherPosts = sortedBlogs.slice(7, 13)
 
   return (
     <Box>
@@ -58,13 +56,10 @@ export default function Home({ blogs }) {
           name="twitter:description"
           content={`${sitename} - ${motto}. Encuentra bancos de preguntas, simulacros y guias de estudio para tu examen de admision.`}
         />
-        <meta
-          name="twitter:image"
-          content={`${sitedomain}/assets/logo.png`}
-        />
+        <meta name="twitter:image" content={`${sitedomain}/assets/logo.png`} />
       </Head>
 
-      {/* ===== Hero Section ===== */}
+      {/* ===== Hero ===== */}
       <div className="hero-section">
         <h1
           style={{
@@ -98,52 +93,35 @@ export default function Home({ blogs }) {
         ))}
       </div>
 
-      {/* ===== Section 01: Posts Recientes — Bento Layout ===== */}
       <Box className="margins5">
+        {/* ===== Section 01: Posts Recientes ===== */}
         <div className="section-header">
           <span className="section-number">01</span>
           <h2>Posts Recientes</h2>
           <div className="section-line" />
         </div>
 
+        {/* Featured post — full width */}
+        {featured.map((blog) => (
+          <Box key={blog.slug} sx={{ mb: 3 }}>
+            <Link href={`/${blog.slug}`}>
+              <CoverCard post={blog} h1="1.5rem" />
+            </Link>
+          </Box>
+        ))}
+
+        {/* Recent grid — 3 columns */}
         <Grid container spacing={2}>
-          {/* Row 1: Full-width featured post */}
-          {first.map((blog) => (
-            <Grid key={blog.slug} item xs={12}>
+          {recent.map((blog) => (
+            <Grid key={blog.slug} item xs={12} sm={6} md={4}>
               <Link href={`/${blog.slug}`}>
-                <CoverCard post={blog} h1="1.6rem" />
+                <LargeCard post={blog} />
               </Link>
             </Grid>
           ))}
-
-          {/* Row 2 left: Two secondary covers */}
-          <Grid item xs={12} md={8}>
-            <Grid container spacing={2}>
-              {nextTwo.map((blog) => (
-                <Grid key={blog.slug} item xs={12} sm={6}>
-                  <Link href={`/${blog.slug}`}>
-                    <CoverCard post={blog} secondary />
-                  </Link>
-                </Grid>
-              ))}
-            </Grid>
-          </Grid>
-
-          {/* Row 2 right: Four stacked text cards */}
-          <Grid item xs={12} md={4}>
-            <Grid container spacing={1}>
-              {nextFour.map((blog) => (
-                <Grid key={blog.slug} item xs={12}>
-                  <Link href={`/${blog.slug}`}>
-                    <TextCard post={blog} height="auto" />
-                  </Link>
-                </Grid>
-              ))}
-            </Grid>
-          </Grid>
         </Grid>
 
-        {/* ===== Section 02: Preguntas de Examen — Featured + Scroll ===== */}
+        {/* ===== Section 02: Preguntas de Examen ===== */}
         <Box sx={{ mt: 8 }}>
           <div className="section-header">
             <span className="section-number">02</span>
@@ -152,29 +130,15 @@ export default function Home({ blogs }) {
           </div>
         </Box>
 
-        {deals.length > 0 && (
-          <Grid container spacing={2} alignItems="stretch">
-            {/* Left: Featured question post */}
-            <Grid item xs={12} md={4}>
-              <Link href={`/${deals[0].slug}`}>
-                <CoverCard post={deals[0]} secondary />
+        <Grid container spacing={2}>
+          {deals.map((blog) => (
+            <Grid key={blog.slug} item xs={12} sm={6} md={4}>
+              <Link href={`/${blog.slug}`}>
+                <LargeCard post={blog} />
               </Link>
             </Grid>
-
-            {/* Right: Horizontal scrolling strip */}
-            <Grid item xs={12} md={8}>
-              <Box className="scroll-strip">
-                {deals.slice(1).map((blog) => (
-                  <Box key={blog.slug} className="scroll-strip-item">
-                    <Link href={`/${blog.slug}`}>
-                      <TextCard post={blog} height="200px" />
-                    </Link>
-                  </Box>
-                ))}
-              </Box>
-            </Grid>
-          </Grid>
-        )}
+          ))}
+        </Grid>
 
         <Box display="flex" justifyContent="center" sx={{ mt: 5, mb: 5 }}>
           <Link
@@ -186,48 +150,21 @@ export default function Home({ blogs }) {
           </Link>
         </Box>
 
-        {/* ===== Section 03: Otros Posts — Zigzag Magazine ===== */}
-        <Box sx={{ mt: 4 }}>
-          <div className="section-header">
-            <span className="section-number">03</span>
-            <h2>Otros Posts</h2>
-            <div className="section-line" />
-          </div>
-        </Box>
+        {/* ===== Section 03: Otros Posts ===== */}
+        <div className="section-header">
+          <span className="section-number">03</span>
+          <h2>Otros Posts</h2>
+          <div className="section-line" />
+        </div>
 
         <Grid container spacing={2}>
-          {Array.from({ length: 4 }, (_, rowIndex) => {
-            const leftPost = daRest[rowIndex * 2]
-            const rightPost = daRest[rowIndex * 2 + 1]
-            const isEven = rowIndex % 2 === 0
-
-            if (!leftPost) return null
-
-            return (
-              <React.Fragment key={rowIndex}>
-                <Grid item xs={12} md={isEven ? 8 : 4}>
-                  <Link href={`/${leftPost.slug}`}>
-                    {isEven ? (
-                      <LargeCard post={leftPost} />
-                    ) : (
-                      <TextCard post={leftPost} height="200px" />
-                    )}
-                  </Link>
-                </Grid>
-                {rightPost && (
-                  <Grid item xs={12} md={isEven ? 4 : 8}>
-                    <Link href={`/${rightPost.slug}`}>
-                      {isEven ? (
-                        <TextCard post={rightPost} height="200px" />
-                      ) : (
-                        <LargeCard post={rightPost} />
-                      )}
-                    </Link>
-                  </Grid>
-                )}
-              </React.Fragment>
-            )
-          })}
+          {otherPosts.map((blog) => (
+            <Grid key={blog.slug} item xs={12} sm={6} md={4}>
+              <Link href={`/${blog.slug}`}>
+                <LargeCard post={blog} />
+              </Link>
+            </Grid>
+          ))}
         </Grid>
       </Box>
     </Box>

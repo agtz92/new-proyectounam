@@ -118,7 +118,7 @@ export default function Blog({ frontmatter, markdown, isMobile }) {
               más importantes de México. Tenemos bancos de preguntas por materia
               y por area. Bancos de preguntas Area 1, Bancos de preguntas Area
               2, Bancos de preguntas area 3, Bancos de preguntas Area 4.
-              Simulacros UNAM , IPN, UAM, UAEM. Guía UNAM 2021, Guía IPN 2021.{" "}
+              Simulacros UNAM, IPN, UAM, UAEM. Guia UNAM 2026, Guia IPN 2026.{" "}
               <br></br>
               Agréganos en facebook buscando @antesdelexamen
             </p>

@@ -4,7 +4,6 @@ import path from "path"
 import matter from "gray-matter"
 import Link from "next/link"
 import LargeCard from "@/components/LargeCard"
-import TextCard from "@/components/TextCard"
 import { Box, Grid, Pagination, Stack } from "@mui/material"
 import Head from "next/head"
 import { sitename, sitedomain } from "@/components/siteData"
@@ -65,41 +64,13 @@ function TagPage({ matchingFiles, tag }) {
         </div>
 
         <Grid container spacing={2}>
-          {blogsToDisplay && Array.from(
-            { length: Math.ceil(blogsToDisplay.length / 2) },
-            (_, rowIndex) => {
-              const leftPost = blogsToDisplay[rowIndex * 2]
-              const rightPost = blogsToDisplay[rowIndex * 2 + 1]
-              const isEven = rowIndex % 2 === 0
-
-              if (!leftPost) return null
-
-              return (
-                <React.Fragment key={rowIndex}>
-                  <Grid item xs={12} md={isEven ? 8 : 4}>
-                    <Link href={`/${leftPost.slug}`}>
-                      {isEven ? (
-                        <LargeCard post={leftPost} />
-                      ) : (
-                        <TextCard post={leftPost} height="200px" />
-                      )}
-                    </Link>
-                  </Grid>
-                  {rightPost && (
-                    <Grid item xs={12} md={isEven ? 4 : 8}>
-                      <Link href={`/${rightPost.slug}`}>
-                        {isEven ? (
-                          <TextCard post={rightPost} height="200px" />
-                        ) : (
-                          <LargeCard post={rightPost} />
-                        )}
-                      </Link>
-                    </Grid>
-                  )}
-                </React.Fragment>
-              )
-            }
-          )}
+          {blogsToDisplay?.map((file) => (
+            <Grid key={file.slug} item xs={12} sm={6} md={4}>
+              <Link href={`/${file.slug}`}>
+                <LargeCard post={file} />
+              </Link>
+            </Grid>
+          ))}
         </Grid>
 
         {/* Pagination */}

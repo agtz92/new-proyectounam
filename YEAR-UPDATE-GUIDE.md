@@ -11,7 +11,11 @@ When updating year references in blog posts:
    - URLs (image URLs, external links — changing them will break the links)
    - Historical/factual references to real past events (news, statistics, reports)
 4. **Run** `grep -r "^title:.*OLD_YEAR" blog/` after updating to verify no titles were missed.
-5. **Commit** with a message like: `Update year references from XXXX to XXXX in blog titles and body text`
+5. **Also check** non-blog files that contain year references:
+   - `pages/[slug].js` — "Guia UNAM 20XX, Guia IPN 20XX" in the partners/backlinks section
+   - `pages/categorias/[category].js` — same text in the backlinks section
+   - `components/Footer.js` — copyright year (auto-updated via `new Date().getFullYear()`)
+6. **Commit** with a message like: `Update year references from XXXX to XXXX in blog titles and body text`
 
 ---
 
