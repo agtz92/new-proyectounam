@@ -6,43 +6,40 @@ import { Box, Grid, Pagination, Stack } from "@mui/material"
 import Link from "next/link"
 import Head from "next/head"
 import LargeCard from "@/components/LargeCard"
+import TextCard from "@/components/TextCard"
 import { sitename, sitedomain } from "@/components/siteData"
 import Backlinks from "@/components/Backlinks"
 
 function removeSpecialCharactersAndLowerCase(str) {
-  // Remove special characters, replace spaces with hyphens, and convert to lowercase
   return str
-    .normalize("NFD") // Normalize accented characters
-    .replace(/[\u0300-\u036f]/g, "") // Remove combining diacritical marks
-    .replace(/[^\w\s]/g, "") // Remove non-alphanumeric characters
-    .replace(/\s+/g, "-") // Replace spaces with hyphens
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^\w\s]/g, "")
+    .replace(/\s+/g, "-")
     .toLowerCase()
 }
 
-function CategoryPage({ matchingFiles, category, isMobile }) {
-  // Sort the blogs by date in descending order
+function CategoryPage({ matchingFiles, category }) {
   const sortedBlogs = matchingFiles?.sort(
     (a, b) => new Date(b.date) - new Date(a.date)
   )
-  //pagination
+
   const itemsPerPage = 6
   const [currentPage, setCurrentPage] = useState(1)
   const startIndex = (currentPage - 1) * itemsPerPage
   const endIndex = startIndex + itemsPerPage
   const blogsToDisplay = sortedBlogs?.slice(startIndex, endIndex)
-  //reset current page if category changes
+
   useEffect(() => {
     setCurrentPage(1)
   }, [category])
 
   const title = sitename + " | " + category
-  const description = `Encuentra artículos y bancos de preguntas sobre ${category} en ${sitename}. Prepárate para tu examen de admisión.`
+  const description = `Encuentra articulos y bancos de preguntas sobre ${category} en ${sitename}. Preparate para tu examen de admision.`
   const canonicalUrl = `${sitedomain}/categorias/${removeSpecialCharactersAndLowerCase(category)}`
 
   return (
-    <Box
-      className='margins5'
-    >
+    <Box>
       <Head>
         <title>{title}</title>
         <meta name="description" content={description} />
@@ -56,66 +53,91 @@ function CategoryPage({ matchingFiles, category, isMobile }) {
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
       </Head>
-      <Box
-        display={"flex"}
-        flexDirection={"column"}
-        justifyContent={"center"}
-        alignItems={"center"}
-        sx={{
-          borderBottom: "1px solid #f9f871",
-          marginBottom: 5,
-        }}
-        className='margins'
-      >
-        <h1
-          style={{
-            fontSize: "1.5em",
-            fontWeight: 600,
-            textAlign: "center",
-            letterSpacing: "2px",
-          }}
-        >
-          {category.toUpperCase()}
-        </h1>
-      </Box>
 
-      <Grid container spacing={2}>
-        {blogsToDisplay?.map((file, index) => (
-          <Grid key={index} item xs={12} md={4}>
-            <Link href={`/${file.slug}`}>
-              <LargeCard post={file} />
-            </Link>
-          </Grid>
-        ))}
-      </Grid>
-      {/*Pagination*/}
-      <Stack
-        spacing={2}
-        display={"flex"}
-        flexDirection={"row"}
-        alignContent={"space-evenly"}
-        justifyContent={"space-evenly"}
-        sx={{ marginTop: 5 }}
-      >
-        <Pagination
-          count={Math.ceil(sortedBlogs.length / itemsPerPage)}
-          size="large"
-          page={currentPage}
-          onChange={(event, page) => setCurrentPage(page)}
-        />
-      </Stack>
-      <div className="parpost light">
-        <Backlinks categoria={category} />
-        <p style={{ color: "#ddd" }}>
-          antesdelexamen es una página de internet gratuita con bancos de
-          preguntas de examen para UNAM, IPN y todas las demás universidades más
-          importantes de México. Tenemos bancos de preguntas por materia y por
-          area. Bancos de preguntas Area 1, Bancos de preguntas Area 2, Bancos
-          de preguntas area 3, Bancos de preguntas Area 4. Simulacros UNAM ,
-          IPN, UAM, UAEM. Guía UNAM 2021, Guía IPN 2021. <br></br>
-          Agréganos en facebook buscando @antesdelexamen
-        </p>
+      {/* Mini Hero */}
+      <div className="mini-hero">
+        <h1 className="mini-hero-title">{category}</h1>
+        <div className="mini-hero-count">
+          {sortedBlogs.length} {sortedBlogs.length === 1 ? "articulo" : "articulos"}
+        </div>
       </div>
+
+      {/* Posts Grid — Zigzag Layout */}
+      <Box className="margins5">
+        <div className="section-header">
+          <span className="section-number">01</span>
+          <h2>Posts en {category}</h2>
+          <div className="section-line" />
+        </div>
+
+        <Grid container spacing={2}>
+          {blogsToDisplay && Array.from(
+            { length: Math.ceil(blogsToDisplay.length / 2) },
+            (_, rowIndex) => {
+              const leftPost = blogsToDisplay[rowIndex * 2]
+              const rightPost = blogsToDisplay[rowIndex * 2 + 1]
+              const isEven = rowIndex % 2 === 0
+
+              if (!leftPost) return null
+
+              return (
+                <React.Fragment key={rowIndex}>
+                  <Grid item xs={12} md={isEven ? 8 : 4}>
+                    <Link href={`/${leftPost.slug}`}>
+                      {isEven ? (
+                        <LargeCard post={leftPost} />
+                      ) : (
+                        <TextCard post={leftPost} height="200px" />
+                      )}
+                    </Link>
+                  </Grid>
+                  {rightPost && (
+                    <Grid item xs={12} md={isEven ? 4 : 8}>
+                      <Link href={`/${rightPost.slug}`}>
+                        {isEven ? (
+                          <TextCard post={rightPost} height="200px" />
+                        ) : (
+                          <LargeCard post={rightPost} />
+                        )}
+                      </Link>
+                    </Grid>
+                  )}
+                </React.Fragment>
+              )
+            }
+          )}
+        </Grid>
+
+        {/* Pagination */}
+        <Stack
+          spacing={2}
+          display="flex"
+          flexDirection="row"
+          justifyContent="center"
+          sx={{ mt: 5 }}
+        >
+          <Pagination
+            count={Math.ceil(sortedBlogs.length / itemsPerPage)}
+            size="large"
+            page={currentPage}
+            onChange={(event, page) => setCurrentPage(page)}
+          />
+        </Stack>
+
+        <div className="parpost">
+          <Backlinks categoria={category} />
+          <p>
+            antesdelexamen es una pagina de internet gratuita con bancos de
+            preguntas de examen para UNAM, IPN y todas las demas universidades
+            mas importantes de Mexico. Tenemos bancos de preguntas por materia
+            y por area. Bancos de preguntas Area 1, Bancos de preguntas Area
+            2, Bancos de preguntas area 3, Bancos de preguntas Area 4.
+            Simulacros UNAM, IPN, UAM, UAEM. Guia UNAM 2026, Guia IPN 2026.
+            <br />
+            Agreganos en facebook buscando @antesdelexamen
+          </p>
+        </div>
+      </Box>
     </Box>
   )
 }
@@ -139,7 +161,6 @@ export async function getStaticProps({ params }) {
         removeSpecialCharactersAndLowerCase(frontmatter.categoria) ===
           categorySlug
       ) {
-        // Read the slug from frontmatter
         const slug = frontmatter.slug || file.slice(0, file.indexOf("."))
         matchingFiles.push({
           slug,
@@ -164,12 +185,12 @@ export async function getStaticProps({ params }) {
     }
   }
 }
+
 export async function getStaticPaths() {
   const files = fs.readdirSync("./categorias")
   const categorias = new Set()
 
   for (const file of files) {
-    // Check if the file is not hidden (doesn't start with a dot)
     if (!file.startsWith(".")) {
       const fileContent = matter(
         fs.readFileSync(path.join("./categorias", file), "utf8")
@@ -190,7 +211,7 @@ export async function getStaticPaths() {
 
   return {
     paths,
-    fallback: "blocking", // Allow for custom handling of 404-like cases
+    fallback: "blocking",
   }
 }
 

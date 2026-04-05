@@ -4,39 +4,36 @@ import path from "path"
 import matter from "gray-matter"
 import Link from "next/link"
 import LargeCard from "@/components/LargeCard"
+import TextCard from "@/components/TextCard"
 import { Box, Grid, Pagination, Stack } from "@mui/material"
 import Head from "next/head"
 import { sitename, sitedomain } from "@/components/siteData"
 
 function removeSpecialCharactersAndLowerCase(str) {
-  // Remove special characters and spaces and convert to lowercase
   return str.replace(/[^a-zA-Z0-9]+/g, "").toLowerCase()
 }
 
-function TagPage({ matchingFiles, tag, isMobile }) {
+function TagPage({ matchingFiles, tag }) {
   const sortedBlogs = matchingFiles?.sort(
     (a, b) => new Date(b.date) - new Date(a.date)
   )
 
-  //pagination
   const itemsPerPage = 6
   const [currentPage, setCurrentPage] = useState(1)
   const startIndex = (currentPage - 1) * itemsPerPage
   const endIndex = startIndex + itemsPerPage
   const blogsToDisplay = sortedBlogs?.slice(startIndex, endIndex)
-  //reset current page if tag changes
+
   useEffect(() => {
     setCurrentPage(1)
   }, [tag])
 
   const title = sitename + " | #" + tag
-  const description = `Artículos etiquetados con #${tag} en ${sitename}. Encuentra recursos y bancos de preguntas para tu examen.`
+  const description = `Articulos etiquetados con #${tag} en ${sitename}. Encuentra recursos y bancos de preguntas para tu examen.`
   const canonicalUrl = `${sitedomain}/tags/${tag}`
 
   return (
-    <Box
-      className='margins5'
-    >
+    <Box>
       <Head>
         <title>{title}</title>
         <meta name="description" content={description} />
@@ -50,35 +47,77 @@ function TagPage({ matchingFiles, tag, isMobile }) {
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
       </Head>
-      <h1 style={{ textAlign: "center", fontWeight: 600 }}>
-        #{tag.toUpperCase()}
-      </h1>
 
-      <Grid container spacing={2}>
-        {blogsToDisplay?.map((file, index) => (
-          <Grid key={index} item xs={12} md={4}>
-            <Link href={`/${file.slug}`}>
-              <LargeCard post={file} />
-            </Link>
-          </Grid>
-        ))}
-      </Grid>
-      {/*Pagination*/}
-      <Stack
-        spacing={2}
-        display={"flex"}
-        flexDirection={"row"}
-        alignContent={"space-evenly"}
-        justifyContent={"space-evenly"}
-        sx={{ marginTop: 5 }}
-      >
-        <Pagination
-          count={Math.ceil(sortedBlogs.length / itemsPerPage)}
-          size="large"
-          page={currentPage}
-          onChange={(event, page) => setCurrentPage(page)}
-        />
-      </Stack>
+      {/* Mini Hero */}
+      <div className="mini-hero">
+        <h1 className="mini-hero-title">#{tag}</h1>
+        <div className="mini-hero-count">
+          {sortedBlogs.length} {sortedBlogs.length === 1 ? "articulo" : "articulos"}
+        </div>
+      </div>
+
+      {/* Posts Grid — Zigzag Layout */}
+      <Box className="margins5">
+        <div className="section-header">
+          <span className="section-number">01</span>
+          <h2>Posts con #{tag}</h2>
+          <div className="section-line" />
+        </div>
+
+        <Grid container spacing={2}>
+          {blogsToDisplay && Array.from(
+            { length: Math.ceil(blogsToDisplay.length / 2) },
+            (_, rowIndex) => {
+              const leftPost = blogsToDisplay[rowIndex * 2]
+              const rightPost = blogsToDisplay[rowIndex * 2 + 1]
+              const isEven = rowIndex % 2 === 0
+
+              if (!leftPost) return null
+
+              return (
+                <React.Fragment key={rowIndex}>
+                  <Grid item xs={12} md={isEven ? 8 : 4}>
+                    <Link href={`/${leftPost.slug}`}>
+                      {isEven ? (
+                        <LargeCard post={leftPost} />
+                      ) : (
+                        <TextCard post={leftPost} height="200px" />
+                      )}
+                    </Link>
+                  </Grid>
+                  {rightPost && (
+                    <Grid item xs={12} md={isEven ? 4 : 8}>
+                      <Link href={`/${rightPost.slug}`}>
+                        {isEven ? (
+                          <TextCard post={rightPost} height="200px" />
+                        ) : (
+                          <LargeCard post={rightPost} />
+                        )}
+                      </Link>
+                    </Grid>
+                  )}
+                </React.Fragment>
+              )
+            }
+          )}
+        </Grid>
+
+        {/* Pagination */}
+        <Stack
+          spacing={2}
+          display="flex"
+          flexDirection="row"
+          justifyContent="center"
+          sx={{ mt: 5 }}
+        >
+          <Pagination
+            count={Math.ceil(sortedBlogs.length / itemsPerPage)}
+            size="large"
+            page={currentPage}
+            onChange={(event, page) => setCurrentPage(page)}
+          />
+        </Stack>
+      </Box>
     </Box>
   )
 }
@@ -98,23 +137,17 @@ export async function getStaticPaths() {
         if (tag && tag.length > 0) {
           const tagSlug = removeSpecialCharactersAndLowerCase(tag)
           tags.add(tagSlug)
-          //console.log("final tag:", tagSlug, "from: ", frontmatter.slug)
         }
       })
-    } else {
-      console.log("bad path: ", frontmatter.slug)
     }
   }
 
-  // Convert the tags set to an array, filter out empty strings
   const uniqueTagsArray = Array.from(tags).filter(
     (tagSlug) => tagSlug && tagSlug.length > 0
   )
-  //console.log("uniqueTags: ", uniqueTagsArray)
 
-  // Map the unique tags to the paths array
   const paths = uniqueTagsArray.map((tagSlug) => ({
-    params: { tag: tagSlug }, // Use the tagSlug as a string
+    params: { tag: tagSlug },
   }))
 
   return {
@@ -154,9 +187,6 @@ export async function getStaticProps({ params: { tag } }) {
           date: isoDate,
         })
       }
-    } else {
-      const badslug = file.slice(0, file.indexOf("."))
-      console.log("sin tags", badslug)
     }
   }
 

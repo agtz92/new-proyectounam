@@ -1,3 +1,4 @@
+import React from "react"
 import fs from "fs"
 import dynamic from "next/dynamic"
 import matter from "gray-matter"
@@ -97,7 +98,7 @@ export default function Home({ blogs }) {
         ))}
       </div>
 
-      {/* ===== Recent Posts ===== */}
+      {/* ===== Section 01: Posts Recientes — Bento Layout ===== */}
       <Box className="margins5">
         <div className="section-header">
           <span className="section-number">01</span>
@@ -106,21 +107,20 @@ export default function Home({ blogs }) {
         </div>
 
         <Grid container spacing={2}>
-          <Grid item xs={12} md={6}>
-            <Grid container spacing={2}>
-              {first.map((blog) => (
-                <Grid key={blog.slug} item xs={12}>
-                  <Link href={`/${blog.slug}`}>
-                    <CoverCard post={blog} />
-                  </Link>
-                </Grid>
-              ))}
+          {/* Row 1: Full-width featured post */}
+          {first.map((blog) => (
+            <Grid key={blog.slug} item xs={12}>
+              <Link href={`/${blog.slug}`}>
+                <CoverCard post={blog} h1="1.6rem" />
+              </Link>
             </Grid>
-          </Grid>
-          <Grid item xs={12} md={3}>
+          ))}
+
+          {/* Row 2 left: Two secondary covers */}
+          <Grid item xs={12} md={8}>
             <Grid container spacing={2}>
               {nextTwo.map((blog) => (
-                <Grid key={blog.slug} item xs={12}>
+                <Grid key={blog.slug} item xs={12} sm={6}>
                   <Link href={`/${blog.slug}`}>
                     <CoverCard post={blog} secondary />
                   </Link>
@@ -128,7 +128,9 @@ export default function Home({ blogs }) {
               ))}
             </Grid>
           </Grid>
-          <Grid item xs={12} md={3}>
+
+          {/* Row 2 right: Four stacked text cards */}
+          <Grid item xs={12} md={4}>
             <Grid container spacing={1}>
               {nextFour.map((blog) => (
                 <Grid key={blog.slug} item xs={12}>
@@ -141,7 +143,7 @@ export default function Home({ blogs }) {
           </Grid>
         </Grid>
 
-        {/* ===== Preguntas de Examen ===== */}
+        {/* ===== Section 02: Preguntas de Examen — Featured + Scroll ===== */}
         <Box sx={{ mt: 8 }}>
           <div className="section-header">
             <span className="section-number">02</span>
@@ -150,21 +152,31 @@ export default function Home({ blogs }) {
           </div>
         </Box>
 
-        <Grid container spacing={2}>
-          {deals.map((blog) => (
-            <Grid key={blog.slug} item xs={12} md={3}>
-              <Link href={`/${blog.slug}`}>
-                <TextCard post={blog} height={"200px"} />
+        {deals.length > 0 && (
+          <Grid container spacing={2} alignItems="stretch">
+            {/* Left: Featured question post */}
+            <Grid item xs={12} md={4}>
+              <Link href={`/${deals[0].slug}`}>
+                <CoverCard post={deals[0]} secondary />
               </Link>
             </Grid>
-          ))}
-        </Grid>
 
-        <Box
-          display="flex"
-          justifyContent="center"
-          sx={{ mt: 5, mb: 5 }}
-        >
+            {/* Right: Horizontal scrolling strip */}
+            <Grid item xs={12} md={8}>
+              <Box className="scroll-strip">
+                {deals.slice(1).map((blog) => (
+                  <Box key={blog.slug} className="scroll-strip-item">
+                    <Link href={`/${blog.slug}`}>
+                      <TextCard post={blog} height="200px" />
+                    </Link>
+                  </Box>
+                ))}
+              </Box>
+            </Grid>
+          </Grid>
+        )}
+
+        <Box display="flex" justifyContent="center" sx={{ mt: 5, mb: 5 }}>
           <Link
             href="/categorias/preguntas-de-examen"
             className="cta-button"
@@ -174,7 +186,7 @@ export default function Home({ blogs }) {
           </Link>
         </Box>
 
-        {/* ===== More Posts ===== */}
+        {/* ===== Section 03: Otros Posts — Zigzag Magazine ===== */}
         <Box sx={{ mt: 4 }}>
           <div className="section-header">
             <span className="section-number">03</span>
@@ -184,13 +196,38 @@ export default function Home({ blogs }) {
         </Box>
 
         <Grid container spacing={2}>
-          {daRest.map((blog) => (
-            <Grid key={blog.slug} item xs={12} md={3}>
-              <Link href={`/${blog.slug}`}>
-                <LargeCard post={blog} />
-              </Link>
-            </Grid>
-          ))}
+          {Array.from({ length: 4 }, (_, rowIndex) => {
+            const leftPost = daRest[rowIndex * 2]
+            const rightPost = daRest[rowIndex * 2 + 1]
+            const isEven = rowIndex % 2 === 0
+
+            if (!leftPost) return null
+
+            return (
+              <React.Fragment key={rowIndex}>
+                <Grid item xs={12} md={isEven ? 8 : 4}>
+                  <Link href={`/${leftPost.slug}`}>
+                    {isEven ? (
+                      <LargeCard post={leftPost} />
+                    ) : (
+                      <TextCard post={leftPost} height="200px" />
+                    )}
+                  </Link>
+                </Grid>
+                {rightPost && (
+                  <Grid item xs={12} md={isEven ? 4 : 8}>
+                    <Link href={`/${rightPost.slug}`}>
+                      {isEven ? (
+                        <TextCard post={rightPost} height="200px" />
+                      ) : (
+                        <LargeCard post={rightPost} />
+                      )}
+                    </Link>
+                  </Grid>
+                )}
+              </React.Fragment>
+            )
+          })}
         </Grid>
       </Box>
     </Box>
