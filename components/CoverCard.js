@@ -33,7 +33,6 @@ const CoverCard = ({ post, h1, secondary }) => {
         component="img"
         alt={post.title}
         src={post.featuredimage}
-        placeholder="blur"
         style={{
           objectFit: "cover",
           objectPosition: "center",
@@ -41,7 +40,6 @@ const CoverCard = ({ post, h1, secondary }) => {
         }}
         width="800"
         height="500"
-        blurDataURL="../public/assets/blur.jpg"
       />
 
       <CardContent

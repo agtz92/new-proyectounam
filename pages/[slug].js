@@ -69,8 +69,7 @@ export default function Blog({ frontmatter, markdown, isMobile }) {
               src={frontmatter.featuredimage}
               alt={frontmatter.title}
               fill
-              placeholder="blur"
-              blurDataURL="../public/assets/blur.jpg"
+              sizes="(max-width: 768px) 100vw, 80vw"
             />
           </div>
         </Box>
