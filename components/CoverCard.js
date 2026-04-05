@@ -1,11 +1,5 @@
 import React from "react"
-import {
-  Box,
-  Card,
-  CardContent,
-  CardMedia,
-  Chip,
-} from "@mui/material"
+import { Box, Card, CardContent, Chip } from "@mui/material"
 import Image from "next/image"
 
 const CoverCard = ({ post, h1, secondary }) => {
@@ -15,14 +9,13 @@ const CoverCard = ({ post, h1, secondary }) => {
         position: "relative",
         "&:hover": {
           "& img": {
-            transform: "scale(1.2)",
-            transition: "transform 0.2s ease",
+            transform: "scale(1.08)",
           },
         },
       }}
       className={!secondary ? "cover" : "cover-secondary"}
     >
-      {/* Black overlay */}
+      {/* Gradient overlay */}
       <Box
         sx={{
           position: "absolute",
@@ -30,25 +23,25 @@ const CoverCard = ({ post, h1, secondary }) => {
           left: 0,
           width: "100%",
           height: "100%",
-          background: "rgba(0, 0, 0, 0.6)",
+          background:
+            "linear-gradient(180deg, transparent 30%, rgba(0,0,0,0.85) 100%)",
           zIndex: 1,
         }}
-      ></Box>
+      />
 
-      {/* Image */}
       <Image
         component="img"
         alt={post.title}
         src={post.featuredimage}
         placeholder="blur"
-        style={{objectFit:"cover", objectPosition:"right bottom"}}
-        width= "800"
-        height= "500"
-        blurDataURL="../public/assets/blur.jpg"
-        sx={{
-          transition: "transform 0.2s ease",
-          zIndex: -1,
+        style={{
+          objectFit: "cover",
+          objectPosition: "center",
+          transition: "transform 600ms cubic-bezier(0.4, 0, 0.2, 1)",
         }}
+        width="800"
+        height="500"
+        blurDataURL="../public/assets/blur.jpg"
       />
 
       <CardContent
@@ -56,16 +49,28 @@ const CoverCard = ({ post, h1, secondary }) => {
           position: "absolute",
           bottom: 0,
           left: 0,
-          padding: 2,
+          right: 0,
+          padding: "24px !important",
           color: "#fff",
           zIndex: 2,
         }}
       >
-        {/* Card Content */}
-        <h3 style={{fontSize: h1 ? h1 : "1.5em"}}>{post.title}</h3>
         <Chip
           label={post.categoria}
+          size="small"
+          sx={{ mb: 1, fontSize: "0.7rem !important" }}
         />
+        <h3
+          style={{
+            fontSize: h1 ? h1 : secondary ? "1rem" : "1.3rem",
+            fontWeight: 700,
+            margin: 0,
+            lineHeight: 1.3,
+            letterSpacing: "-0.02em",
+          }}
+        >
+          {post.title}
+        </h3>
       </CardContent>
     </Card>
   )

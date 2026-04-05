@@ -1,57 +1,67 @@
 import { Card, CardContent, Chip } from "@mui/material"
 import Image from "next/image"
-import Link from "next/link"
 import React from "react"
-
 
 const LargeCard = ({ post, height }) => {
   function generateExcerpt(text, maxLength) {
     if (text) {
-      if (text.length <= maxLength) {
-        return text
-      } else {
-        const trimmedText = text.substring(0, maxLength)
-        // Ensure the last word isn't cut off
-        const lastSpaceIndex = trimmedText.lastIndexOf(" ")
-        if (lastSpaceIndex !== -1) {
-          return trimmedText.substring(0, lastSpaceIndex) + "..."
-        } else {
-          return trimmedText + "..."
-        }
+      if (text.length <= maxLength) return text
+      const trimmedText = text.substring(0, maxLength)
+      const lastSpaceIndex = trimmedText.lastIndexOf(" ")
+      if (lastSpaceIndex !== -1) {
+        return trimmedText.substring(0, lastSpaceIndex) + "..."
       }
-    } else {
-      return ""
+      return trimmedText + "..."
     }
+    return ""
   }
 
   return (
     <Card
       sx={{
-        background: "#fff",
-        color: "#000",
-        minHeight: { height },
-        maxHeight: { height },
+        minHeight: height || "auto",
+        maxHeight: height || "none",
         overflow: "hidden",
       }}
     >
-      <CardContent>
-        <h3 style={{ height: "6em", fontSize: "1.2em", fontWeight: "600" }}>
+      <div className="featuredimage-wrapper">
+        <Image
+          className="featuredimg"
+          src={post.featuredimage}
+          alt={post.title}
+          fill
+          placeholder="blur"
+          blurDataURL="../public/assets/blur.jpg"
+        />
+      </div>
+      <CardContent sx={{ padding: "16px !important" }}>
+        <Chip
+          label={post.categoria}
+          size="small"
+          sx={{ mb: 1, fontSize: "0.65rem !important" }}
+        />
+        <h3
+          style={{
+            fontSize: "1rem",
+            fontWeight: 700,
+            margin: "0 0 8px 0",
+            lineHeight: 1.3,
+            letterSpacing: "-0.02em",
+            minHeight: "3.9em",
+          }}
+        >
           {post.title}
         </h3>
-        <div className="featuredimage-wrapper ">
-          <Image
-            className="featuredimg"
-            src={post.featuredimage}
-            alt={post.title}
-            fill
-            placeholder="blur"
-            blurDataURL="../public/assets/blur.jpg"
-          />
-        </div>
-        <Chip sx={{ marginTop: 1 }} label={post.categoria} />
-
-        <p style={{ fontWeight: 300, color: "#ddd" }}>
-          {generateExcerpt(post.shortDescription, 150)}
+        <p
+          style={{
+            fontWeight: 400,
+            color: "rgba(255,255,255,0.45)",
+            fontSize: "0.8rem",
+            margin: 0,
+            lineHeight: 1.5,
+          }}
+        >
+          {generateExcerpt(post.shortDescription, 120)}
         </p>
       </CardContent>
     </Card>
