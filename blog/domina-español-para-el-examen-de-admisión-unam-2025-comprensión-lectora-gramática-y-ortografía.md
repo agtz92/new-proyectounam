@@ -1,5 +1,5 @@
 ---
-title: "Domina Español para el examen de admisión UNAM 2025: comprensión
+title: "Domina Español para el examen de admisión UNAM 2026: comprensión
   lectora, gramática y ortografía"
 featuredimage: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQqqfIWEa4NczKZ3SLrUdXsPthUBmzjZe5jg&s
 date: 2025-10-31T05:26:08.985Z
@@ -10,7 +10,7 @@ tags:
   - "#Español"
   - "#guíaexamen"
 short-description: El área de Español es una de las más importantes en el examen
-  de admisión UNAM 2025, y aunque muchos la subestiman, puede marcar la
+  de admisión UNAM 2026, y aunque muchos la subestiman, puede marcar la
   diferencia entre quedar dentro o fuera. En esta guía aprenderás qué temas
   estudiar, cómo mejorar tu comprensión lectora y qué estrategias usar para
   dominar ortografía, gramática y redacción. Prepárate para sacar el máximo
@@ -121,6 +121,6 @@ mk5: >-
   Lee con calma cada texto del examen, subraya ideas importantes y elimina las opciones que no tengan sentido lógico. Si una respuesta parece demasiado general o no se relaciona directamente con el texto, probablemente sea incorrecta.
 ---
 En plataformas como **antesdelexamen.com**, puedes acceder a guías de Español, simulacros y ejercicios con retroalimentación. Aprovecha estos recursos para medir tu progreso y aprender de tus errores.\
-Con práctica constante, lectura diaria y repaso de reglas gramaticales, estarás listo para dominar Español y asegurar tu lugar en la UNAM 2025.
+Con práctica constante, lectura diaria y repaso de reglas gramaticales, estarás listo para dominar Español y asegurar tu lugar en la UNAM 2026.
 
 <!--EndFragment-->

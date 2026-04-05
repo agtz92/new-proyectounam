@@ -1,5 +1,5 @@
 ---
-title: Los temas de biología que más se repiten en el examen de admisión UNAM 2025
+title: Los temas de biología que más se repiten en el examen de admisión UNAM 2026
 featuredimage: https://www.google.com/imgres?q=unam&imgurl=https%3A%2F%2Fmedia.admagazine.com%2Fphotos%2F62d6c4b73ef2f3a790e18e88%2F4%3A3%2Fw_6548%2Ch_4911%2Cc_limit%2F618279976&imgrefurl=https%3A%2F%2Fwww.admagazine.com%2Farticulos%2Flas-sedes-de-la-unam-dentro-y-fuera-de-mexico&docid=1zXANJJTU9TXhM&tbnid=kPHqbHowHykehM&vet=12ahUKEwjW4YSl5eCQAxUVNEQIHdPQFq4QM3oECBoQAA..i&w=6548&h=4911&hcb=2&ved=2ahUKEwjW4YSl5eCQAxUVNEQIHdPQFq4QM3oECBoQAA
 date: 2025-11-07T19:37:37.664Z
 dificultad: Preparatoria / Universidad
@@ -8,7 +8,7 @@ tags:
   - "#UNAM"
   - "#biología"
   - "#guíaexamen"
-short-description: Si estás preparándote para el examen de admisión UNAM 2025 y
+short-description: Si estás preparándote para el examen de admisión UNAM 2026 y
   tu área incluye biología, este post es para ti. Aquí descubrirás los temas más
   preguntados, cómo se evalúan y qué estrategias puedes usar para estudiarlos
   sin complicarte. Biología puede parecer extensa, pero con una buena
@@ -98,7 +98,7 @@ mk5: >-
   <!--StartFragment-->
 
 
-  ### Estrategias finales para el examen UNAM 2025
+  ### Estrategias finales para el examen UNAM 2026
 
 
   **Combina estudio constante con simulacros reales para obtener los mejores resultados.**

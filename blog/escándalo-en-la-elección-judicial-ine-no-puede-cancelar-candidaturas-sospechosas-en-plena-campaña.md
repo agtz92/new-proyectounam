@@ -8,7 +8,7 @@ categoria: Noticias
 tags:
   - Elección judicial
   - INE
-  - Candidatos 2025
+  - Candidatos 2026
 short-description: El Instituto Nacional Electoral (INE) se ha convertido en el
   centro del debate tras revelarse que 11 candidatos a la elección judicial
   están presuntamente vinculados con el crimen organizado. Mientras el Senado
@@ -21,7 +21,7 @@ mk1: >-
   <!--StartFragment-->
 
 
-  ### La polémica en torno a la elección judicial de 2025
+  ### La polémica en torno a la elección judicial de 2026
 
 
   **El proceso electoral del Poder Judicial enfrenta su primera gran crisis pública.**

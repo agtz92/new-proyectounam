@@ -1,5 +1,5 @@
 ---
-title: Cómo estudiar matemáticas para el examen de admisión UNAM 2025 sin morir
+title: Cómo estudiar matemáticas para el examen de admisión UNAM 2026 sin morir
   en el intento
 featuredimage: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv7yN1i2LRIhMD_0GogFyV7KP7-5HcuE7uug&s
 date: 2025-10-31T05:24:33.120Z
@@ -116,6 +116,6 @@ mk5: >-
 
   Lee cada pregunta con calma. Si una no la sabes, no te detengas demasiado tiempo: sigue con la siguiente y regresa al final. Marca las preguntas dudosas y revisa tus cálculos antes de pasar las respuestas al formato final.
 ---
-Por último, mantén la calma. Has estudiado, practicado y te has preparado bien. Confía en tu proceso. Recuerda que dominar matemáticas no se trata de ser un genio, sino de tener disciplina, estrategia y constancia. Si sigues estos pasos, estarás listo para enfrentar el examen de admisión UNAM 2025 con seguridad y éxito.
+Por último, mantén la calma. Has estudiado, practicado y te has preparado bien. Confía en tu proceso. Recuerda que dominar matemáticas no se trata de ser un genio, sino de tener disciplina, estrategia y constancia. Si sigues estos pasos, estarás listo para enfrentar el examen de admisión UNAM 2026 con seguridad y éxito.
 
 <!--EndFragment-->

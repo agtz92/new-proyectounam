@@ -42,7 +42,7 @@ mk2: >-
   **Las nuevas generaciones valoran más que nunca el bienestar emocional y la cultura organizacional de una empresa.**
 
 
-  Según la *Millennial Survey de Deloitte Global*, en 2025 los Millennials representarán el 75% de la fuerza laboral. Esta generación, influenciada por la pandemia y los cambios sociales recientes, busca trabajar en entornos donde los valores como la inclusión, la sostenibilidad y el respeto mutuo estén presentes.
+  Según la *Millennial Survey de Deloitte Global*, en 2026 los Millennials representarán el 75% de la fuerza laboral. Esta generación, influenciada por la pandemia y los cambios sociales recientes, busca trabajar en entornos donde los valores como la inclusión, la sostenibilidad y el respeto mutuo estén presentes.
 
 
   La Generación Z, que incluye a quienes están saliendo actualmente de la preparatoria, también comparte esta visión: no se trata solo de tener un empleo, sino de contribuir desde él a una sociedad mejor. Por eso, el ambiente laboral se vuelve un factor decisivo al momento de aceptar una oferta de trabajo, mucho más allá del salario o la ubicación.
