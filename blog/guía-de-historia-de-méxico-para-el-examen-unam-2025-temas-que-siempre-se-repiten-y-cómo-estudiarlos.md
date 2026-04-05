@@ -1,5 +1,5 @@
 ---
-title: "Guía de Historia de México para el examen UNAM 2025: temas que siempre
+title: "Guía de Historia de México para el examen UNAM 2026: temas que siempre
   se repiten y cómo estudiarlos"
 featuredimage: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqcc0ECPp3NjsaiPRcdCsaAkwoFkm6TqFUYw&s
 date: 2025-11-10T17:29:18.556Z
@@ -9,7 +9,7 @@ tags:
   - "#UNAM"
   - "#historia"
   - "#guíaexamen"
-short-description: Si vas a presentar el examen de admisión a la UNAM 2025, la
+short-description: Si vas a presentar el examen de admisión a la UNAM 2026, la
   materia de Historia de México es obligatoria para todos los aspirantes. En
   esta guía encontrarás un repaso completo con los temas más importantes,
   explicaciones claras y consejos de estudio para que recuerdes los

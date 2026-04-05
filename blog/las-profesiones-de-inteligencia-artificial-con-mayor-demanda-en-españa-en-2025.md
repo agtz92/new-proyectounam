@@ -1,5 +1,5 @@
 ---
-title: Las profesiones de inteligencia artificial con mayor demanda en España en 2025
+title: Las profesiones de inteligencia artificial con mayor demanda en España en 2026
 featuredimage: https://www.universia.net/content/dam/universia/imagenes/2023/10/inteligencia-artificial-espa%C3%B1a.jpg/_jcr_content/renditions/thumb-xl.jpg
 date: 2025-07-22T15:55:07.996Z
 dificultad: Preparatoria / Universidad

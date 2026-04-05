@@ -1,5 +1,5 @@
 ---
-title: Las carreras universitarias con más salidas en 2025 y cómo elegir la
+title: Las carreras universitarias con más salidas en 2026 y cómo elegir la
   correcta para ti sin equivocarte
 featuredimage: https://www.universia.net/content/dam/universia/imagenes/2019/05/Carreras_con_mas_salidas/_jcr_content/renditions/thumb-xl.jpg
 date: 2025-07-16T15:54:20.311Z

@@ -1,14 +1,14 @@
 ---
-title: "Los sectores con más empleo en 2025: guía para elegir tu futuro profesional"
+title: "Los sectores con más empleo en 2026: guía para elegir tu futuro profesional"
 featuredimage: https://www.universia.net/content/dam/universia/imagenes/2025/01/sectores-laborales-en-auge.jpg/_jcr_content/renditions/thumb-xl.jpg
 date: 2025-05-06T23:16:41.597Z
 dificultad: Preparatoria / Universidad
 categoria: Noticias
 tags:
-  - "#empleo2025"
+  - "#empleo2026"
   - "#sectoresemergentes"
   - "#carrerasSTEM"
-short-description: "El mercado laboral en 2025 está cambiando a gran velocidad,
+short-description: "El mercado laboral en 2026 está cambiando a gran velocidad,
   y los sectores tecnológicos, sostenibles y digitales lideran la creación de
   empleo. La inteligencia artificial, la ciberseguridad o las energías
   renovables ya no son solo tendencias: son oportunidades reales para quienes

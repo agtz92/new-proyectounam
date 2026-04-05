@@ -1,5 +1,5 @@
 ---
-title: Estas son las profesiones de marketing digital con más salida laboral en 2025
+title: Estas son las profesiones de marketing digital con más salida laboral en 2026
 featuredimage: https://www.universia.net/content/dam/universia/imagenes/2021/12/marketing%20digital.jpg/_jcr_content/renditions/thumb-xl.jpg
 date: 2025-05-27T07:17:45.691Z
 dificultad: Preparatoria / Universidad
@@ -19,7 +19,7 @@ mk1: >-
   <!--StartFragment-->
 
 
-  ### ¿Por qué estudiar marketing digital es una apuesta segura en 2025?
+  ### ¿Por qué estudiar marketing digital es una apuesta segura en 2026?
 
 
   **La transformación digital sigue creciendo, y con ella, la necesidad de expertos digitales**

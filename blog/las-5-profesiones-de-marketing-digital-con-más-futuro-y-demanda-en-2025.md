@@ -1,5 +1,5 @@
 ---
-title: Las 5 profesiones de marketing digital con más futuro y demanda en 2025
+title: Las 5 profesiones de marketing digital con más futuro y demanda en 2026
 featuredimage: https://www.universia.net/content/dam/universia/imagenes/2021/12/marketing%20digital.jpg/_jcr_content/renditions/thumb-xl.jpg
 date: 2025-05-22T21:38:27.685Z
 dificultad: Preparatoria / Universidad

@@ -1,5 +1,5 @@
 ---
-title: Ejercicios UNAM del examen 2020
+title: Ejercicios UNAM del examen 2026
 slug: ejercicios-unam-del-examen-2020
 featuredimage: /assets/unamipn.jpg
 date: 2023-03-17T04:23:25.610Z

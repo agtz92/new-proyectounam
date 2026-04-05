@@ -1,5 +1,5 @@
 ---
-title: "Historia de México para el examen de admisión UNAM 2025: los temas más
+title: "Historia de México para el examen de admisión UNAM 2026: los temas más
   importantes explicados paso a paso"
 featuredimage: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQukQDd6mi9LHNp9fjQbYQWP1RxgfRcjnK8Dg&s
 date: 2025-11-10T17:31:52.459Z
@@ -10,7 +10,7 @@ tags:
   - "#historia"
   - "#guíaexamen"
 short-description: ¿Te preocupa la parte de Historia de México en el examen de
-  admisión a la UNAM 2025? No te preocupes más. En este post te explicamos los
+  admisión a la UNAM 2026? No te preocupes más. En este post te explicamos los
   temas que más se repiten, los personajes clave y los procesos históricos que
   debes dominar. Con esta guía práctica podrás estudiar de forma ordenada y
   entender los acontecimientos más importantes de nuestro país.

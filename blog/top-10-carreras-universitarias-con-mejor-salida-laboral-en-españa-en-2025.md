@@ -1,5 +1,5 @@
 ---
-title: Top 10 carreras universitarias con mejor salida laboral en España en 2025
+title: Top 10 carreras universitarias con mejor salida laboral en España en 2026
 featuredimage: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbOSYyF7_fJqcQTmPbafxBPQgxfvBcNJqCxA&s
 date: 2025-06-11T07:18:44.340Z
 dificultad: Preparatoria / Universidad
@@ -57,7 +57,7 @@ mk3: >-
   <!--StartFragment-->
 
 
-  ### Las 10 carreras con mayor salida laboral en 2025
+  ### Las 10 carreras con mayor salida laboral en 2026
 
 
   **Estas son las carreras que actualmente tienen más oportunidades de empleo en España.**

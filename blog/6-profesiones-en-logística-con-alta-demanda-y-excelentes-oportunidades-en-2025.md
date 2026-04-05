@@ -1,5 +1,5 @@
 ---
-title: 6 profesiones en Logística con alta demanda y excelentes oportunidades en 2025
+title: 6 profesiones en Logística con alta demanda y excelentes oportunidades en 2026
 featuredimage: https://www.universia.net/content/dam/universia/imagenes/2019/05/infografia-las-claves-del-mercado-laboral-en-espana
 date: 2025-07-22T15:54:12.115Z
 dificultad: Preparatoria / Universidad

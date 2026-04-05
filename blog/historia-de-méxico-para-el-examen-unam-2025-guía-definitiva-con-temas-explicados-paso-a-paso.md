@@ -1,5 +1,5 @@
 ---
-title: "Historia de México para el examen UNAM 2025: guía definitiva con temas
+title: "Historia de México para el examen UNAM 2026: guía definitiva con temas
   explicados paso a paso"
 featuredimage: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROZtmN73Jtj35BbJtMJHZ2r2ZhRkhuwHbK3A&s
 date: 2025-11-10T17:30:09.541Z
