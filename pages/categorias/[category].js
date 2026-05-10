@@ -19,15 +19,13 @@ function removeSpecialCharactersAndLowerCase(str) {
 }
 
 function CategoryPage({ matchingFiles, category }) {
-  const sortedBlogs = matchingFiles?.sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
-  )
+  const sortedBlogs = matchingFiles || []
 
   const itemsPerPage = 6
   const [currentPage, setCurrentPage] = useState(1)
   const startIndex = (currentPage - 1) * itemsPerPage
   const endIndex = startIndex + itemsPerPage
-  const blogsToDisplay = sortedBlogs?.slice(startIndex, endIndex)
+  const blogsToDisplay = sortedBlogs.slice(startIndex, endIndex)
 
   useEffect(() => {
     setCurrentPage(1)
@@ -125,7 +123,6 @@ export async function getStaticProps({ params }) {
         fs.readFileSync(path.join("./blog", file), "utf8")
       )
       const frontmatter = fileContent.data
-      const shortDescription = frontmatter["short-description"] || ""
 
       if (
         frontmatter.categoria &&
@@ -133,18 +130,21 @@ export async function getStaticProps({ params }) {
           categorySlug
       ) {
         const slug = frontmatter.slug || file.slice(0, file.indexOf("."))
+        const rawDesc = frontmatter["short-description"] || ""
+        const shortDescription =
+          rawDesc.length > 140 ? rawDesc.slice(0, 140) : rawDesc
         matchingFiles.push({
           slug,
-          category: frontmatter.categoria,
           categoria: frontmatter.categoria,
           title: frontmatter.title,
-          date: frontmatter.date.toISOString(),
-          featuredimage: frontmatter.featuredimage,
-          markdown: fileContent.content,
+          date: frontmatter.date ? frontmatter.date.toISOString() : "",
+          featuredimage: frontmatter.featuredimage || "",
           shortDescription,
         })
       }
     }
+
+    matchingFiles.sort((a, b) => new Date(b.date) - new Date(a.date))
 
     return {
       props: { matchingFiles, category: category },
