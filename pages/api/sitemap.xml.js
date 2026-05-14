@@ -38,7 +38,7 @@ export default function handler(req, res) {
     }
 
     return `  <url>
-    <loc>${sitedomain}/${slug}</loc>
+    <loc>${sitedomain}/${encodeURI(slug)}</loc>
     <lastmod>${date}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
