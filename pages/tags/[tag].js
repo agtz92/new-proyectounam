@@ -13,15 +13,13 @@ function removeSpecialCharactersAndLowerCase(str) {
 }
 
 function TagPage({ matchingFiles, tag }) {
-  const sortedBlogs = matchingFiles?.sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
-  )
+  const sortedBlogs = matchingFiles || []
 
   const itemsPerPage = 6
   const [currentPage, setCurrentPage] = useState(1)
   const startIndex = (currentPage - 1) * itemsPerPage
   const endIndex = startIndex + itemsPerPage
-  const blogsToDisplay = sortedBlogs?.slice(startIndex, endIndex)
+  const blogsToDisplay = sortedBlogs.slice(startIndex, endIndex)
 
   useEffect(() => {
     setCurrentPage(1)
@@ -137,10 +135,6 @@ export async function getStaticProps({ params: { tag } }) {
       fs.readFileSync(path.join("./blog", file), "utf8")
     )
     const frontmatter = fileContent.data
-    const shortDescription = frontmatter["short-description"] || ""
-    const isoDate = frontmatter.date
-      ? new Date(frontmatter.date).toISOString()
-      : ""
 
     if (frontmatter.tags) {
       const matchingTag = frontmatter.tags.find(
@@ -149,17 +143,22 @@ export async function getStaticProps({ params: { tag } }) {
 
       if (matchingTag) {
         const slug = file.slice(0, file.indexOf("."))
+        const rawDesc = frontmatter["short-description"] || ""
+        const shortDescription =
+          rawDesc.length > 140 ? rawDesc.slice(0, 140) : rawDesc
         matchingFiles.push({
           slug,
-          title: frontmatter.title,
-          categoria: frontmatter.categoria,
-          shortDescription: shortDescription,
-          featuredimage: frontmatter.featuredimage,
-          date: isoDate,
+          title: frontmatter.title || "",
+          categoria: frontmatter.categoria || "",
+          shortDescription,
+          featuredimage: frontmatter.featuredimage || "",
+          date: frontmatter.date ? new Date(frontmatter.date).toISOString() : "",
         })
       }
     }
   }
+
+  matchingFiles.sort((a, b) => new Date(b.date) - new Date(a.date))
 
   return {
     props: {

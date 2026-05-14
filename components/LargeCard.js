@@ -30,7 +30,9 @@ const LargeCard = ({ post, height }) => {
           src={post.featuredimage}
           alt={post.title}
           fill
-          sizes="(max-width: 768px) 100vw, 50vw"
+          sizes="(max-width: 768px) 100vw, 33vw"
+          loading="lazy"
+          decoding="async"
         />
       </div>
       <CardContent sx={{ padding: "16px !important" }}>

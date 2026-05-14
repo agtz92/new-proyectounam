@@ -2,7 +2,7 @@ import React from "react"
 import { Box, Card, CardContent, Chip } from "@mui/material"
 import Image from "next/image"
 
-const CoverCard = ({ post, h1, secondary }) => {
+const CoverCard = ({ post, h1, secondary, priority }) => {
   return (
     <Card
       sx={{
@@ -30,16 +30,22 @@ const CoverCard = ({ post, h1, secondary }) => {
       />
 
       <Image
-        component="img"
         alt={post.title}
         src={post.featuredimage}
         style={{
           objectFit: "cover",
           objectPosition: "center",
           transition: "transform 600ms cubic-bezier(0.4, 0, 0.2, 1)",
+          width: "100%",
+          height: "100%",
         }}
-        width="800"
-        height="500"
+        width={800}
+        height={500}
+        sizes="(max-width: 768px) 100vw, 80vw"
+        priority={Boolean(priority)}
+        loading={priority ? "eager" : "lazy"}
+        decoding="async"
+        fetchPriority={priority ? "high" : "auto"}
       />
 
       <CardContent

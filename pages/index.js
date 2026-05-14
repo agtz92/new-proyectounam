@@ -1,6 +1,5 @@
 import React from "react"
 import fs from "fs"
-import dynamic from "next/dynamic"
 import matter from "gray-matter"
 import Link from "next/link"
 import Head from "next/head"
@@ -8,6 +7,7 @@ import Grid from "@mui/material/Grid"
 import Box from "@mui/material/Box"
 import { sitename, sitedomain, motto } from "../components/siteData"
 import CoverCard from "@/components/CoverCard"
+import LargeCard from "@/components/LargeCard"
 
 const categories = [
   { label: "Biologia", href: "/categorias/biologia" },
@@ -22,15 +22,7 @@ const categories = [
   { label: "Quimica", href: "/categorias/quimica" },
 ]
 
-export default function Home({ blogs }) {
-  const sortedBlogs = blogs.sort((a, b) => new Date(b.date) - new Date(a.date))
-  const featured = sortedBlogs.slice(0, 1)
-  const recent = sortedBlogs.slice(1, 7)
-  const LargeCard = dynamic(() => import("@/components/LargeCard"))
-  const deals = sortedBlogs
-    .filter((blog) => blog.categoria === "Preguntas de Examen")
-    .slice(0, 6)
-  const otherPosts = sortedBlogs.slice(7, 13)
+export default function Home({ featured, recent, deals, otherPosts }) {
 
   return (
     <Box>
@@ -105,7 +97,7 @@ export default function Home({ blogs }) {
         {featured.map((blog) => (
           <Box key={blog.slug} sx={{ mb: 3 }}>
             <Link href={`/${blog.slug}`}>
-              <CoverCard post={blog} h1="1.5rem" />
+              <CoverCard post={blog} h1="1.5rem" priority />
             </Link>
           </Box>
         ))}
@@ -177,28 +169,35 @@ export async function getStaticProps() {
       .readdirSync("./blog")
       .filter((filename) => !filename.startsWith(".DS_Store"))
 
-    const blogs = filesInBlogs.map((filename) => {
-      const file = fs.readFileSync(`./blog/${filename}`, "utf8")
-      const matterData = matter(file)
+    const blogs = filesInBlogs
+      .map((filename) => {
+        const file = fs.readFileSync(`./blog/${filename}`, "utf8")
+        const matterData = matter(file)
 
-      const isoDate = matterData.data.date
-        ? new Date(matterData.data.date).toISOString()
-        : ""
-      const formattedDate = matterData.data.date
-        ? new Date(matterData.data.date).toLocaleDateString("en-US")
-        : ""
-      const shortDescription = matterData.data["short-description"] || ""
+        const isoDate = matterData.data.date
+          ? new Date(matterData.data.date).toISOString()
+          : ""
+        const shortDescription = matterData.data["short-description"] || ""
 
-      return {
-        ...matterData.data,
-        slug: filename.slice(0, filename.indexOf(".")),
-        date: isoDate,
-        formattedDate: formattedDate,
-        shortDescription: shortDescription,
-      }
-    })
+        return {
+          title: matterData.data.title || "",
+          categoria: matterData.data.categoria || "",
+          featuredimage: matterData.data.featuredimage || "",
+          slug: filename.slice(0, filename.indexOf(".")),
+          date: isoDate,
+          shortDescription,
+        }
+      })
+      .sort((a, b) => new Date(b.date) - new Date(a.date))
 
-    return { props: { blogs } }
+    const featured = blogs.slice(0, 1)
+    const recent = blogs.slice(1, 7)
+    const deals = blogs
+      .filter((blog) => blog.categoria === "Preguntas de Examen")
+      .slice(0, 6)
+    const otherPosts = blogs.slice(7, 13)
+
+    return { props: { featured, recent, deals, otherPosts } }
   } catch (error) {
     console.error("Error reading files or parsing frontmatter:", error)
     return { notFound: true }

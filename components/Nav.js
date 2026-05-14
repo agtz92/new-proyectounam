@@ -15,7 +15,7 @@ const categories = [
   { label: "Quimica", href: "/categorias/quimica" },
 ]
 
-const Nav = ({ isMobile }) => {
+const Nav = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   const toggleMenu = () => setIsOpen(!isOpen)
