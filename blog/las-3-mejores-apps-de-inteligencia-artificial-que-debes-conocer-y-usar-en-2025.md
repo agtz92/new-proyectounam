@@ -1,5 +1,5 @@
 ---
-title: Las 3 mejores apps de Inteligencia Artificial que debes conocer y usar en 2025
+title: Las 3 mejores apps de Inteligencia Artificial que debes conocer y usar en 2026
 featuredimage: https://blog.rincondelvago.com/wp-content/uploads/2024/01/phpPkeoEf65b78f4c3c4db-750x430.jpg
 date: 2025-04-17T06:57:40.558Z
 dificultad: Preparatoria / Universidad

@@ -1,51 +1,32 @@
-// components/Nav.js
-import { Box } from "@mui/material"
 import Link from "next/link"
 import { useState } from "react"
-import { sitename, motto } from "./siteData"
+import { sitename } from "./siteData"
 
-const Nav = ({ isMobile, siteData }) => {
+const categories = [
+  { label: "Biologia", href: "/categorias/biologia" },
+  { label: "Contabilidad", href: "/categorias/contabilidad" },
+  { label: "Derecho", href: "/categorias/derecho" },
+  { label: "Economia", href: "/categorias/economia" },
+  { label: "Espanol", href: "/categorias/espanol" },
+  { label: "Geografia", href: "/categorias/geografia" },
+  { label: "Historia MX", href: "/categorias/historia-de-mexico" },
+  { label: "Historia Univ.", href: "/categorias/historia-universal" },
+  { label: "Preguntas", href: "/categorias/preguntas-de-examen" },
+  { label: "Quimica", href: "/categorias/quimica" },
+]
+
+const Nav = () => {
   const [isOpen, setIsOpen] = useState(false)
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen)
-  }
+  const toggleMenu = () => setIsOpen(!isOpen)
 
   return (
-    <>
-      
-        <Box
-          display={"flex"}
-          flexDirection={"column"}
-          justifyContent={"center"}
-          alignItems={"center"}
-          sx={{
-            borderBottom: "1px solid #f9f871",
-            marginLeft: 20,
-            marginRight: 20,
-          }}
-          className='pc-only'
-        >
-          <h1 style={{ fontSize: "4em", fontWeight: 600, margin: 0 }}>
-            {sitename}
-          </h1>
-          <h3
-            style={{
-              fontSize: "1.5em",
-              fontWeight: 300,
-              textAlign: "center",
-              margin: 0,
-              letterSpacing: "2px",
-            }}
-          >
-            {motto}
-          </h3>
-        </Box>
+    <div className="nav-wrapper">
       <nav className={`nav ${isOpen ? "open" : ""}`}>
         <div className="logo">
           <Link href="/">{sitename}</Link>
         </div>
-        <div className="menu-toggle" onClick={toggleMenu}>
+        <div className="menu-toggle" onClick={toggleMenu} aria-label="Menu">
           <div className="bar"></div>
           <div className="bar"></div>
           <div className="bar"></div>
@@ -53,62 +34,19 @@ const Nav = ({ isMobile, siteData }) => {
         <ul className={`menu ${isOpen ? "open" : ""}`}>
           <li>
             <Link href="/" onClick={toggleMenu}>
-              INICIO
+              Inicio
             </Link>
           </li>
-          <li>
-            <Link href="/categorias/biologia" onClick={toggleMenu}>
-              BIOLOGIA
-            </Link>
-          </li>
-          <li>
-            <Link href="/categorias/contabilidad" onClick={toggleMenu}>
-              CONTABILIDAD
-            </Link>
-          </li>
-          <li>
-            <Link href="/categorias/derecho" onClick={toggleMenu}>
-              DERECHO
-            </Link>
-          </li>
-          <li>
-            <Link href="/categorias/economia" onClick={toggleMenu}>
-              ECONOMIA
-            </Link>
-          </li>
-          <li>
-            <Link href="/categorias/espanol" onClick={toggleMenu}>
-              ESPAÑOL
-            </Link>
-          </li>
-          <li>
-            <Link href="/categorias/geografia" onClick={toggleMenu}>
-              GEOGRAFÍA
-            </Link>
-          </li>
-          <li>
-            <Link href="/categorias/historia-de-mexico" onClick={toggleMenu}>
-              HISTORIA DE MEXICO
-            </Link>
-          </li>
-          <li>
-            <Link href="/categorias/historia-universal" onClick={toggleMenu}>
-              HISTORIA UNIVERSAL
-            </Link>
-          </li>
-          <li>
-            <Link href="/categorias/preguntas-de-examen" onClick={toggleMenu}>
-              PREGUNTAS EXAMEN
-            </Link>
-          </li>
-          <li>
-            <Link href="/categorias/quimica" onClick={toggleMenu}>
-              QUIMICA
-            </Link>
-          </li>
+          {categories.map((cat) => (
+            <li key={cat.href}>
+              <Link href={cat.href} onClick={toggleMenu}>
+                {cat.label}
+              </Link>
+            </li>
+          ))}
         </ul>
       </nav>
-    </>
+    </div>
   )
 }
 

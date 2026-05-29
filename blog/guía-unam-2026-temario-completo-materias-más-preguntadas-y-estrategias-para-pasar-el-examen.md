@@ -1,0 +1,177 @@
+---
+title: "Guía UNAM 2026: Temario completo, materias más preguntadas y estrategias
+  para pasar el examen"
+featuredimage: data:image/jpeg;base64,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
+date: 2025-11-06T04:47:41.805Z
+dificultad: Preparatoria / Universidad
+categoria: Noticias
+tags:
+  - "#UNAM"
+  - "#ExamenAdmisión"
+  - "#Apuntes"
+short-description: Si vas a presentar el examen de admisión de la UNAM 2026,
+  este post te ayudará a prepararte de forma inteligente. Aquí encontrarás el
+  temario actualizado, los temas que más se repiten, un plan de estudio efectivo
+  y apuntes esenciales para repasar antes del examen. Miles de estudiantes
+  presentan este reto cada año, pero solo los que estudian con estrategia y
+  constancia logran su lugar.
+mk1: >-
+  <!--StartFragment-->
+
+
+  ### Estructura del examen UNAM 2026
+
+
+  **Conoce cómo está compuesto y qué materias tienen más peso.**
+
+
+  El examen de admisión de la UNAM tiene **120 preguntas de opción múltiple** que se deben responder en tres horas. La estructura depende del área que elijas:
+
+
+  * **Área 1:** Físico-Matemáticas y de las Ingenierías
+
+  * **Área 2:** Ciencias Biológicas y de la Salud
+
+  * **Área 3:** Ciencias Sociales
+
+  * **Área 4:** Humanidades y Artes
+
+
+  Todas las áreas incluyen matemáticas, comprensión lectora, redacción indirecta y materias específicas. Los exámenes se diseñan para medir tu razonamiento, no solo memoria. Saber cómo se distribuyen los reactivos te permitirá priorizar las materias más relevantes.
+
+
+  <!--EndFragment-->
+mk2: >-
+  <!--StartFragment-->
+
+
+  ### Temario oficial UNAM 2026
+
+
+  **Identifica los temas que más aparecen en cada área.**
+
+
+  **Matemáticas:** Aritmética, álgebra, factorización, ecuaciones cuadráticas, geometría analítica (pendiente, distancia, circunferencia), trigonometría (razones e identidades) y probabilidad.
+
+
+  **Física:** Movimiento rectilíneo, leyes de Newton, energía, trabajo, electricidad y magnetismo.
+
+
+  **Química:** Estructura atómica, tabla periódica, mol, masa molar, enlaces químicos, gases ideales y soluciones.
+
+
+  **Biología:** Célula, ADN, ARN, mitosis, meiosis, leyes de Mendel, fotosíntesis y ecología.
+
+
+  **Habilidades verbales:** Tipos de texto, conectores, ortografía, sinónimos, antónimos y analogías.
+
+
+  Los exámenes recientes muestran una tendencia a evaluar comprensión más que memorización. Practica con textos, problemas numéricos y reactivos combinados.
+
+
+  <!--EndFragment-->
+mk3: >-
+  <!--StartFragment-->
+
+
+  ### Apuntes exprés y fórmulas que debes dominar
+
+
+  **Resumen rápido para repasar antes del examen.**
+
+
+  **Matemáticas:**\
+
+  (a+b)2=a2+2ab+b2, (a−b)2=a2−2ab+b2, (a+b)(a−b)=a2−b2.\
+
+  Pendiente de una recta: m=x2​−x1​y2​−y1​​.\
+
+  Ecuación de la recta: y=mx+b.\
+
+  Teorema de Pitágoras: a2+b2=c2.
+
+
+  **Física:**\
+
+  F=ma, v=td​, a=ΔtΔv​, Ec​=21​mv2, Ep​=mgh.
+
+
+  **Química:**\
+
+  n=Mm​, PV=nRT, M=Vn​.\
+
+  Balanceo de ecuaciones químicas, tipos de enlace y tabla periódica.
+
+
+  **Biología:**\
+
+  Etapas de mitosis, leyes de Mendel, estructura del ADN, fotosíntesis y respiración celular.
+
+
+  Este resumen es ideal para repasar en trayectos o antes de dormir.
+
+
+  <!--EndFragment-->
+mk4: >-
+  <!--StartFragment-->
+
+
+  ### Plan de estudio de 6 semanas
+
+
+  **Organiza tu tiempo con un método probado.**
+
+
+  **Semanas 1-2:** Diagnóstico. Haz un examen tipo UNAM y anota tus errores. Estudia dos materias por día (una teórica, una práctica).
+
+
+  **Semanas 3-4:** Refuerzo. Aumenta la práctica, realiza simulacros cronometrados y repasa con tus apuntes. Crea tarjetas con fórmulas o conceptos difíciles.
+
+
+  **Semanas 5-6:** Repaso final. Enfócate en ejercicios y temas débiles. Repasa fórmulas y no agregues temas nuevos los últimos días. Descansa bien y haz repasos ligeros.
+
+
+  La constancia vale más que estudiar muchas horas en un solo día.
+
+
+  <!--EndFragment-->
+mk5: >-
+  <!--StartFragment-->
+
+
+  ### Ejercicios tipo UNAM con explicación
+
+
+  **Practica con ejemplos parecidos a los del examen real.**
+
+
+  1. Si (x−3)(x+2)=0, ¿suma de raíces? 3+(−2)=1.
+
+  2. Un coche recorre 100 km en 2 h. ¿Velocidad promedio? v=50 km/h.
+
+  3. ¿Cuántos moles hay en 36 g de H₂O? n=1836​=2 mol.
+
+  4. En lectura, si el autor “cuestiona la objetividad de los medios”, la idea principal trata de la influencia informativa.
+
+  5. Si una fuerza de 10 N actúa sobre una masa de 2 kg, ¿aceleración? a=5 m/s2.
+
+
+  Analiza siempre **por qué cada opción incorrecta lo es**: eso mejora tu razonamiento.
+
+
+  <!--EndFragment-->
+---
+<!--StartFragment-->
+
+### Consejos finales y recursos útiles
+
+**Aumenta tu rendimiento y evita errores comunes.**
+
+* Estudia con horario fijo, no improvises.
+* Haz simulacros en condiciones reales.
+* Duerme bien antes del examen y evita estudiar la noche anterior.
+* Lee bien cada pregunta: muchas fallas son por prisa.
+
+Recuerda: la clave es practicar, no memorizar. Si buscas materiales confiables, antesdelexamen.com es un sitio web que ayuda a estudiantes de preparatoria a estudiar para el examen de admisión a la universidad con guías, apuntes y simulacros diseñados para aspirantes a la UNAM.
+
+<!--EndFragment-->

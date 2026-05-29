@@ -1,0 +1,113 @@
+---
+title: Las materias que más se repiten en los exámenes de admisión 2026 de la
+  UNAM, IPN y UAM (¡no te las esperas!)
+featuredimage: data:image/jpeg;base64,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
+date: 2025-10-14T04:27:23.379Z
+dificultad: Preparatoria / Universidad
+categoria: Noticias
+tags:
+  - "#UNAM"
+  - "#IPN"
+  - "#UAM"
+short-description: Si estás por presentar tu examen de admisión 2026 y no sabes
+  por dónde empezar a estudiar, aquí encontrarás las materias que más se repiten
+  en la UNAM, IPN y UAM. Descubre los temas más frecuentes, los que más puntos
+  suman y cómo estudiar con estrategia para asegurar tu lugar. Prepárate con
+  inteligencia y marca la diferencia frente a miles de aspirantes.
+mk1: >-
+  <!--StartFragment-->
+
+
+  ### Las materias base que dominan todos los exámenes
+
+
+  **Matemáticas, español y ciencias son el corazón de los exámenes de admisión.**
+
+
+
+
+  Los tres exámenes más importantes del país —UNAM, IPN y UAM— tienen una estructura muy parecida: el eje central son las matemáticas, la comprensión lectora y las ciencias. En la UNAM destacan los temas de álgebra y geometría; en el IPN, los problemas de razonamiento lógico y física; y en la UAM, los ejercicios de redacción y biología.
+
+
+  Dominar estas tres áreas te asegura cubrir al menos el 70% del contenido total de los exámenes. Si apenas estás empezando, enfócate primero en repasar ecuaciones, reglas ortográficas y leyes básicas de la física. Son los pilares que más peso tienen en el puntaje final.
+
+
+  <!--EndFragment-->
+mk2: >-
+  <!--StartFragment-->
+
+
+  ### Los temas que más se repiten cada año
+
+
+  **Hay preguntas que parecen copiarse año con año. Te contamos cuáles son.**
+
+
+
+
+  Las estadísticas de exámenes anteriores muestran que ciertos temas aparecen casi todos los años. En matemáticas, los más recurrentes son ecuaciones cuadráticas, razones y proporciones, y trigonometría básica. En español, destacan la comprensión de lectura, los conectores y los signos de puntuación.
+
+
+  En ciencias, los favoritos de la UNAM son biología celular y ecología; en el IPN, las leyes de Newton y electricidad; y en la UAM, la genética y la química general. Si estudias estos temas con prioridad, estarás cubriendo una parte importante de lo que seguro te preguntarán en 2026.
+
+
+  <!--EndFragment-->
+mk3: >-
+  <!--StartFragment-->
+
+
+  ### Cómo estudiar para los tres exámenes al mismo tiempo
+
+
+  **Sí se puede. Solo necesitas una estrategia bien pensada.**
+
+
+  Muchos aspirantes deciden presentar más de un examen —por ejemplo, UNAM y UAM o IPN y UNAM—, y eso está perfecto. La clave está en usar un plan de estudio combinado: enfoca tu preparación en los temas comunes entre los tres, y luego repasa las materias específicas de cada universidad.
+
+
+  Por ejemplo: de lunes a viernes estudia matemáticas y español, y los fines de semana dedica tiempo a biología (UNAM), física (IPN) o química (UAM). Esta organización evita la saturación mental y te permite avanzar con equilibrio. Además, realiza simulacros cada semana para medir tu progreso real.
+
+
+  <!--EndFragment-->
+mk4: >-
+  <!--StartFragment-->
+
+
+  ### Consejos para subir tu puntaje rápido
+
+
+  **Pequeños cambios que pueden marcar la diferencia en tu resultado final.**
+
+
+  No se trata solo de estudiar más, sino de estudiar con enfoque. Practica con exámenes tipo admisión, usa cronómetro para controlar el tiempo y revisa tus errores después de cada intento. Esto te ayudará a entender cómo piensan los exámenes y mejorar tus resultados rápidamente.
+
+
+  Otro consejo poderoso: duerme bien la noche anterior y cuida tu alimentación. Muchos aspirantes bajan su rendimiento por nervios o cansancio. Un cerebro descansado resuelve mejor los problemas y mantiene la concentración por más tiempo.
+
+
+  <!--EndFragment-->
+mk5: >-
+  <!--StartFragment-->
+
+
+  ### Recursos gratuitos y simuladores para practicar
+
+
+  **No estudies a ciegas, usa herramientas que simulan el examen real.**
+
+
+  En internet hay cientos de opciones, pero no todas son confiables. Busca materiales actualizados y de fuentes serias. En *antesdelexamen.com* encontrarás apuntes descargables, simuladores reales y guías completas para los exámenes de la UNAM, IPN y UAM. Todo enfocado en el temario más reciente.
+
+
+  También puedes apoyarte en apps como Quizlet o Kahoot para repasar fórmulas y definiciones. Otra opción es unirte a grupos de Telegram o Discord donde otros aspirantes comparten recursos y tips. Estudiar acompañado siempre aumenta la motivación y el compromiso.
+
+
+  <!--EndFragment-->
+---
+<!--StartFragment-->
+
+Con esta guía ya sabes por dónde empezar y qué priorizar. Recuerda que el secreto no está en estudiar más, sino en hacerlo con estrategia. Si aplicas estos consejos, tus posibilidades de entrar a la UNAM, IPN o UAM en 2026 aumentarán muchísimo.
+
+**Empieza hoy y da el primer paso hacia tu lugar en la universidad.** 💪🎓
+
+<!--EndFragment-->

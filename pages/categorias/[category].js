@@ -6,104 +6,107 @@ import { Box, Grid, Pagination, Stack } from "@mui/material"
 import Link from "next/link"
 import Head from "next/head"
 import LargeCard from "@/components/LargeCard"
-import { sitename } from "@/components/siteData"
+import { sitename, sitedomain } from "@/components/siteData"
 import Backlinks from "@/components/Backlinks"
 
 function removeSpecialCharactersAndLowerCase(str) {
-  // Remove special characters, replace spaces with hyphens, and convert to lowercase
   return str
-    .normalize("NFD") // Normalize accented characters
-    .replace(/[\u0300-\u036f]/g, "") // Remove combining diacritical marks
-    .replace(/[^\w\s]/g, "") // Remove non-alphanumeric characters
-    .replace(/\s+/g, "-") // Replace spaces with hyphens
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^\w\s]/g, "")
+    .replace(/\s+/g, "-")
     .toLowerCase()
 }
 
-function CategoryPage({ matchingFiles, category, isMobile }) {
-  // Sort the blogs by date in descending order
-  const sortedBlogs = matchingFiles?.sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
-  )
-  //pagination
+function CategoryPage({ matchingFiles, category }) {
+  const sortedBlogs = matchingFiles || []
+
   const itemsPerPage = 6
   const [currentPage, setCurrentPage] = useState(1)
   const startIndex = (currentPage - 1) * itemsPerPage
   const endIndex = startIndex + itemsPerPage
-  const blogsToDisplay = sortedBlogs?.slice(startIndex, endIndex)
-  //reset current page if category changes
+  const blogsToDisplay = sortedBlogs.slice(startIndex, endIndex)
+
   useEffect(() => {
     setCurrentPage(1)
   }, [category])
 
   const title = sitename + " | " + category
+  const description = `Encuentra articulos y bancos de preguntas sobre ${category} en ${sitename}. Preparate para tu examen de admision.`
+  const canonicalUrl = `${sitedomain}/categorias/${removeSpecialCharactersAndLowerCase(category)}`
 
   return (
-    <Box
-      className='margins5'
-    >
+    <Box>
       <Head>
         <title>{title}</title>
+        <meta name="description" content={description} />
+        <link rel="canonical" href={canonicalUrl} />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:site_name" content={sitename} />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={description} />
       </Head>
-      <Box
-        display={"flex"}
-        flexDirection={"column"}
-        justifyContent={"center"}
-        alignItems={"center"}
-        sx={{
-          borderBottom: "1px solid #f9f871",
-          marginBottom: 5,
-        }}
-        className='margins'
-      >
-        <h3
-          style={{
-            fontSize: "1.5em",
-            fontWeight: 600,
-            textAlign: "center",
-            letterSpacing: "2px",
-          }}
-        >
-          {category.toUpperCase()}
-        </h3>
-      </Box>
 
-      <Grid container spacing={2}>
-        {blogsToDisplay?.map((file, index) => (
-          <Grid key={index} item xs={12} md={4}>
-            <Link href={`/${file.slug}`}>
-              <LargeCard post={file} />
-            </Link>
-          </Grid>
-        ))}
-      </Grid>
-      {/*Pagination*/}
-      <Stack
-        spacing={2}
-        display={"flex"}
-        flexDirection={"row"}
-        alignContent={"space-evenly"}
-        justifyContent={"space-evenly"}
-        sx={{ marginTop: 5 }}
-      >
-        <Pagination
-          count={Math.ceil(sortedBlogs.length / itemsPerPage)}
-          size="large"
-          page={currentPage}
-          onChange={(event, page) => setCurrentPage(page)}
-        />
-      </Stack>
-      <div className="parpost light">
-        <Backlinks categoria={category} />
-        <p style={{ color: "#ddd" }}>
-          antesdelexamen es una página de internet gratuita con bancos de
-          preguntas de examen para UNAM, IPN y todas las demás universidades más
-          importantes de México. Tenemos bancos de preguntas por materia y por
-          area. Bancos de preguntas Area 1, Bancos de preguntas Area 2, Bancos
-          de preguntas area 3, Bancos de preguntas Area 4. Simulacros UNAM ,
-          IPN, UAM, UAEM. Guía UNAM 2021, Guía IPN 2021. <br></br>
-          Agréganos en facebook buscando @antesdelexamen
-        </p>
+      {/* Mini Hero */}
+      <div className="mini-hero">
+        <h1 className="mini-hero-title">{category}</h1>
+        <div className="mini-hero-count">
+          {sortedBlogs.length} {sortedBlogs.length === 1 ? "articulo" : "articulos"}
+        </div>
       </div>
+
+      {/* Posts Grid — Zigzag Layout */}
+      <Box className="margins5">
+        <div className="section-header">
+          <span className="section-number">01</span>
+          <h2>Posts en {category}</h2>
+          <div className="section-line" />
+        </div>
+
+        <Grid container spacing={2}>
+          {blogsToDisplay?.map((file) => (
+            <Grid key={file.slug} item xs={12} sm={6} md={4}>
+              <Link href={`/${file.slug}`}>
+                <LargeCard post={file} />
+              </Link>
+            </Grid>
+          ))}
+        </Grid>
+
+        {/* Pagination */}
+        <Stack
+          spacing={2}
+          display="flex"
+          flexDirection="row"
+          justifyContent="center"
+          sx={{ mt: 5 }}
+        >
+          <Pagination
+            count={Math.ceil(sortedBlogs.length / itemsPerPage)}
+            size="large"
+            page={currentPage}
+            onChange={(event, page) => setCurrentPage(page)}
+          />
+        </Stack>
+
+        <div className="parpost">
+          <Backlinks categoria={category} />
+          <p>
+            antesdelexamen es una pagina de internet gratuita con bancos de
+            preguntas de examen para UNAM, IPN y todas las demas universidades
+            mas importantes de Mexico. Tenemos bancos de preguntas por materia
+            y por area. Bancos de preguntas Area 1, Bancos de preguntas Area
+            2, Bancos de preguntas area 3, Bancos de preguntas Area 4.
+            Simulacros UNAM, IPN, UAM, UAEM. Guia UNAM 2026, Guia IPN 2026.
+            <br />
+            Agreganos en facebook buscando @antesdelexamen
+          </p>
+        </div>
+      </Box>
     </Box>
   )
 }
@@ -120,27 +123,28 @@ export async function getStaticProps({ params }) {
         fs.readFileSync(path.join("./blog", file), "utf8")
       )
       const frontmatter = fileContent.data
-      const shortDescription = frontmatter["short-description"] || ""
 
       if (
         frontmatter.categoria &&
         removeSpecialCharactersAndLowerCase(frontmatter.categoria) ===
           categorySlug
       ) {
-        // Read the slug from frontmatter
         const slug = frontmatter.slug || file.slice(0, file.indexOf("."))
+        const rawDesc = frontmatter["short-description"] || ""
+        const shortDescription =
+          rawDesc.length > 140 ? rawDesc.slice(0, 140) : rawDesc
         matchingFiles.push({
           slug,
-          category: frontmatter.categoria,
           categoria: frontmatter.categoria,
           title: frontmatter.title,
-          date: frontmatter.date.toISOString(),
-          featuredimage: frontmatter.featuredimage,
-          markdown: fileContent.content,
+          date: frontmatter.date ? frontmatter.date.toISOString() : "",
+          featuredimage: frontmatter.featuredimage || "",
           shortDescription,
         })
       }
     }
+
+    matchingFiles.sort((a, b) => new Date(b.date) - new Date(a.date))
 
     return {
       props: { matchingFiles, category: category },
@@ -152,12 +156,12 @@ export async function getStaticProps({ params }) {
     }
   }
 }
+
 export async function getStaticPaths() {
   const files = fs.readdirSync("./categorias")
   const categorias = new Set()
 
   for (const file of files) {
-    // Check if the file is not hidden (doesn't start with a dot)
     if (!file.startsWith(".")) {
       const fileContent = matter(
         fs.readFileSync(path.join("./categorias", file), "utf8")
@@ -178,7 +182,7 @@ export async function getStaticPaths() {
 
   return {
     paths,
-    fallback: "blocking", // Allow for custom handling of 404-like cases
+    fallback: "blocking",
   }
 }
 

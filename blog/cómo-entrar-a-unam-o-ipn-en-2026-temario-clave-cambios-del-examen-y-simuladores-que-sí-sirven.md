@@ -1,0 +1,189 @@
+---
+title: "Cómo entrar a UNAM o IPN en 2026: temario clave, cambios del examen y
+  simuladores que sí sirven"
+featuredimage: data:image/jpeg;base64,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
+date: 2025-10-07T05:35:59.835Z
+dificultad: Preparatoria / Universidad
+categoria: Noticias
+tags:
+  - "#UNAM"
+  - "#guía examen"
+  - "#IPN"
+short-description: "Prepárate con ventaja para el examen de admisión 2026 de la
+  UNAM y el IPN: aquí te resumimos los temas que más preguntan, qué cambió en
+  las convocatorias recientes, cómo practicar con simuladores que realmente te
+  ayudan a subir aciertos y las estrategias que usan quienes se quedan. Si estás
+  en bachillerato y quieres asegurar tu lugar, esta guía reúne apuntes, mapas de
+  estudio y recursos para que arranques hoy mismo con un plan claro y sin perder
+  tiempo."
+mk1: >-
+  <!--StartFragment-->
+
+
+  El IPN, por su parte, mantiene un examen de admisión en línea (desde casa o sede designada según convocatoria), íntegramente en español salvo la sección específica de inglés. Las asignaturas base coinciden con bachillerato: Matemáticas (álgebra, funciones, ecuaciones, geometría y algo de trigonometría), Física (cinemática, dinámica, electricidad), Química (estequiometría, soluciones, reacciones), Biología (citología, genética, ecología), además de Comprensión Lectora y el módulo de Inglés. Según la carrera elegida, la exigencia matemática y de ciencias duras suele ser mayor en las ingenierías y ciencias exactas; en Económico-Administrativas y Sociales, la comprensión lectora, estadística básica e interpretación de gráficas tienen más presencia.
+
+
+  <!--EndFragment-->
+mk2: >-
+  <!--StartFragment-->
+
+
+  ### Tendencias 2025-2026: más contexto, menos memoria y foco en razonamiento
+
+
+  **Las preguntas vienen con textos e infografías más largas: te medirán por cómo entiendes, conectas y decides, no por definiciones de memoria.**
+
+
+  Una tendencia clara en los últimos procesos es el uso de reactivos contextualizados: problemas con tablas, infografías, noticias breves o casos que exigen interpretar y tomar decisiones. En Matemáticas, ya no basta con recordar fórmulas: te piden modelar una situación (por ejemplo, tarifas por kilowatt, descuentos compuestos o crecimiento lineal vs. exponencial) y elegir el procedimiento correcto. En Física y Química se aprecia la lectura de gráficas y el análisis dimensional; en Biología, procesos (replicación, mitosis, ciclos biogeoquímicos) y aplicación en escenarios reales (salud, ambiente). En Historia y Geografía, el enfoque es temporalidad, causalidad y correlación con mapas/datos; en Literatura, géneros, recursos y propósito del autor. Inglés evalúa principalmente comprensión lectora con pasajes cortos, sin gramática aislada.
+
+
+  También se intensifica la evaluación de “habilidades transversales”: pensamiento lógico, comprensión lectora, manejo de información y, algo que muchos subestiman, administración del tiempo. Esto implica que estudiar “por temas” no es suficiente; necesitas practicar con reactivos de caso, simulacros cronometrados y sesiones de revisión de errores. Si hoy estás en 60-70 aciertos, la diferencia para subir suele estar en: (1) fortalecer lectura crítica, (2) dominar aritmética sin calculadora, (3) aprender a descartar opciones estratégicamente y (4) cuidar precisión en preguntas de unidad y orden de magnitud.
+
+
+  <!--EndFragment-->
+mk3: >-
+  <!--StartFragment-->
+
+
+  ### Temario clave por materia: apuntes que no te pueden faltar
+
+
+  **Checklist exprés de lo indispensable para tu libreta: lo que cae una y otra vez en UNAM e IPN.**
+
+
+  Matemáticas. Aritmética (fracciones, potencias, notación científica, proporcionalidad), Álgebra (ecuaciones lineales y cuadráticas, factorización, sistemas 2×2, desigualdades), Funciones (lineales, cuadráticas, exponenciales: pendiente, vértice, dominio/rango), Geometría (triángulos, Teorema de Pitágoras, áreas/volúmenes), Trigonometría básica (razones, identidades elementales), Estadística descriptiva (media, mediana, varianza, interpretación de gráficas). Tip: arma un “formulario vivo” y resuelve al menos 300 problemas graduados, de básicos a nivel olímpico escolar.
+
+
+  Física y Química. Cinemática 1D/2D, Leyes de Newton, energía/impulso, electricidad (Ohm, potencia), óptica geométrica; en Química: estructura atómica, enlaces, tabla periódica, balanceo, mol-masa-volumen, soluciones (M, m, %), pH, reacciones redox y termoquímica ligera. Prioriza ejercicios con unidades y conversiones; acostúmbrate a estimar resultados y a dibujar diagramas. Ten a mano un “mapa” de fórmulas con unidades SI y casos típicos (plano inclinado, mezclas, gases ideales).
+
+
+  Biología. Niveles de organización, biomoléculas, célula (organelos, transporte), metabolismo (glucólisis-Krebs-ATP), genética mendeliana, biotecnología básica, evolución y ecología (ciclos, cadenas tróficas, dinámica poblacional). Repasa vocabulario y practica con esquemas: muchos reactivos son de identificar procesos en diagramas.
+
+
+  Comprensión lectora y Español. Tipos de texto, ideas principales y secundarias, inferencias, conectores, propósito del autor, tono y falacias comunes. Aprende a subrayar rápido y a inferir con evidencia del texto. En Español, ortografía-acentuación, sinónimos/antónimos, analogías, y redacción indirecta (coherencia/cohesión).
+
+
+  Historia, Geografía, Literatura y Filosofía (según área). En Historia: procesos clave (Independencia, Reforma, Revolución, Guerra Fría, globalización); en Geografía: población, clima, recursos, lectura de mapas; en Literatura: géneros, figuras retóricas, corrientes; en Filosofía: nociones de lógica, ética y corrientes clásicas. Resume cada tema en una tarjeta con: “fechas-procesos-consecuencias”.
+
+
+  <!--EndFragment-->
+mk4: >-
+  <!--StartFragment-->
+
+
+  ### Plan de estudio 8 semanas: de cero a competitivo (con simulacros cronometrados)
+
+
+  **Calendario práctico: 6 días de estudio + 1 de repaso, 2 simulacros por semana, y revisión de errores como prioridad.**
+
+
+  Semana 1-2: Fundamentos.\
+
+  — Matemáticas: aritmética y álgebra (proporciones, ecuaciones, factorizar). 90 min diarios + 30 min de problemas mixtos.\
+
+  — Comprensión lectora: 3 pasajes/día (15-20 preguntas) con técnica de subrayado y anotación al margen.\
+
+  — Ciencias: Física (cinemática) + Química (mol y balanceo) alternadas.\
+
+  — Sábado: Simulacro 1 (120 reactivos, 3 hrs). Domingo: análisis de errores y “lista de temas débiles”.
+
+
+  Semana 3-4: Aplicación y gráficas.\
+
+  — Matemáticas: funciones, interpretaciones de gráfica, estadística básica.\
+
+  — Física: dinámica, energía; Química: soluciones, pH; Biología: célula y genética.\
+
+  — Español/Literatura/Historia según área (40-60 min/día).\
+
+  — Simulacros 2 y 3. Ajusta tiempos por sección y practica “descartes” (dos vueltas: rápida y precisa).
+
+
+  Semana 5-6: Afinamiento por área.\
+
+  — Área I/II: sube carga de Matemáticas, Física/Química con problemas de caso; Área III/IV: lectura crítica, Historia/Literatura/Filosofía.\
+
+  — Inglés (IPN): 30-40 min/día de lecturas cortas con preguntas de opción múltiple; vocabulario por temas (ciencia, tecnología, cultura).\
+
+  — Simulacros 4 y 5. Objetivo: +10 a +15 aciertos respecto al primer simulacro.
+
+
+  Semana 7-8: Consolidación y simulacros finales.\
+
+  — Revisión dirigida: solo temas con mayor impacto en aciertos.\
+
+  — Simulacros 6 y 7 bajo condiciones reales (sin pausas, sin calculadora, hoja y lápiz).\
+
+  — “Día espejo” antes del examen: dormir bien, colación ligera, repasar formulario y técnicas (no aprender temas nuevos).
+
+
+  Tip logístico: arma un tablero de seguimiento (cuaderno o app) con columnas: fecha, recurso, tema, aciertos/errores, causa del error (concepto, cálculo, lectura), acción correctiva. La consistencia gana.
+
+
+  <!--EndFragment-->
+mk5: >-
+  <!--StartFragment-->
+
+
+  ### Estrategias dentro del examen: sube aciertos sin estudiar más
+
+
+  **Método 10-10-10, descarte activo y control de impulsos te dan 8-15 aciertos extra sin aprender temas nuevos.**
+
+
+  Arranque inteligente (minuto 0-10). Revisa el cuadernillo completo en 2-3 minutos por sección y etiqueta con una marca las preguntas “regalo” (fáciles) y las de tu fuerte. Empieza por ahí. El objetivo del primer bloque de 10 minutos es asegurar 10 aciertos rápidos que te bajen la ansiedad y te den tiempo de colchón.
+
+
+  Vuelta estratégica (minuto 10-100). Trabaja en bloques de 20-25 preguntas con micro-pausas de 30-45 segundos para resetear atención. Cuando una pregunta te “atora” por más de 90 segundos, márcala y sigue: volverás con cabeza fresca. En reactivos con lectura larga, lee primero lo que preguntan, luego escanea el texto buscando palabras clave. Aplica descarte activo: elimina opciones por unidad, orden de magnitud, contradicciones con el enunciado o por ser “extremos” improbables.
+
+
+  Cierre con limpieza (minuto final). Regresa a las marcadas. Si dudas entre dos, busca evidencia en el enunciado; si sigue el empate, elige la que mejor mantiene coherencia con datos numéricos o con la intención del autor (en lectura). Antes de entregar, haz un barrido de burbujeo: que todas las respuestas estén marcadas y alineadas.
+
+
+  Más trucos que funcionan:\
+
+  — Sin calculadora, redondea con criterio y estima primero: te evitará errores tontos.\
+
+  — Dibuja: en Física/Geometría, un buen diagrama soluciona media pregunta.\
+
+  — En Inglés y Lectura, las opciones “absolutas” (siempre/nunca) suelen fallar; prefiere las moderadas cuando hay ambigüedad.\
+
+  — Practica con temporizador real y ambientes ruidosos de vez en cuando: fortalece tu foco para el día del examen.
+
+
+  - - -
+
+
+  **Minitest de diagnóstico (10 preguntas rápidas)**
+
+
+  1. Si 3x+2=20, entonces x=?
+
+  2. La pendiente de la recta que pasa por (2,3) y (6,11) es…
+
+  3. Una solución 2 M de NaCl significa…
+
+  4. En un MRU, si v=5 m/s, en 3 s recorre…
+
+  5. ¿Idea principal o secundaria?: “La fotosíntesis convierte energía luminosa en química.”
+
+  6. sin2θ+cos2θ= ?
+
+  7. Enlace predominante en NaCl…
+
+  8. Propósito del autor en una nota informativa…
+
+  9. En una gráfica de barras, el eje y representa…
+
+  10. En inglés, “however” funciona como… (conector de contraste).\
+      *Califícate y registra cuántas fallaste por cálculo/lectura/concepto: esa es tu hoja de ruta.*
+---
+**Recursos y organización de estudio**\
+— Guías oficiales y temarios por área. Descarga la guía, revisa las materias de tu área y arma un índice en tu cuaderno con casillas para ir “palomeando”.\
+— Simuladores por secciones: pensamiento matemático, lectura, ciencias. Alterna entre exámenes completos y prácticas focalizadas (solo álgebra, solo cinemática, etc.).\
+— Bancos de reactivos con explicación paso a paso: después de cada sesión, escribe en 3 renglones “qué no supe, por qué, cómo lo evitaré”.\
+— Comunidad de apoyo: estudia en pareja o grupo 1-2 veces por semana para explicar temas; enseñar es consolidar.
+
+Por último, recuerda que antesdelexamen.com es un sitio web que ayuda a estudiantes de preparatoria a estudiar para el examen de admisión a la universidad: busca guías por área, simulacros cronometrados y plantillas de estudio listas para imprimir. Si empiezas hoy con un plan claro, constancia y práctica con reactivos reales, podrás atacar los puntos de mayor impacto y llegar al examen con la confianza de quien ya hizo el trabajo. ¡Sí se puede!
+
+<!--EndFragment-->

@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
-Sitemap: https://www.antesdelexamen.com/sitemap.xml
+Sitemap: https://www.antesdelexamen.com/api/sitemap.xml

@@ -11,7 +11,7 @@ import { sitename } from "../components/siteData"
 import SEOBlog from "@/components/SEOBlog"
 import Backlinks from "@/components/Backlinks"
 
-export default function Blog({ frontmatter, markdown, isMobile }) {
+export default function Blog({ frontmatter }) {
   // Format the ISO date for display in the desired locale
   const formattedDate = new Date(frontmatter.date).toLocaleDateString("en-US")
   //for categories
@@ -69,8 +69,10 @@ export default function Blog({ frontmatter, markdown, isMobile }) {
               src={frontmatter.featuredimage}
               alt={frontmatter.title}
               fill
-              placeholder="blur"
-              blurDataURL="../public/assets/blur.jpg"
+              sizes="(max-width: 768px) 100vw, 80vw"
+              priority
+              fetchPriority="high"
+              decoding="async"
             />
           </div>
         </Box>
@@ -119,14 +121,18 @@ export default function Blog({ frontmatter, markdown, isMobile }) {
               más importantes de México. Tenemos bancos de preguntas por materia
               y por area. Bancos de preguntas Area 1, Bancos de preguntas Area
               2, Bancos de preguntas area 3, Bancos de preguntas Area 4.
-              Simulacros UNAM , IPN, UAM, UAEM. Guía UNAM 2021, Guía IPN 2021.{" "}
+              Simulacros UNAM, IPN, UAM, UAEM. Guia UNAM 2026, Guia IPN 2026.{" "}
               <br></br>
               Agréganos en facebook buscando @antesdelexamen
             </p>
           </div>
         </Box>
       </Box>
-      {!isMobile && <Box id="adPlaceholder" sx={{ width: '45%'}} />}
+      <Box
+        id="adPlaceholder"
+        className="desktop-only"
+        sx={{ width: "45%" }}
+      />
     </div>
   )
 }
@@ -136,22 +142,18 @@ export async function getStaticProps({ params: { slug } }) {
   try {
     const fileContent = matter(fs.readFileSync(`./blog/${slug}.md`, "utf8"))
     const frontmatter = fileContent.data
-    const markdown = fileContent.content
 
-    // Format the date using the "es-MX" locale
     const formattedDate = new Date(frontmatter.date).toLocaleDateString("en-US")
-
-    // Ensure shortDescription is defined for each blog
-    const shortDescription = frontmatter["short-description"]
+    const shortDescription = frontmatter["short-description"] || ""
 
     return {
       props: {
         frontmatter: {
           ...frontmatter,
+          slug,
           date: formattedDate,
-          shortDescription: shortDescription,
+          shortDescription,
         },
-        markdown,
       },
     }
   } catch (error) {
