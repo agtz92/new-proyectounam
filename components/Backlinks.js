@@ -95,6 +95,17 @@ const Backlinks = (props) => {
               in New York City. Spoiler alert: You will love it!
             </li>
             <li>
+              Read our honest
+              <a
+                href="https://www.continuu.it/blog/the-ai-assistant-inside-continuuit-closing-the-loop-without-opening-14-tabs"
+                target="_blank"
+                rel="noopener"
+              >
+                Productivity tool for builders
+              </a>
+              in New York City. Spoiler alert: You will love it!
+            </li>
+            <li>
               Expertos en
               <a
                 href="https://grupohule.com/categories/tapetes-para-exteriores"
