@@ -1,9 +1,7 @@
-import { Box } from "@mui/material"
-import React from "react"
 
 const privacidad = () => {
   return (
-    <Box sx={{ paddingLeft: 20, paddingRight: 20 }}>
+    <div className="legal">
       <h1>POLÍTICA DE PRIVACIDAD</h1>
       <p>
         Esta Política de Privacidad establece los términos en que
@@ -93,7 +91,7 @@ const privacidad = () => {
         reserva el derecho de cambiar los términos de la presente Política de
         Privacidad en cualquier momento.
       </p>
-    </Box>
+    </div>
   )
 }
 

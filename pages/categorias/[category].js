@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react"
+import { useState, useEffect } from "react"
 import fs from "fs"
 import path from "path"
 import matter from "gray-matter"
-import { Box, Grid, Pagination, Stack } from "@mui/material"
 import Link from "next/link"
 import Head from "next/head"
-import LargeCard from "@/components/LargeCard"
+import PostCard from "@/components/PostCard"
+import Pagination from "@/components/Pagination"
 import { sitename, sitedomain } from "@/components/siteData"
 import Backlinks from "@/components/Backlinks"
 
@@ -21,7 +21,7 @@ function removeSpecialCharactersAndLowerCase(str) {
 function CategoryPage({ matchingFiles, category }) {
   const sortedBlogs = matchingFiles || []
 
-  const itemsPerPage = 6
+  const itemsPerPage = 9
   const [currentPage, setCurrentPage] = useState(1)
   const startIndex = (currentPage - 1) * itemsPerPage
   const endIndex = startIndex + itemsPerPage
@@ -31,12 +31,14 @@ function CategoryPage({ matchingFiles, category }) {
     setCurrentPage(1)
   }, [category])
 
-  const title = sitename + " | " + category
-  const description = `Encuentra articulos y bancos de preguntas sobre ${category} en ${sitename}. Preparate para tu examen de admision.`
+  // URL param is a slug ("historia-de-mexico"); show the real name when we have it
+  const categoryName = sortedBlogs[0]?.categoria || category
+  const title = sitename + " | " + categoryName
+  const description = `Encuentra articulos y bancos de preguntas sobre ${categoryName} en ${sitename}. Preparate para tu examen de admision.`
   const canonicalUrl = `${sitedomain}/categorias/${removeSpecialCharactersAndLowerCase(category)}`
 
   return (
-    <Box>
+    <>
       <Head>
         <title>{title}</title>
         <meta name="description" content={description} />
@@ -51,49 +53,31 @@ function CategoryPage({ matchingFiles, category }) {
         <meta name="twitter:description" content={description} />
       </Head>
 
-      {/* Mini Hero */}
-      <div className="mini-hero">
-        <h1 className="mini-hero-title">{category}</h1>
-        <div className="mini-hero-count">
-          {sortedBlogs.length} {sortedBlogs.length === 1 ? "articulo" : "articulos"}
-        </div>
-      </div>
+      <div className="wrap">
+        <header className="page-head">
+          <div className="crumbs">
+            <Link href="/">Inicio</Link> / Materia
+          </div>
+          <h1>{categoryName}</h1>
+          <p>
+            {sortedBlogs.length}{" "}
+            {sortedBlogs.length === 1 ? "artículo" : "artículos"}
+          </p>
+        </header>
 
-      {/* Posts Grid — Zigzag Layout */}
-      <Box className="margins5">
-        <div className="section-header">
-          <span className="section-number">01</span>
-          <h2>Posts en {category}</h2>
-          <div className="section-line" />
-        </div>
-
-        <Grid container spacing={2}>
-          {blogsToDisplay?.map((file) => (
-            <Grid key={file.slug} item xs={12} sm={6} md={4}>
-              <Link href={`/${file.slug}`}>
-                <LargeCard post={file} />
-              </Link>
-            </Grid>
+        <div className="grid">
+          {blogsToDisplay.map((file) => (
+            <PostCard key={file.slug} post={file} headingLevel={2} />
           ))}
-        </Grid>
+        </div>
 
-        {/* Pagination */}
-        <Stack
-          spacing={2}
-          display="flex"
-          flexDirection="row"
-          justifyContent="center"
-          sx={{ mt: 5 }}
-        >
-          <Pagination
-            count={Math.ceil(sortedBlogs.length / itemsPerPage)}
-            size="large"
-            page={currentPage}
-            onChange={(event, page) => setCurrentPage(page)}
-          />
-        </Stack>
+        <Pagination
+          count={Math.ceil(sortedBlogs.length / itemsPerPage)}
+          page={currentPage}
+          onChange={setCurrentPage}
+        />
 
-        <div className="parpost">
+        <aside className="aside-box">
           <Backlinks categoria={category} />
           <p>
             antesdelexamen es una pagina de internet gratuita con bancos de
@@ -105,9 +89,9 @@ function CategoryPage({ matchingFiles, category }) {
             <br />
             Agreganos en facebook buscando @antesdelexamen
           </p>
-        </div>
-      </Box>
-    </Box>
+        </aside>
+      </div>
+    </>
   )
 }
 

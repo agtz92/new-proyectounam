@@ -1,165 +1,93 @@
-import React from "react"
 import fs from "fs"
 import matter from "gray-matter"
 import Link from "next/link"
 import Head from "next/head"
-import Grid from "@mui/material/Grid"
-import Box from "@mui/material/Box"
-import { sitename, sitedomain, motto } from "../components/siteData"
-import CoverCard from "@/components/CoverCard"
-import LargeCard from "@/components/LargeCard"
+import { sitename, sitedomain, motto, subjects } from "../components/siteData"
+import PostCard from "@/components/PostCard"
 
-const categories = [
-  { label: "Biologia", href: "/categorias/biologia" },
-  { label: "Contabilidad", href: "/categorias/contabilidad" },
-  { label: "Derecho", href: "/categorias/derecho" },
-  { label: "Economia", href: "/categorias/economia" },
-  { label: "Espanol", href: "/categorias/espanol" },
-  { label: "Geografia", href: "/categorias/geografia" },
-  { label: "Historia de Mexico", href: "/categorias/historia-de-mexico" },
-  { label: "Historia Universal", href: "/categorias/historia-universal" },
-  { label: "Preguntas de Examen", href: "/categorias/preguntas-de-examen" },
-  { label: "Quimica", href: "/categorias/quimica" },
-]
+const description = `${sitename} - ${motto}. Encuentra bancos de preguntas, simulacros y guias de estudio para tu examen de admision.`
 
 export default function Home({ featured, recent, deals, otherPosts }) {
-
   return (
-    <Box>
+    <>
       <Head>
         <title>{sitename + " | " + motto}</title>
-        <meta
-          name="description"
-          content={`${sitename} - ${motto}. Encuentra bancos de preguntas, simulacros y guias de estudio para tu examen de admision.`}
-        />
+        <meta name="description" content={description} />
         <link rel="canonical" href={sitedomain} />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={`${sitename} | ${motto}`} />
-        <meta
-          property="og:description"
-          content={`${sitename} - ${motto}. Encuentra bancos de preguntas, simulacros y guias de estudio para tu examen de admision.`}
-        />
+        <meta property="og:description" content={description} />
         <meta property="og:url" content={sitedomain} />
         <meta property="og:site_name" content={sitename} />
         <meta property="og:image" content={`${sitedomain}/assets/logo.png`} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={`${sitename} | ${motto}`} />
-        <meta
-          name="twitter:description"
-          content={`${sitename} - ${motto}. Encuentra bancos de preguntas, simulacros y guias de estudio para tu examen de admision.`}
-        />
+        <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={`${sitedomain}/assets/logo.png`} />
       </Head>
 
-      {/* ===== Hero ===== */}
-      <div className="hero-section">
-        <h1
-          style={{
-            position: "absolute",
-            width: "1px",
-            height: "1px",
-            padding: 0,
-            margin: "-1px",
-            overflow: "hidden",
-            clip: "rect(0,0,0,0)",
-            whiteSpace: "nowrap",
-            border: 0,
-          }}
-        >
-          {sitename} - {motto}
-        </h1>
-        <div className="hero-badge">
-          <span className="hero-badge-dot" />
-          Bancos de preguntas actualizados 2026
-        </div>
-        <div className="hero-title">{sitename}</div>
-        <p className="hero-subtitle">{motto}</p>
-      </div>
+      <div className="wrap">
+        <section className="hero">
+          <span className="eyebrow">Guías y bancos de preguntas 2026</span>
+          <h1>
+            Prepárate para tu examen de admisión <mark>gratis</mark>
+          </h1>
+          <p>
+            {sitename}: bancos de preguntas y resúmenes por materia para UNAM,
+            IPN, UAM y UAEM.
+          </p>
+        </section>
 
-      {/* ===== Category Pills ===== */}
-      <div className="category-pills">
-        {categories.map((cat) => (
-          <Link key={cat.href} href={cat.href} className="category-pill">
-            {cat.label}
-          </Link>
-        ))}
-      </div>
-
-      <Box className="margins5">
-        {/* ===== Section 01: Posts Recientes ===== */}
-        <div className="section-header">
-          <span className="section-number">01</span>
-          <h2>Posts Recientes</h2>
-          <div className="section-line" />
-        </div>
-
-        {/* Featured post — full width */}
-        {featured.map((blog) => (
-          <Box key={blog.slug} sx={{ mb: 3 }}>
-            <Link href={`/${blog.slug}`}>
-              <CoverCard post={blog} h1="1.5rem" priority />
-            </Link>
-          </Box>
-        ))}
-
-        {/* Recent grid — 3 columns */}
-        <Grid container spacing={2}>
-          {recent.map((blog) => (
-            <Grid key={blog.slug} item xs={12} sm={6} md={4}>
-              <Link href={`/${blog.slug}`}>
-                <LargeCard post={blog} />
+        <h2 className="sr-only">Materias</h2>
+        <ul className="subjects">
+          {subjects.map((s) => (
+            <li key={s.href}>
+              <Link prefetch={false} href={s.href}>
+                <span aria-hidden="true">{s.icon}</span>
+                {s.label}
               </Link>
-            </Grid>
+            </li>
           ))}
-        </Grid>
+        </ul>
 
-        {/* ===== Section 02: Preguntas de Examen ===== */}
-        <Box sx={{ mt: 8 }}>
-          <div className="section-header">
-            <span className="section-number">02</span>
-            <h2>Preguntas de Examen</h2>
-            <div className="section-line" />
+        <section className="section">
+          <div className="section-head">
+            <h2>Lo más reciente</h2>
           </div>
-        </Box>
-
-        <Grid container spacing={2}>
-          {deals.map((blog) => (
-            <Grid key={blog.slug} item xs={12} sm={6} md={4}>
-              <Link href={`/${blog.slug}`}>
-                <LargeCard post={blog} />
-              </Link>
-            </Grid>
+          {featured.map((post) => (
+            <PostCard key={post.slug} post={post} featured priority />
           ))}
-        </Grid>
+          <div className="grid">
+            {recent.map((post) => (
+              <PostCard key={post.slug} post={post} />
+            ))}
+          </div>
+        </section>
 
-        <Box display="flex" justifyContent="center" sx={{ mt: 5, mb: 5 }}>
-          <Link
-            href="/categorias/preguntas-de-examen"
-            className="cta-button"
-          >
-            Ver todas las Preguntas de Examen
-            <span style={{ fontSize: "1.1em" }}>&rarr;</span>
-          </Link>
-        </Box>
+        <section className="section">
+          <div className="section-head">
+            <h2>Preguntas de examen</h2>
+            <Link prefetch={false} href="/categorias/preguntas-de-examen">Ver todas →</Link>
+          </div>
+          <div className="grid">
+            {deals.map((post) => (
+              <PostCard key={post.slug} post={post} />
+            ))}
+          </div>
+        </section>
 
-        {/* ===== Section 03: Otros Posts ===== */}
-        <div className="section-header">
-          <span className="section-number">03</span>
-          <h2>Otros Posts</h2>
-          <div className="section-line" />
-        </div>
-
-        <Grid container spacing={2}>
-          {otherPosts.map((blog) => (
-            <Grid key={blog.slug} item xs={12} sm={6} md={4}>
-              <Link href={`/${blog.slug}`}>
-                <LargeCard post={blog} />
-              </Link>
-            </Grid>
-          ))}
-        </Grid>
-      </Box>
-    </Box>
+        <section className="section">
+          <div className="section-head">
+            <h2>Más artículos</h2>
+          </div>
+          <div className="grid">
+            {otherPosts.map((post) => (
+              <PostCard key={post.slug} post={post} />
+            ))}
+          </div>
+        </section>
+      </div>
+    </>
   )
 }
 
@@ -177,7 +105,10 @@ export async function getStaticProps() {
         const isoDate = matterData.data.date
           ? new Date(matterData.data.date).toISOString()
           : ""
-        const shortDescription = matterData.data["short-description"] || ""
+        // Cards only show an excerpt; don't ship the full text in page props
+        const shortDescription = (
+          matterData.data["short-description"] || ""
+        ).slice(0, 260)
 
         return {
           title: matterData.data.title || "",

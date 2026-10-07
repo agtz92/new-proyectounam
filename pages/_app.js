@@ -4,25 +4,20 @@ import "@/styles/globals.css"
 import Script from "next/script"
 import { Inter } from "next/font/google"
 
+// Variable font: one file covers every weight
 const inter = Inter({
   subsets: ["latin"],
-  weight: ["400", "600", "700", "800"],
   display: "swap",
-  variable: "--font-inter",
-  preload: true,
 })
 
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <style jsx global>{`
-        html {
-          font-family: ${inter.style.fontFamily};
-        }
-      `}</style>
-      <div className={inter.variable}>
+      <div className={inter.className}>
         <Nav />
-        <Component {...pageProps} />
+        <main id="contenido">
+          <Component {...pageProps} />
+        </main>
         <Footer />
       </div>
 
