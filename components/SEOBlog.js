@@ -28,7 +28,11 @@ const SEOBlog = ({ post }) => {
   }
 
   const isExternalImage = post.featuredimage && (post.featuredimage.startsWith("http") || post.featuredimage.startsWith("data:"))
-  const imageUrl = isExternalImage ? post.featuredimage : `${sitedomain}/assets/${post.featuredimage}`
+  const imageUrl = isExternalImage
+    ? post.featuredimage
+    : post.featuredimage?.startsWith("/")
+      ? `${sitedomain}${post.featuredimage}`
+      : `${sitedomain}/assets/${post.featuredimage}`
   const canonicalUrl = `${sitedomain}/${post.slug}`
 
   function addProductJsonLd() {

@@ -1,158 +1,138 @@
 import fs from "fs"
+import { createElement } from "react"
+import { renderToStaticMarkup } from "react-dom/server"
 import ReactMarkdown from "react-markdown"
 import matter from "gray-matter"
-import Head from "next/head"
 import Image from "next/image"
 import rehypeRaw from "rehype-raw"
-import Box from "@mui/material/Box"
-import { Chip, Grid } from "@mui/material"
 import Link from "next/link"
-import { sitename } from "../components/siteData"
 import SEOBlog from "@/components/SEOBlog"
 import Backlinks from "@/components/Backlinks"
+import { categorySlug } from "@/components/siteData"
 
-export default function Blog({ frontmatter }) {
-  // Format the ISO date for display in the desired locale
-  const formattedDate = new Date(frontmatter.date).toLocaleDateString("en-US")
-  //for categories
-  function removeSpecialCharactersAndLowerCase(str) {
-    // Remove special characters, replace spaces with hyphens, and convert to lowercase
-    return str
-      .normalize("NFD") // Normalize accented characters
-      .replace(/[\u0300-\u036f]/g, "") // Remove combining diacritical marks
-      .replace(/[^\w\s]/g, "") // Remove non-alphanumeric characters
-      .replace(/\s+/g, "-") // Replace spaces with hyphens
-      .toLowerCase()
-  }
-  // Define the cleanAndLowercaseString function
-  function cleanAndLowercaseString(inputString) {
-    // Remove special characters, spaces, and "#" if found
-    const cleanedString = inputString
-      .replace(/[^a-zA-Z0-9]+/g, "")
-      .toLowerCase()
-
-    // Split the string by words and join them with hyphens
-    const words = cleanedString.split(/\s+/)
-    const transformedString = words.join("-")
-
-    return transformedString
-  }
-
-  return (
-    <div>
-      <SEOBlog post={frontmatter} />
-      <Box display={"flex"} flexDirection={"column"} className="margins5">
-        <h1 style={{ fontSize: "3em", margin: 0 }}>{frontmatter.title}</h1>
-        <Box
-          display={"flex"}
-          alignContent={"left"}
-          sx={{ marginBottom: 2, marginTop: 2 }}
-        >
-          <Chip
-            label={frontmatter.categoria}
-            clickable
-            component={Link}
-            href={`/categorias/${removeSpecialCharactersAndLowerCase(
-              frontmatter.categoria
-            )}`}
-          />
-        </Box>
-
-        <span style={{ color: "#ddd", fontSize: "12px" }}>
-          Actualizado: {formattedDate}
-        </span>
-        <Box sx={{ minHeight: "40px" }} />
-        <Box justifyContent={"center"} display={"flex"}>
-          <div className="postimage-wrapper">
-            <Image
-              className="postimg"
-              src={frontmatter.featuredimage}
-              alt={frontmatter.title}
-              fill
-              sizes="(max-width: 768px) 100vw, 80vw"
-              priority
-              fetchPriority="high"
-              decoding="async"
-            />
-          </div>
-        </Box>
-
-        <Grid container spacing={2} sx={{ marginTop: 2 }}>
-          {frontmatter.tags?.map((tag) => (
-            <Grid key={tag} item xs={3} sm={3} md={1.5}>
-              <Chip
-                component={Link}
-                href={`/tags/${cleanAndLowercaseString(tag)}`}
-                label={tag}
-                sx={{
-                  marginRight: 1,
-                  marginBottom: 2,
-                  width: "100%",
-                }}
-                clickable
-              />
-            </Grid>
-          ))}
-        </Grid>
-
-        <Box display={"flex"} flexDirection={"column"} className="content">
-          <Box sx={{ minHeight: "20px" }} />
-          {frontmatter.shortDescription}
-          <ReactMarkdown rehypePlugins={[rehypeRaw]}>
-            {frontmatter.mk1}
-          </ReactMarkdown>
-          <ReactMarkdown rehypePlugins={[rehypeRaw]}>
-            {frontmatter.mk2}
-          </ReactMarkdown>
-          <ReactMarkdown rehypePlugins={[rehypeRaw]}>
-            {frontmatter.mk3}
-          </ReactMarkdown>
-          <ReactMarkdown rehypePlugins={[rehypeRaw]}>
-            {frontmatter.mk4}
-          </ReactMarkdown>
-          <ReactMarkdown rehypePlugins={[rehypeRaw]}>
-            {frontmatter.mk5}
-          </ReactMarkdown>
-          <div className="parpost light">
-            <Backlinks categoria={frontmatter.categoria} />
-            <p style={{ color: "#ddd" }}>
-              antesdelexamen es una página de internet gratuita con bancos de
-              preguntas de examen para UNAM, IPN y todas las demás universidades
-              más importantes de México. Tenemos bancos de preguntas por materia
-              y por area. Bancos de preguntas Area 1, Bancos de preguntas Area
-              2, Bancos de preguntas area 3, Bancos de preguntas Area 4.
-              Simulacros UNAM, IPN, UAM, UAEM. Guia UNAM 2026, Guia IPN 2026.{" "}
-              <br></br>
-              Agréganos en facebook buscando @antesdelexamen
-            </p>
-          </div>
-        </Box>
-      </Box>
-      <Box
-        id="adPlaceholder"
-        className="desktop-only"
-        sx={{ width: "45%" }}
-      />
-    </div>
+function renderMarkdown(markdown) {
+  if (!markdown) return ""
+  return renderToStaticMarkup(
+    createElement(ReactMarkdown, { rehypePlugins: [rehypeRaw] }, markdown)
   )
 }
 
-// Modify the getStaticProps function
+// Same slug rule the tag pages use for their URLs
+function tagSlug(tag) {
+  return tag.replace(/[^a-zA-Z0-9]+/g, "").toLowerCase()
+}
+
+export default function Blog({ frontmatter }) {
+  return (
+    <>
+      <SEOBlog post={frontmatter} />
+      <article className="article">
+        <header className="article-head">
+          {frontmatter.categoria && (
+            <Link
+              className="label"
+              href={`/categorias/${categorySlug(frontmatter.categoria)}`}
+            >
+              {frontmatter.categoria}
+            </Link>
+          )}
+          <h1>{frontmatter.title}</h1>
+          {frontmatter.displayDate && (
+            <div className="article-meta">
+              <time dateTime={frontmatter.date}>
+                Actualizado el {frontmatter.displayDate}
+              </time>
+            </div>
+          )}
+        </header>
+
+        {frontmatter.featuredimage && (
+          <div className="article-cover">
+            <Image
+              src={frontmatter.featuredimage}
+              alt={frontmatter.title}
+              fill
+              sizes="(max-width: 760px) 100vw, 700px"
+              priority
+            />
+          </div>
+        )}
+
+        <div className="prose">
+          {frontmatter.leadHtml && (
+            <div
+              className="lead"
+              dangerouslySetInnerHTML={{ __html: frontmatter.leadHtml }}
+            />
+          )}
+          <div dangerouslySetInnerHTML={{ __html: frontmatter.html }} />
+        </div>
+
+        {frontmatter.tags?.length > 0 && (
+          <section className="article-tags">
+            <h2>Temas</h2>
+            <ul className="tag-list">
+              {frontmatter.tags.filter(Boolean).map((tag) => (
+                <li key={tag}>
+                  <Link href={`/tags/${tagSlug(tag)}`}>#{tag}</Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        <aside className="aside-box">
+          <Backlinks categoria={frontmatter.categoria} />
+          <p>
+            antesdelexamen es una página de internet gratuita con bancos de
+            preguntas de examen para UNAM, IPN y todas las demás universidades
+            más importantes de México. Tenemos bancos de preguntas por materia
+            y por area. Bancos de preguntas Area 1, Bancos de preguntas Area
+            2, Bancos de preguntas area 3, Bancos de preguntas Area 4.
+            Simulacros UNAM, IPN, UAM, UAEM. Guia UNAM 2026, Guia IPN 2026.{" "}
+            <br></br>
+            Agréganos en facebook buscando @antesdelexamen
+          </p>
+        </aside>
+      </article>
+      <div id="adPlaceholder" className="desktop-only" />
+    </>
+  )
+}
+
 export async function getStaticProps({ params: { slug } }) {
   try {
     const fileContent = matter(fs.readFileSync(`./blog/${slug}.md`, "utf8"))
     const frontmatter = fileContent.data
 
-    const formattedDate = new Date(frontmatter.date).toLocaleDateString("en-US")
+    const parsedDate = frontmatter.date ? new Date(frontmatter.date) : null
+    const date = parsedDate && !isNaN(parsedDate) ? parsedDate : null
     const shortDescription = frontmatter["short-description"] || ""
+
+    // Render markdown at build time so the markdown parser never ships to the browser
+    const { mk1, mk2, mk3, mk4, mk5, ...meta } = frontmatter
+    const html = [mk1, mk2, mk3, mk4, mk5]
+      .filter(Boolean)
+      .map(renderMarkdown)
+      .join("\n")
 
     return {
       props: {
         frontmatter: {
-          ...frontmatter,
+          ...meta,
           slug,
-          date: formattedDate,
+          date: date ? date.toISOString() : "",
+          displayDate: date
+            ? date.toLocaleDateString("es-MX", {
+                day: "numeric",
+                month: "long",
+                year: "numeric",
+                timeZone: "UTC",
+              })
+            : "",
           shortDescription,
+          leadHtml: renderMarkdown(shortDescription),
+          html,
         },
       },
     }

@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from "react"
+import { useState, useEffect } from "react"
 import fs from "fs"
 import path from "path"
 import matter from "gray-matter"
 import Link from "next/link"
-import LargeCard from "@/components/LargeCard"
-import { Box, Grid, Pagination, Stack } from "@mui/material"
+import PostCard from "@/components/PostCard"
+import Pagination from "@/components/Pagination"
 import Head from "next/head"
 import { sitename, sitedomain } from "@/components/siteData"
 
@@ -15,7 +15,7 @@ function removeSpecialCharactersAndLowerCase(str) {
 function TagPage({ matchingFiles, tag }) {
   const sortedBlogs = matchingFiles || []
 
-  const itemsPerPage = 6
+  const itemsPerPage = 9
   const [currentPage, setCurrentPage] = useState(1)
   const startIndex = (currentPage - 1) * itemsPerPage
   const endIndex = startIndex + itemsPerPage
@@ -30,7 +30,7 @@ function TagPage({ matchingFiles, tag }) {
   const canonicalUrl = `${sitedomain}/tags/${tag}`
 
   return (
-    <Box>
+    <>
       <Head>
         <title>{title}</title>
         <meta name="description" content={description} />
@@ -45,49 +45,31 @@ function TagPage({ matchingFiles, tag }) {
         <meta name="twitter:description" content={description} />
       </Head>
 
-      {/* Mini Hero */}
-      <div className="mini-hero">
-        <h1 className="mini-hero-title">#{tag}</h1>
-        <div className="mini-hero-count">
-          {sortedBlogs.length} {sortedBlogs.length === 1 ? "articulo" : "articulos"}
-        </div>
-      </div>
+      <div className="wrap">
+        <header className="page-head">
+          <div className="crumbs">
+            <Link href="/">Inicio</Link> / Etiqueta
+          </div>
+          <h1>#{tag}</h1>
+          <p>
+            {sortedBlogs.length}{" "}
+            {sortedBlogs.length === 1 ? "artículo" : "artículos"}
+          </p>
+        </header>
 
-      {/* Posts Grid — Zigzag Layout */}
-      <Box className="margins5">
-        <div className="section-header">
-          <span className="section-number">01</span>
-          <h2>Posts con #{tag}</h2>
-          <div className="section-line" />
-        </div>
-
-        <Grid container spacing={2}>
-          {blogsToDisplay?.map((file) => (
-            <Grid key={file.slug} item xs={12} sm={6} md={4}>
-              <Link href={`/${file.slug}`}>
-                <LargeCard post={file} />
-              </Link>
-            </Grid>
+        <div className="grid">
+          {blogsToDisplay.map((file) => (
+            <PostCard key={file.slug} post={file} headingLevel={2} />
           ))}
-        </Grid>
+        </div>
 
-        {/* Pagination */}
-        <Stack
-          spacing={2}
-          display="flex"
-          flexDirection="row"
-          justifyContent="center"
-          sx={{ mt: 5 }}
-        >
-          <Pagination
-            count={Math.ceil(sortedBlogs.length / itemsPerPage)}
-            size="large"
-            page={currentPage}
-            onChange={(event, page) => setCurrentPage(page)}
-          />
-        </Stack>
-      </Box>
-    </Box>
+        <Pagination
+          count={Math.ceil(sortedBlogs.length / itemsPerPage)}
+          page={currentPage}
+          onChange={setCurrentPage}
+        />
+      </div>
+    </>
   )
 }
 
