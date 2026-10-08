@@ -111,8 +111,9 @@ export async function getStaticProps({ params: { slug } }) {
 
     // Render markdown at build time so the markdown parser never ships to the browser
     const { mk1, mk2, mk3, mk4, mk5, ...meta } = frontmatter
-    const html = [mk1, mk2, mk3, mk4, mk5]
-      .filter(Boolean)
+    // Legacy posts keep their article in the markdown body instead of mk1-mk5
+    const sections = [mk1, mk2, mk3, mk4, mk5].filter(Boolean)
+    const html = (sections.length > 0 ? sections : [fileContent.content])
       .map(renderMarkdown)
       .join("\n")
 
