@@ -1,6 +1,6 @@
 ---
 title: 'Provincias fisiográficas de México: mapa y características'
-date: '2026-10-17T04:38:01.303Z'
+date: '2026-10-17T04:38:04.465Z'
 featuredimage: >-
   https://images.unsplash.com/photo-1465256410760-10640339c72c?ixid=M3wxMTA0MDg1fDB8MXxzZWFyY2h8MXx8TWV4aWNvJTIwbW91bnRhaW4lMjBsYW5kc2NhcGV8ZW58MXwwfHx8MTc5MjIxMTg1Mnww&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&crop=entropy&fm=jpg&q=75
 categoria: Geografía
