@@ -13,32 +13,45 @@ function removeSpecialCharactersAndLowerCase(str) {
     .toLowerCase()
 }
 
+function escapeXml(str) {
+  return String(str)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&apos;")
+}
+
+function toDateString(value) {
+  const d = value ? new Date(value) : new Date()
+  return isNaN(d) ? new Date().toISOString().split("T")[0] : d.toISOString().split("T")[0]
+}
+
 export default function handler(req, res) {
   const blogDir = path.join(process.cwd(), "blog")
-  const categoryDir = path.join(process.cwd(), "categorias")
 
-  const blogFiles = fs.readdirSync(blogDir).filter((f) => !f.startsWith("."))
+  const blogFiles = fs
+    .readdirSync(blogDir)
+    .filter((f) => !f.startsWith(".") && f.endsWith(".md"))
   const categories = new Set()
   const tags = new Set()
 
   const blogEntries = blogFiles.map((file) => {
     const content = matter(fs.readFileSync(path.join(blogDir, file), "utf8"))
     const slug = file.replace(/\.md$/, "")
-    const date = content.data.date
-      ? new Date(content.data.date).toISOString().split("T")[0]
-      : new Date().toISOString().split("T")[0]
+    const date = toDateString(content.data.date)
 
-    if (content.data.categoria) {
+    if (typeof content.data.categoria === "string") {
       categories.add(removeSpecialCharactersAndLowerCase(content.data.categoria))
     }
-    if (content.data.tags) {
+    if (Array.isArray(content.data.tags)) {
       content.data.tags.forEach((tag) => {
-        if (tag) tags.add(tag.replace(/[^a-zA-Z0-9]+/g, "").toLowerCase())
+        if (typeof tag === "string" && tag) tags.add(tag.replace(/[^a-zA-Z0-9]+/g, "").toLowerCase())
       })
     }
 
     return `  <url>
-    <loc>${sitedomain}/${slug}</loc>
+    <loc>${escapeXml(`${sitedomain}/${slug}`)}</loc>
     <lastmod>${date}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
