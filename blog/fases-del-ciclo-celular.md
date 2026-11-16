@@ -2,7 +2,7 @@
 title: 'Fases del ciclo celular: cuáles son y qué pasa en cada una'
 slug: fases-del-ciclo-celular
 featuredimage: /assets/ciclocelular.jpg
-date: 2020-12-18T04:09:50.877Z
+date: 2026-11-16T04:01:40.086Z
 dificultad: Preparatoria / Universidad
 categoria: Biología
 tags:
