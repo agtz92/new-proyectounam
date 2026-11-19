@@ -1,8 +1,8 @@
 ---
-title: "Teoría quimiosintética de Oparin- haldane "
+title: 'Teoría quimiosintética de Oparin y Haldane: resumen fácil'
 slug: teoria-quimiosintetica-de-oparin-haldane
 featuredimage: /assets/teoriass.jpg
-date: 2020-12-19T05:54:52.748Z
+date: 2026-11-19T14:03:30.799Z
 dificultad: Preparatoria / Universidad
 categoria: Biología
 tags:
@@ -10,33 +10,25 @@ tags:
   - quimiosintetica
   - oparin
 short-description: >-
-  Teoría quimiosintética de Oparin- haldane 
-
-
-  La pregunta de cómo había comenzado la vida en nuestro planeta, hace millones de años, capturó la atención de los científicos
+  ¿Qué es la teoría quimiosintética de Oparin y Haldane? Explicamos sus etapas,
+  la atmósfera primitiva y los coacervados para repasar el tema.
 mk1: >-
-  La pregunta de cómo había comenzado la vida en nuestro planeta, hace millones
-  de años, capturó la atención de los científicos. Muchos se inclinaron por la
-  idea de un origen extraterrestre para la vida, entre ellos, el químico sueco
-  Svante A. Arrhenius (1859-1927). Sin embargo, el primer conjunto de hipótesis
-  verificables acerca del origen de la vida en la Tierra fue propuesto por el
-  bioquímico ruso Alexandr I. Oparin (1894-1980) y por el inglés John B. S.
-  Haldane (1892-1964), quienes trabajaban en forma independiente. Oparin expuso
-  sus ideas sobre el origen de la vida en 1922 y las publicó en 1924, pero la
-  obra fue traducida al inglés recién en 1938. Haldane desconocía el trabajo de
-  Oparin y publicó ideas similares en 1929. En 1963, Haldane reconoció
-  cortésmente la prioridad de Oparin en la formulación de la teoría. Este
-  científico inglés, luego de publicar sus ideas acerca del origen de la vida,
-  centró su atención en otras áreas de la ciencia. Oparin, en cambio, persiste
-  en el desarrollo de la teoría. La idea de Oparin y Haldane se basaba en que la
-  atmósfera primitiva era muy diferente de la actual; entre otras cosas, la
-  energía abundaba en el joven planeta. Propusieron entonces que la aparición de
-  la vida fue precedida por un largo período de lo que denomina "evolución
-  química". Oparin experimentó sus hipótesis utilizando un modelo al que llamó
-  "coacervados". Los coacervados son sistemas coloidales constituidos por
-  macromoléculas diversas que se habrían formado en ciertas condiciones en medio
-  acuoso y habrían ido evolucionando hasta dar lugar a células con verdaderas
-  membranas y otras características de los organismos vivos.
+  La teoría quimiosintética de Oparin y Haldane es la primera propuesta con
+  hipótesis verificables sobre cómo surgió la vida en la Tierra: plantea que, a
+  partir de sustancias inorgánicas y con energía abundante, se formaron primero
+  moléculas orgánicas sencillas y después estructuras cada vez más complejas
+  hasta llegar a las primeras células.
+
+
+  El bioquímico ruso Alexandr I. Oparin y el inglés John B. S. Haldane llegaron
+  a ideas parecidas de forma independiente. Oparin expuso sus ideas en 1922 y
+  las publicó en 1924, pero su obra se tradujo al inglés hasta 1938. Haldane
+  publicó ideas similares en 1929 y, en 1963, reconoció la prioridad de Oparin.
+
+
+  En este artículo revisas la atmósfera primitiva que sirve de punto de partida,
+  las etapas del proceso (síntesis abiogénica, polimerización y coacervación) y
+  qué son los coacervados, el modelo con el que Oparin probó sus hipótesis.
 
 
   </br>
@@ -66,49 +58,58 @@ mk3: >-
 
 
   </br>
-mk4: >-
-  **Etapas** 
-
-
-  Síntesis abiogénica
-
-
-  Consistió en la formación de los primeros compuestos orgánicos sencillos a partir de las moléculas inorgánicas de la atmósfera primitiva, en presencia de fuentes de energía no biológicas.
-
-
-  </br>
-
-
-  **Polimerización**
-
-
-  Fue el proceso químico mediante el cual, a partir de moléculas sencillas similares o idénticas, se sintetizaron polímeros bajo la acción de diversas fuentes de energía.
-
-
-  aminoácidos(n)+energía= proteínas.
-
-
-  monosacáridos(n)+energía= polisacáridos.
-
-
-  nucleótidos(n)+energía= ácidos nucleicos.
-
-
-  Reacciones de formación de compuestos más complejos:
-
-
-  bases nitrogenadas + azúcares + fosfato + energía = nucleótidos
-
-
-  </br>
-mk5: >-
+mk4: "**Etapas**\_\n\nSíntesis abiogénica\n\nConsistió en la formación de los primeros compuestos orgánicos sencillos a partir de las moléculas inorgánicas de la atmósfera primitiva, en presencia de fuentes de energía no biológicas.\n\n</br>\n\n**Polimerización**\n\nFue el proceso químico mediante el cual, a partir de moléculas sencillas similares o idénticas, se sintetizaron polímeros bajo la acción de diversas fuentes de energía.\n\naminoácidos(n)+energía= proteínas.\n\nmonosacáridos(n)+energía= polisacáridos.\n\nnucleótidos(n)+energía= ácidos nucleicos.\n\nReacciones de formación de compuestos más complejos:\n\nbases nitrogenadas + azúcares + fosfato + energía = nucleótidos\n\n</br>"
+mk5: >
   **Coacervación**
 
 
-  Formación de coacervados. Los coacervados son agregados microscópicos de polímeros dispersos en agua, separados del medio circundante por una estructura parecida a las membranas celulares. No tienen vida. Pueden considerarse sistemas pre-biológicos, pues en ellos comienzan a manifestarse el intercambio con el medio ambiente; absorben sustancias y las incorporan a sus estructuras.
+  Formación de coacervados. Los coacervados son agregados microscópicos de
+  polímeros dispersos en agua, separados del medio circundante por una
+  estructura parecida a las membranas celulares. No tienen vida. Pueden
+  considerarse sistemas pre-biológicos, pues en ellos comienzan a manifestarse
+  el intercambio con el medio ambiente; absorben sustancias y las incorporan a
+  sus estructuras.
 
 
   </br>
+
+
+  ## Preguntas frecuentes
+
+
+  ### ¿Quién propuso la teoría quimiosintética?
+
+
+  La propuso el bioquímico ruso Alexandr I. Oparin, quien la presentó en 1922
+  ante la sociedad botánica de Moscú. El inglés John B. S. Haldane formuló ideas
+  similares de forma independiente en 1929.
+
+
+  ### ¿Qué es la evolución química según Oparin y Haldane?
+
+
+  Es el periodo previo al surgimiento de la vida, en el que la materia
+  inorgánica se fue transformando gradualmente en compuestos orgánicos cada vez
+  más complejos. Según la teoría, este proceso terminó dando lugar a las
+  primeras células.
+
+
+  ### ¿Qué es la polimerización en esta teoría?
+
+
+  Es el proceso químico en el que moléculas sencillas, iguales o parecidas, se
+  unen bajo la acción de fuentes de energía para formar polímeros. Por ejemplo,
+  según el artículo, los aminoácidos forman proteínas y los nucleótidos forman
+  ácidos nucleicos.
+
+
+  ### ¿Cuáles son las etapas de la teoría de Oparin?
+
+
+  Las etapas que describe el artículo son la síntesis abiogénica, la
+  polimerización y la coacervación. Primero se forman compuestos orgánicos
+  sencillos, luego se unen en moléculas más grandes y finalmente aparecen los
+  coacervados, sistemas precursores de la vida.
 ---
 
 
