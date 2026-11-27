@@ -1,8 +1,8 @@
 ---
-title: "Consecuencias de la evolución: adaptación y biodiversidad "
+title: 'Consecuencias de la evolución: adaptación y especiación'
 slug: consecuencias-de-la-evolucion
 featuredimage: /assets/consecuencias.jpg
-date: 2020-12-19T06:56:16.075Z
+date: 2026-11-27T14:06:57.442Z
 dificultad: Preparatoria / Universidad
 categoria: Biología
 tags:
@@ -10,20 +10,25 @@ tags:
   - evolucion
   - adaptacion
 short-description: >-
-  Consecuencias de la evolución: adaptación y biodiversidad 
-
-
-  Los mecanismos que permiten la evolución hacen que los organismos se diversifiquen adaptándose a los distintos ambientes de la Tierra.
+  Las principales consecuencias de la evolución son la adaptación, la
+  especiación y la diversificación de especies. Te explicamos cada una con
+  ejemplos.
 mk1: >-
-  Los mecanismos que permiten la evolución hacen que los organismos se
-  diversifiquen adaptándose a los distintos ambientes de la Tierra. El ADN va
-  cambiando, y en la población se sustituyen unos alelos por otros.
+  Las consecuencias de la evolución son los cambios que se acumulan en las
+  poblaciones a lo largo del tiempo: la adaptación de los organismos a su
+  ambiente, la especiación, que da origen a nuevas especies, y la
+  diversificación de las especies que habitan la Tierra.
 
 
-  Las principales consecuencias de la evolución son:
+  En este artículo revisamos cada una. Empezamos con la adaptación, que es
+  cualquier característica que le da a un organismo más posibilidades de
+  sobrevivir y reproducirse en su ambiente. Veremos sus tipos anatómicos y
+  fisiológicos, con ejemplos como el camaleón o los topos.
 
 
-  ° La adaptación de los organismos.
+  Después explicamos la especiación, el proceso por el que una especie se divide
+  en dos o más especies distintas, y sus dos tipos principales: la alopátrica y
+  la simpátrica.
 
 
   ° La especiación.
@@ -35,7 +40,11 @@ mk1: >-
   La adaptación de los organismos
 
 
-  Se denomina adaptación a toda característica que proporcione a un organismo una ventaja que mejore sus posibilidades de supervivencia y reproducción en un ambiente determinado. Si las condiciones ambientales cambian, los seres vivos deberán cambiar para adaptarse, sobrevivir y reproducirse. Si el cambio de condiciones es muy brusco, las especies no pueden adaptarse y se extinguen.
+  Se denomina adaptación a toda característica que proporcione a un organismo
+  una ventaja que mejore sus posibilidades de supervivencia y reproducción en un
+  ambiente determinado. Si las condiciones ambientales cambian, los seres vivos
+  deberán cambiar para adaptarse, sobrevivir y reproducirse. Si el cambio de
+  condiciones es muy brusco, las especies no pueden adaptarse y se extinguen.
 
 
   </br>
@@ -46,16 +55,21 @@ mk2: >-
   ° Adaptaciones anatómicas
 
 
-  ° Como adaptaciones anatómicas se incluyen aquellos cambios en la estructura externa del organismo que le permite:
+  ° Como adaptaciones anatómicas se incluyen aquellos cambios en la estructura
+  externa del organismo que le permite:
 
 
-  ° Camuflarse en el ambiente. Adaptación que le permite imitar formas. Por ejemplo, el camaleón o el palo insecto.
+  ° Camuflarse en el ambiente. Adaptación que le permite imitar formas. Por
+  ejemplo, el camaleón o el palo insecto.
 
 
   ° Imitar colores y formas de animales peligrosos.
 
 
-  ° Tener estructuras que le permitan adaptarse al medio. Por ejemplo, el pico de algunas aves adaptado a su alimentación, o la adaptación al vuelo, que ha permitido a algunos organismos colonizar el medio aéreo utilizando sus alas para desplazarse.
+  ° Tener estructuras que le permitan adaptarse al medio. Por ejemplo, el pico
+  de algunas aves adaptado a su alimentación, o la adaptación al vuelo, que ha
+  permitido a algunos organismos colonizar el medio aéreo utilizando sus alas
+  para desplazarse.
 
 
   </br>
@@ -63,10 +77,15 @@ mk3: >-
   **Adaptaciones fisiológicas**
 
 
-  Las adaptaciones fisiológicas son las que hacen que los organismos cambian la fisiología de sus cuerpos, órganos o tejidos. Suponen un cambio en el funcionamiento del organismo que le permiten solucionar un problema que se le presenta en el ambiente.
+  Las adaptaciones fisiológicas son las que hacen que los organismos cambian la
+  fisiología de sus cuerpos, órganos o tejidos. Suponen un cambio en el
+  funcionamiento del organismo que le permiten solucionar un problema que se le
+  presenta en el ambiente.
 
 
-  Algunas veces, la adaptación fisiológica va unida a otras adaptaciones morfológicas que alteran el comportamiento interno (hormonas, osmoregulación, etc.) para adaptarse al entorno.
+  Algunas veces, la adaptación fisiológica va unida a otras adaptaciones
+  morfológicas que alteran el comportamiento interno (hormonas, osmoregulación,
+  etc.) para adaptarse al entorno.
 
 
   </br>
@@ -81,30 +100,45 @@ mk4: >-
   permite vivir a baja temperatura.
 
 
-  ° Los animales endotermos mamíferos y aves tienen pelo y plumas que les permiten mantener el calor del cuerpo y acumulan grasa para conseguir energía cuando la necesiten.
+  ° Los animales endotermos mamíferos y aves tienen pelo y plumas que les
+  permiten mantener el calor del cuerpo y acumulan grasa para conseguir energía
+  cuando la necesiten.
 
 
-  ° Los animales ectotermos, como no controlan su temperatura interior, se refugian en un lugar seguro donde ralentizan su actividad vital al máximo, en un estado de letargo.
+  ° Los animales ectotermos, como no controlan su temperatura interior, se
+  refugian en un lugar seguro donde ralentizan su actividad vital al máximo, en
+  un estado de letargo.
 
 
-  ° Adaptación a la cantidad de luz. Normalmente los organismos se adaptan a la falta de luz o atrofiando sus órganos por no necesitarlos, o haciéndolos más sensibles a la luz. Algunos organismos se han adaptado a vivir en la oscuridad, como las aves nocturnas que, con ojos grandes y un oído muy desarrollado pueden cazar a sus presas. Otros, como los topos, han desarrollado el tacto y el oído por no poder usar la vista.
+  ° Adaptación a la cantidad de luz. Normalmente los organismos se adaptan a la
+  falta de luz o atrofiando sus órganos por no necesitarlos, o haciéndolos más
+  sensibles a la luz. Algunos organismos se han adaptado a vivir en la
+  oscuridad, como las aves nocturnas que, con ojos grandes y un oído muy
+  desarrollado pueden cazar a sus presas. Otros, como los topos, han
+  desarrollado el tacto y el oído por no poder usar la vista.
 
 
-  ° Adaptación a la locomoción. Los organismos se adaptan a una locomoción acuática, terrestre o aérea.
-mk5: >-
+  ° Adaptación a la locomoción. Los organismos se adaptan a una locomoción
+  acuática, terrestre o aérea.
+mk5: >
   </br>
 
 
   A especiación
 
 
-  ° La especiación es el proceso de formación de nuevas especies mediante el que una especie se diversifica en dos o más especies distintas.
+  ° La especiación es el proceso de formación de nuevas especies mediante el que
+  una especie se diversifica en dos o más especies distintas.
 
 
-  ° La causa principal de especiación es el aislamiento reproductivo, cuando un grupo de individuos de la población pierden la posibilidad de reproducirse con el resto. Como resultado, con el paso del tiempo, se creará un grupo parecido pero con adaptaciones diferentes, dando lugar a una nueva especie.
+  ° La causa principal de especiación es el aislamiento reproductivo, cuando un
+  grupo de individuos de la población pierden la posibilidad de reproducirse con
+  el resto. Como resultado, con el paso del tiempo, se creará un grupo parecido
+  pero con adaptaciones diferentes, dando lugar a una nueva especie.
 
 
-  ° Cuando dos poblaciones de la misma especie quedan aisladas y están en distintas condiciones ambientales, su adaptación y evolución son distintas.
+  ° Cuando dos poblaciones de la misma especie quedan aisladas y están en
+  distintas condiciones ambientales, su adaptación y evolución son distintas.
 
 
   </br>
@@ -116,10 +150,60 @@ mk5: >-
   </br>
 
 
-  ° Especiación alopátrica. Se produce cuando se produce la separación geográfica de individuos de una población. Cómo están separadas, existe aislamiento reproductivo que impide que se produzca la reproducción entre individuos de las dos nuevas poblaciones. Con el tiempo, las dos poblaciones se diferencian genéticamente al ir acumulándose los cambios hasta llegar a ser dos especies distintas e imposible su reproducción.
+  ° Especiación alopátrica. Se produce cuando se produce la separación
+  geográfica de individuos de una población. Cómo están separadas, existe
+  aislamiento reproductivo que impide que se produzca la reproducción entre
+  individuos de las dos nuevas poblaciones. Con el tiempo, las dos poblaciones
+  se diferencian genéticamente al ir acumulándose los cambios hasta llegar a ser
+  dos especies distintas e imposible su reproducción.
 
 
-  ° Especiación simpátrica. Se produce cuando algunos individuos de la población se aíslan reproductivamente de los otros, sin que haya una separación geográfica entre ambos grupos. Por ejemplo, cuando un grupo de individuos busca un nuevo tipo de alimento, explota un nuevo nicho ecológico y hace que se reduzca el flujo de genes con los individuos del otro grupo. Se van diferenciando genéticamente hasta que llega un momento en el que, aunque viven juntos, se hace imposible la reproducción entre ambos grupos, obteniéndose dos especies distintas.
+  ° Especiación simpátrica. Se produce cuando algunos individuos de la población
+  se aíslan reproductivamente de los otros, sin que haya una separación
+  geográfica entre ambos grupos. Por ejemplo, cuando un grupo de individuos
+  busca un nuevo tipo de alimento, explota un nuevo nicho ecológico y hace que
+  se reduzca el flujo de genes con los individuos del otro grupo. Se van
+  diferenciando genéticamente hasta que llega un momento en el que, aunque viven
+  juntos, se hace imposible la reproducción entre ambos grupos, obteniéndose dos
+  especies distintas.
+
+
+  ## Preguntas frecuentes
+
+
+  ### ¿Qué es la adaptación en la evolución?
+
+
+  La adaptación es cualquier característica que le da a un organismo una ventaja
+  para sobrevivir y reproducirse en un ambiente determinado. Si las condiciones
+  cambian, los seres vivos deben cambiar para adaptarse. Si el cambio es muy
+  brusco, las especies pueden extinguirse.
+
+
+  ### ¿Qué es la especiación?
+
+
+  La especiación es el proceso de formación de nuevas especies, en el que una
+  especie se diversifica en dos o más especies distintas. Su causa principal es
+  el aislamiento reproductivo, es decir, cuando un grupo de individuos pierde la
+  posibilidad de reproducirse con el resto de la población.
+
+
+  ### ¿Cuáles son los tipos de especiación?
+
+
+  Los dos tipos principales son la especiación alopátrica y la simpátrica. En la
+  alopátrica, la población se separa geográficamente; en la simpátrica, algunos
+  individuos se aíslan reproductivamente sin que exista separación geográfica,
+  por ejemplo al explotar un nuevo tipo de alimento.
+
+
+  ### ¿Qué le pasa a una especie si el ambiente cambia muy rápido?
+
+
+  Si el cambio de condiciones ambientales es muy brusco, la especie no alcanza a
+  adaptarse y puede extinguirse. Por eso la adaptación depende de qué tan
+  gradual o intenso sea el cambio en el entorno.
 ---
 
 
